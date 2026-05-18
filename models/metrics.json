@@ -1,0 +1,4 @@
+{
+  "model": "Random Forest",
+  "roc_auc": 0.7487
+}

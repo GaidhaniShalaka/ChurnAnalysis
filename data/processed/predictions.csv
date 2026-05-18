@@ -1,0 +1,11 @@
+logins_per_month,plan_rank,engagement_score,churn_probability,churn_predicted,risk_tier
+10,2,54.67,0.025,0,Low
+7,0,36.17,0.31,0,Medium
+15,2,53.5,0.025,0,Low
+5,0,19.33,0.88,1,Critical
+17,2,35.33,0.07,0,Low
+3,2,34.0,0.0,0,
+11,3,39.83,0.01,0,Low
+3,0,29.0,0.065,0,Low
+8,0,47.83,0.02,0,Low
+3,1,38.5,0.025,0,Low

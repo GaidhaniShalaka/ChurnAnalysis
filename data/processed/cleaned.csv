@@ -1,0 +1,1001 @@
+customer_id,name,email,country,industry,acquisition_channel,plan,support_tier,signup_date,tenure_days,contract_length_months,team_size,monthly_spend_usd,logins_per_month,features_used,support_tickets_last_90d,days_since_last_login,nps_score,churned,churn_date,nps_missing,tenure_months,is_annual_contract,engagement_score
+cust-00001,anthony porter,johnsonjimmy@example.net,us,finance,referral,free,email,2022-07-01,915,12,500.0,0.0,2,7,0,0,8.0,0,,0,30.5,1,29.83
+cust-00002,michael rush,vgarcia@example.net,us,education,social,basic,email,2024-10-20,73,1,5.0,31.37,10,3,1,4,8.0,0,,0,2.4,0,37.17
+cust-00003,jeremy hernandez,rbrown@example.org,india,education,organic,pro,priority,2023-12-05,393,24,10.0,90.39,14,10,0,12,6.0,0,,0,13.1,1,50.33
+cust-00004,gregory west,paulgriffin@example.net,us,saas,referral,pro,email,2023-05-25,587,12,500.0,94.78,16,3,2,8,7.0,0,,0,19.6,1,45.17
+cust-00005,kimberly white,wjohnson@example.com,us,saas,referral,pro,priority,2021-08-16,1234,1,500.0,107.69,12,14,0,9,7.0,0,,0,41.1,0,55.0
+cust-00006,annette rodriguez md,ronaldstokes@example.net,australia,retail,social,pro,,2021-08-16,1234,1,5.0,120.18,4,3,0,19,10.0,0,,0,41.1,0,31.17
+cust-00007,george martinez,frank21@example.net,uk,retail,email,pro,priority,2021-03-26,1377,12,10.0,89.58,11,1,2,2,7.0,0,,0,45.9,1,33.83
+cust-00008,christina cowan,mrose@example.net,australia,healthcare,organic,pro,priority,2024-06-18,197,12,5.0,100.48,11,1,1,48,7.0,0,,0,6.6,1,33.83
+cust-00009,christine hood,william17@example.net,us,finance,referral,free,,2023-05-28,584,12,10.0,0.0,2,19,0,6,7.0,0,,0,19.5,1,45.83
+cust-00010,nathan martin,brandonlopez@example.net,germany,saas,organic,basic,email,2023-10-31,428,12,100.0,31.48,3,4,2,35,9.0,0,,0,14.3,1,29.0
+cust-00011,james hamilton,scottbrock@example.org,us,saas,paid search,free,,2021-01-31,1431,12,2.0,0.0,12,2,0,5,9.0,0,,0,47.7,1,41.0
+cust-00012,justin garza,hjohnson@example.org,us,unknown,organic,enterprise,priority,2024-11-17,45,12,25.0,379.6,5,11,0,11,9.0,0,,0,1.5,1,42.83
+cust-00013,stacey howard,emilysmith@example.com,india,unknown,paid search,enterprise,email,2024-04-30,246,12,10.0,418.89,14,12,1,7,9.0,0,,0,8.2,1,59.33
+cust-00014,monica morrison,amandamontgomery@example.com,us,saas,paid search,free,email,2021-11-07,1151,24,2.0,0.0,4,13,1,13,6.0,1,2023-06-22,0,38.4,1,38.17
+cust-00015,ronald moore,yorkpaul@example.net,germany,finance,referral,pro,,2021-09-23,1196,24,25.0,93.24,4,16,0,2,7.0,0,,0,39.9,1,44.67
+cust-00016,tiffany smith,erin15@example.com,uk,retail,paid search,enterprise,,2021-09-25,1194,12,5.0,540.46,3,16,1,6,8.0,0,,0,39.8,1,45.0
+cust-00017,ashley garcia,qgardner@example.org,uk,other,referral,free,,2022-03-21,1017,12,1.0,0.0,2,19,3,0,5.0,0,,0,33.9,1,41.83
+cust-00018,jacqueline martinez,hburgess@example.com,india,other,paid search,basic,email,2023-02-06,695,1,500.0,29.49,14,9,1,10,7.0,0,,0,23.2,0,50.83
+cust-00019,gregory dougherty,smithrebecca@example.com,us,retail,organic,enterprise,email,2022-09-23,831,1,5.0,570.54,8,16,2,39,9.0,0,,0,27.7,0,55.33
+cust-00020,carrie graves,knelson@example.net,canada,retail,social,free,priority,2022-03-02,1036,12,5.0,0.0,5,7,1,0,8.0,0,,0,34.5,1,34.83
+cust-00021,scott johnson,teresasanders@example.com,brazil,healthcare,organic,pro,priority,2023-06-13,568,12,25.0,119.86,5,13,5,12,10.0,0,,0,18.9,1,47.83
+cust-00022,erin bryant,rrodriguez@example.net,france,unknown,paid search,basic,email,2021-07-23,1258,1,100.0,26.97,13,4,0,17,7.0,0,,0,41.9,0,41.67
+cust-00023,benjamin stewart,vflores@example.net,brazil,finance,referral,enterprise,dedicated,2022-03-03,1035,12,50.0,343.67,11,13,1,2,5.0,0,,0,34.5,1,47.83
+cust-00024,elizabeth howard,wburgess@example.com,us,education,paid search,enterprise,priority,2022-06-19,927,24,5.0,308.21,4,8,1,3,9.0,0,,0,30.9,1,36.67
+cust-00025,alyssa hart,robertmoore@example.net,uk,finance,organic,enterprise,dedicated,2022-10-28,796,24,5.0,526.69,11,2,1,2,2.0,0,,0,26.5,1,25.33
+cust-00026,dylan elliott,emilyestrada@example.org,us,education,paid search,basic,email,2024-02-21,315,12,2.0,35.4,8,7,1,4,8.0,0,,0,10.5,1,39.83
+cust-00027,dana young,sharonwhite@example.net,australia,retail,email,pro,email,2021-10-19,1170,12,5.0,91.22,8,11,0,1,4.0,0,,0,39.0,1,37.83
+cust-00028,jeffrey gonzales,samantha44@example.net,brazil,saas,referral,pro,,2023-01-21,711,1,100.0,111.8,13,17,3,5,5.0,0,,0,23.7,0,57.17
+cust-00029,michael brown,janet25@example.org,us,finance,referral,basic,priority,2023-05-15,597,12,5.0,22.65,6,14,0,5,7.0,0,,0,19.9,1,45.0
+cust-00030,karen lee,robertgreen@example.org,canada,retail,referral,pro,,2021-03-09,1394,24,5.0,106.75,3,13,0,19,5.0,0,,0,46.5,1,34.5
+cust-00031,hunter martinez,dawnhardy@example.net,us,finance,organic,free,email,2023-06-07,574,24,1.0,0.0,5,15,0,19,8.0,0,,0,19.1,1,46.83
+cust-00032,nicholas wells,jasminedavis@example.org,france,retail,paid search,basic,email,2021-09-06,1213,12,50.0,30.92,7,9,0,19,4.0,1,2023-05-23,0,40.4,1,33.17
+cust-00033,jennifer juarez,ywilliamson@example.org,germany,saas,social,free,email,2021-04-05,1367,1,25.0,0.0,6,3,0,10,7.0,1,2024-09-20,0,45.6,0,28.5
+cust-00034,kenneth reynolds,xmendoza@example.org,brazil,other,organic,free,email,2024-10-17,76,12,5.0,0.0,6,13,5,4,6.0,0,,0,2.5,1,41.5
+cust-00035,rebecca douglas,martinezwilliam@example.org,france,unknown,organic,free,,2024-11-10,52,12,10.0,0.0,7,13,0,6,7.0,0,,0,1.7,1,45.17
+cust-00036,gabriel cochran,alirussell@example.com,uk,other,organic,pro,email,2024-03-26,281,24,5.0,97.8,12,9,0,4,5.0,0,,0,9.4,1,43.5
+cust-00037,lisa ryan,martinmichelle@example.net,us,other,paid search,basic,email,2022-03-21,1017,1,25.0,34.15,9,18,4,10,5.0,1,2023-01-31,0,33.9,0,52.0
+cust-00038,jennifer pearson,lloyddonna@example.org,us,education,email,pro,dedicated,2021-05-23,1319,12,10.0,74.65,4,5,1,33,8.0,0,,0,44.0,1,30.17
+cust-00039,alexander stevens,hgomez@example.org,us,finance,organic,free,priority,2023-09-26,463,1,10.0,0.0,6,11,3,4,2.0,0,,0,15.4,0,30.5
+cust-00040,robert spencer,patricia03@example.org,us,finance,paid search,basic,dedicated,2022-10-05,819,12,5.0,24.13,10,2,0,7,6.0,0,,0,27.3,1,31.67
+cust-00041,melissa moore,robinsonloretta@example.com,india,education,organic,basic,priority,2021-06-28,1283,12,5.0,32.23,5,17,2,12,10.0,0,,0,42.8,1,53.83
+cust-00042,angela buchanan,harperjohn@example.net,france,unknown,email,pro,email,2022-12-24,739,12,2.0,86.46,5,4,0,22,6.0,0,,0,24.6,1,26.33
+cust-00043,christina perez,reyesscott@example.com,germany,healthcare,organic,basic,,2021-02-20,1411,12,100.0,17.4,8,18,2,3,7.0,1,2022-06-23,0,47.0,1,54.33
+cust-00044,charles benjamin,colenathan@example.net,us,finance,paid search,pro,priority,2024-08-20,134,12,100.0,79.46,16,8,1,3,8.0,0,,0,4.5,1,54.67
+cust-00045,john fry,rhernandez@example.net,india,healthcare,referral,pro,email,2022-01-13,1084,1,25.0,105.78,15,19,0,25,8.0,0,,0,36.1,0,69.5
+cust-00046,wendy morgan,melanieyoung@example.net,canada,healthcare,referral,pro,email,2023-08-26,494,1,100.0,93.66,8,12,0,1,8.0,0,,0,16.5,0,47.33
+cust-00047,gary douglas,laurielove@example.net,us,retail,paid search,free,email,2022-04-01,1006,24,10.0,0.0,8,11,3,11,10.0,0,,0,33.5,1,49.83
+cust-00048,megan johnson,sanchezjames@example.net,canada,finance,paid search,free,email,2023-01-30,702,1,2.0,0.0,2,16,2,23,1.0,1,2024-05-15,0,23.4,0,29.33
+cust-00049,sean lam,michaelmerritt@example.net,germany,education,paid search,pro,email,2023-03-10,663,1,25.0,80.51,2,5,1,30,10.0,0,,0,22.1,0,30.83
+cust-00050,nina golden,velasqueztiffany@example.com,us,saas,organic,free,email,2021-09-27,1192,1,2.0,0.0,9,3,3,0,10.0,0,,0,39.7,0,39.5
+cust-00051,john dominguez,denisesmith@example.com,germany,other,organic,pro,,2024-11-16,46,1,5.0,105.86,14,12,1,5,9.0,0,,0,1.5,0,59.33
+cust-00052,carlos mcdonald,michaelgreene@example.com,germany,finance,paid search,basic,priority,2024-02-06,330,12,2.0,24.11,8,15,2,3,7.0,0,,0,11.0,1,49.83
+cust-00053,joshua barron,cynthia20@example.org,us,education,organic,enterprise,,2024-10-03,90,12,5.0,553.76,6,16,3,10,9.0,0,,0,3.0,1,52.0
+cust-00054,amanda nunez,trevinoaustin@example.org,brazil,finance,organic,pro,,2024-07-30,155,24,10.0,107.87,8,13,1,12,4.0,0,,0,5.2,1,40.83
+cust-00055,donna ford,omiller@example.com,india,unknown,referral,enterprise,email,2023-05-23,589,12,1.0,577.11,6,7,2,100,9.0,0,,0,19.6,1,38.5
+cust-00056,shannon smith,nburton@example.org,canada,saas,email,basic,priority,2024-09-07,116,1,1.0,25.75,10,15,1,8,4.0,0,,0,3.9,0,47.17
+cust-00057,lauren davis,wilkinsonsteven@example.com,germany,education,referral,pro,email,2021-05-10,1332,12,10.0,72.79,2,3,4,9,9.0,0,,0,44.4,1,25.83
+cust-00058,terry schwartz,nmoran@example.com,uk,saas,organic,basic,email,2021-10-14,1175,12,25.0,28.15,11,12,3,6,8.0,0,,0,39.2,1,52.33
+cust-00059,haley west,thompsonkyle@example.com,canada,other,organic,basic,email,2021-03-08,1395,24,10.0,27.67,9,8,0,1,2.0,0,,0,46.5,1,31.0
+cust-00060,nicole herrera,jennifer96@example.org,germany,other,email,pro,email,2022-04-20,987,12,1.0,61.4,2,12,0,4,9.0,0,,0,32.9,1,39.33
+cust-00061,heather garcia,brian10@example.com,us,retail,organic,pro,dedicated,2022-07-22,894,1,5.0,103.46,2,18,1,3,7.0,0,,0,29.8,0,44.33
+cust-00062,phillip hughes,susanhardy@example.net,germany,unknown,organic,enterprise,dedicated,2022-02-01,1065,12,25.0,450.42,10,3,2,19,8.0,0,,0,35.5,1,37.17
+cust-00063,david carrillo,alexander14@example.net,india,education,referral,pro,email,2024-04-24,252,12,10.0,94.73,10,12,2,9,5.0,0,,0,8.4,1,44.67
+cust-00064,edward williams,donaldweiss@example.net,germany,retail,referral,basic,email,2022-06-05,941,12,1.0,22.68,5,2,0,4,9.0,0,,0,31.4,1,29.33
+cust-00065,thomas andrade,jose39@example.net,us,education,referral,basic,priority,2022-02-15,1051,1,100.0,31.43,5,14,1,8,7.0,0,,0,35.0,0,43.33
+cust-00066,keith davis,michaelvillanueva@example.net,australia,saas,organic,pro,,2023-03-04,669,12,2.0,95.13,4,14,0,2,6.0,0,,0,22.3,1,39.67
+cust-00067,alexis watts,coryhunter@example.org,us,saas,organic,free,email,2021-07-25,1256,1,2.0,0.0,7,4,3,2,7.0,0,,0,41.9,0,31.67
+cust-00068,mason david,smithnicholas@example.net,us,other,email,free,email,2024-03-17,290,1,5.0,0.0,7,17,2,23,8.0,0,,0,9.7,0,53.17
+cust-00069,debbie cook,sandrahoward@example.com,us,finance,organic,basic,dedicated,2021-04-19,1353,1,2.0,31.54,12,15,1,34,8.0,1,2024-03-22,0,45.1,0,58.5
+cust-00070,troy jones,jeffery29@example.net,uk,education,referral,basic,,2024-12-11,21,1,500.0,28.71,10,16,1,1,6.0,0,,0,0.7,0,52.67
+cust-00071,dr. donna campbell,brianneal@example.com,australia,unknown,referral,basic,email,2024-02-02,334,12,1.0,22.02,11,5,0,17,6.0,0,,0,11.1,1,37.83
+cust-00072,courtney torres,lovebrittany@example.com,germany,finance,referral,free,priority,2021-10-18,1171,1,2.0,0.0,4,17,1,7,7.0,0,,0,39.0,0,46.17
+cust-00073,alex barrett,teresaknight@example.com,us,finance,paid search,free,email,2021-01-09,1453,1,5.0,0.0,6,7,0,5,10.0,1,2023-10-31,0,48.4,0,40.5
+cust-00074,ashley jackson,tammycooper@example.org,india,finance,organic,free,,2024-04-05,271,1,5.0,0.0,4,15,0,14,7.0,0,,0,9.0,0,43.17
+cust-00075,diane lewis,hwalker@example.net,india,finance,referral,enterprise,dedicated,2023-10-30,429,1,1.0,426.17,14,17,0,3,6.0,0,,0,14.3,0,60.83
+cust-00076,jennifer alvarez,michelle65@example.org,india,finance,social,basic,email,2023-12-01,397,12,1.0,32.26,2,12,2,0,7.0,0,,0,13.2,1,35.33
+cust-00077,jennifer oneal,swansonkaitlyn@example.com,us,healthcare,email,basic,email,2024-02-01,335,1,2.0,36.14,9,11,2,2,7.0,1,2024-10-28,0,11.2,0,45.5
+cust-00078,kayla shields,kimberly84@example.net,germany,unknown,organic,pro,,2021-04-19,1353,1,10.0,95.54,15,19,0,2,9.0,0,,0,45.1,0,71.5
+cust-00079,john lang,lewisantonio@example.org,brazil,education,organic,free,email,2022-06-08,938,12,5.0,0.0,8,11,1,0,0.0,0,,0,31.3,1,29.83
+cust-00080,barbara james,kathryn23@example.com,australia,retail,email,enterprise,email,2021-06-19,1292,1,10.0,384.3,10,2,0,4,7.0,0,,0,43.1,0,33.67
+cust-00081,kelly garcia,teresa41@example.net,us,finance,referral,pro,,2024-06-14,201,1,10.0,102.28,4,15,2,7,5.0,1,2024-10-20,0,6.7,0,39.17
+cust-00082,jose lowe,harriskristin@example.net,us,retail,social,free,,2023-06-30,551,12,5.0,0.0,5,5,2,15,4.0,0,,0,18.4,1,23.83
+cust-00083,claudia dawson,adamhill@example.com,germany,finance,organic,basic,priority,2022-04-29,978,12,50.0,30.54,3,18,0,4,7.0,0,,0,32.6,1,46.0
+cust-00084,natasha cruz,shaynes@example.com,india,finance,referral,pro,,2021-04-03,1369,24,5.0,109.26,5,16,3,2,9.0,0,,0,45.6,1,50.33
+cust-00085,brandon garner,sanchezbrianna@example.net,germany,saas,referral,enterprise,,2022-03-31,1007,12,2.0,341.84,10,4,0,3,10.0,0,,0,33.6,1,42.67
+cust-00086,matthew hatfield,htravis@example.org,germany,saas,referral,basic,email,2022-04-20,987,24,10.0,24.63,4,10,0,26,1.0,0,,0,32.9,1,23.67
+cust-00087,donna woods,imoore@example.net,us,saas,paid search,pro,priority,2023-12-02,396,1,10.0,80.25,10,2,1,2,7.0,0,,0,13.2,0,33.67
+cust-00088,brandon fischer,melissa70@example.com,canada,finance,organic,free,,2023-07-20,531,12,5.0,0.0,16,15,1,25,3.0,0,,0,17.7,1,55.17
+cust-00089,brian miller,russellangela@example.net,india,unknown,referral,enterprise,email,2024-07-19,166,12,1.0,658.36,9,4,0,7,8.0,0,,0,5.5,1,37.0
+cust-00090,joshua davis,goodwinelizabeth@example.org,uk,saas,organic,free,,2022-11-21,772,24,1.0,0.0,5,16,0,32,8.0,0,,0,25.7,1,48.33
+cust-00091,tammy blake,brady01@example.com,australia,finance,paid search,enterprise,,2021-06-24,1287,12,25.0,429.57,3,7,1,6,7.0,0,,0,42.9,1,29.5
+cust-00092,jason shelton,elizabeth02@example.net,brazil,retail,email,pro,,2023-11-08,420,24,1.0,116.95,19,12,0,2,2.0,0,,0,14.0,1,53.67
+cust-00093,trevor russo,ubarnes@example.com,us,healthcare,paid search,pro,priority,2024-01-16,351,12,10.0,90.05,7,3,0,9,9.0,0,,0,11.7,1,34.17
+cust-00094,david berry,nmelendez@example.net,germany,other,social,basic,,2023-03-31,642,12,1.0,30.21,4,17,2,10,8.0,0,,0,21.4,1,48.17
+cust-00095,dana chavez,kylebrown@example.com,us,retail,organic,free,,2024-01-31,336,24,5.0,0.0,13,9,3,12,0.0,1,2024-11-20,0,11.2,1,35.17
+cust-00096,michael pena,evansamy@example.net,australia,healthcare,referral,free,email,2022-12-22,741,24,2.0,0.0,12,8,1,6,8.0,0,,0,24.7,1,48.0
+cust-00097,travis mitchell,ojames@example.org,france,saas,email,free,priority,2023-02-03,698,12,1.0,0.0,5,6,3,0,7.0,0,,0,23.3,1,31.33
+cust-00098,christine crawford,howenathan@example.net,canada,saas,organic,free,email,2022-09-17,837,1,5.0,0.0,2,15,3,11,7.0,0,,0,27.9,0,39.83
+cust-00099,jessica olson,fowlerlaura@example.com,australia,retail,organic,pro,email,2021-02-07,1424,1,10.0,95.45,9,10,0,32,6.0,0,,0,47.5,0,42.0
+cust-00100,richard smith,simmonsdavid@example.com,uk,saas,paid search,basic,,2021-06-07,1304,1,5.0,23.07,14,6,3,37,7.0,0,,0,43.5,0,46.33
+cust-00101,dawn ramirez,susan58@example.org,india,finance,organic,free,email,2021-02-15,1416,1,25.0,0.0,4,15,0,10,8.0,1,2023-04-18,0,47.2,0,45.17
+cust-00102,jeremy williams,tcontreras@example.com,germany,healthcare,referral,enterprise,email,2023-07-19,532,1,1.0,507.73,8,14,1,0,7.0,0,,0,17.7,0,48.33
+cust-00103,dr. jeffrey johnson,anthony37@example.com,us,healthcare,email,pro,email,2022-04-04,1003,12,50.0,101.76,6,19,2,1,10.0,0,,0,33.4,1,58.5
+cust-00104,cassandra ray,zmiller@example.com,canada,saas,paid search,enterprise,email,2023-01-13,719,12,500.0,404.87,10,13,0,21,4.0,0,,0,24.0,1,44.17
+cust-00105,michelle martinez,tnielsen@example.org,australia,retail,organic,enterprise,email,2024-08-18,136,1,1.0,573.25,2,14,0,21,8.0,0,,0,4.5,0,40.33
+cust-00106,donna wolfe,gillespiejennifer@example.org,uk,finance,paid search,free,,2021-12-30,1098,12,100.0,0.0,4,3,0,35,4.0,1,2022-09-30,0,36.6,1,19.17
+cust-00107,ryan stanton,ortizallison@example.org,india,unknown,referral,basic,email,2022-08-23,862,1,2.0,35.75,10,4,1,9,4.0,0,,0,28.7,0,30.67
+cust-00108,lauren ramos,bgardner@example.net,india,saas,organic,pro,,2024-01-09,358,24,10.0,90.13,9,14,0,23,7.0,0,,0,11.9,1,50.0
+cust-00109,joel swanson,mlopez@example.org,us,other,referral,pro,priority,2021-12-01,1127,1,2.0,104.38,8,14,0,20,7.0,0,,0,37.6,0,48.33
+cust-00110,jamie hogan,jillianwiggins@example.net,brazil,finance,referral,free,dedicated,2021-04-23,1349,12,5.0,0.0,5,8,1,10,3.0,0,,0,45.0,1,26.33
+cust-00111,daniel young,tmyers@example.org,us,finance,referral,pro,dedicated,2022-02-28,1038,24,5.0,76.6,3,10,0,18,10.0,0,,0,34.6,1,40.0
+cust-00112,joseph nelson,hillkathryn@example.com,us,healthcare,organic,free,priority,2021-08-24,1226,1,5.0,0.0,13,9,1,1,5.0,0,,0,40.9,0,45.17
+cust-00113,matthew austin,kaitlyn51@example.org,us,unknown,referral,free,email,2024-09-19,104,12,10.0,0.0,5,14,1,12,6.0,0,,0,3.5,1,41.33
+cust-00114,jeffrey poole,stephanie46@example.org,india,saas,organic,basic,priority,2024-03-25,282,24,10.0,31.65,2,8,0,36,7.0,0,,0,9.4,1,29.33
+cust-00115,william harrison,millerjillian@example.com,canada,finance,organic,basic,email,2023-07-14,537,1,5.0,18.11,4,11,2,2,8.0,0,,0,17.9,0,39.17
+cust-00116,joseph simmons,susan79@example.com,us,retail,social,basic,email,2024-06-26,189,24,500.0,26.35,8,10,0,16,7.0,0,,0,6.3,1,42.33
+cust-00117,cynthia gomez,heatherbrown@example.com,uk,other,referral,free,email,2024-03-19,288,12,100.0,0.0,5,18,2,4,6.0,0,,0,9.6,1,47.33
+cust-00118,jasmine young,coreyallen@example.net,france,healthcare,organic,pro,email,2021-09-30,1189,1,100.0,90.52,12,4,0,20,7.0,0,,0,39.6,0,40.0
+cust-00119,stacey wood,tara75@example.com,us,saas,organic,basic,priority,2024-07-27,158,1,50.0,15.88,6,4,3,14,8.0,1,2024-11-03,0,5.3,0,32.0
+cust-00120,ross joyce,shorttheodore@example.net,india,finance,organic,free,email,2023-02-27,674,12,2.0,0.0,10,12,1,31,7.0,0,,0,22.5,1,48.67
+cust-00121,brittany nguyen,tcooke@example.com,india,retail,organic,pro,email,2024-03-24,283,24,2.0,108.18,9,18,3,14,6.0,0,,0,9.4,1,54.0
+cust-00122,dawn chavez,williamskevin@example.net,germany,healthcare,organic,enterprise,dedicated,2024-08-01,153,1,2.0,360.94,9,8,0,6,9.0,0,,0,5.1,0,45.0
+cust-00123,sarah snyder,john63@example.org,brazil,finance,organic,pro,,2022-04-10,997,12,500.0,78.28,3,3,0,0,8.0,0,,0,33.2,1,25.5
+cust-00124,dustin gibson,mooresara@example.org,uk,other,paid search,pro,email,2021-06-10,1301,1,1.0,72.03,7,18,2,18,4.0,0,,0,43.4,0,46.67
+cust-00125,john miller,davidmcgee@example.net,brazil,education,referral,pro,dedicated,2021-11-29,1129,12,5.0,65.65,5,7,1,6,5.0,0,,0,37.6,1,28.83
+cust-00126,casey mayo,bakerblake@example.org,canada,finance,referral,basic,email,2022-09-16,838,12,1.0,33.74,7,1,2,13,9.0,0,,0,27.9,1,31.17
+cust-00127,john vincent,shepherdjennifer@example.org,canada,finance,referral,free,email,2024-04-09,267,12,2.0,0.0,9,13,0,1,7.0,0,,0,8.9,1,48.5
+cust-00128,jenny russell,palexander@example.com,us,other,organic,basic,,2024-06-10,205,12,2.0,28.29,5,3,2,26,8.0,0,,0,6.8,1,28.83
+cust-00129,anthony andrews,dennisjasmine@example.org,india,retail,email,basic,email,2021-01-11,1451,24,10.0,26.62,21,3,2,6,7.0,0,,0,48.4,1,53.5
+cust-00130,kristina turner,lbrown@example.org,uk,saas,social,basic,priority,2023-01-16,716,1,1.0,24.87,5,15,0,30,7.0,0,,0,23.9,0,44.83
+cust-00131,troy maxwell,nroberts@example.org,us,retail,social,pro,email,2022-09-02,852,12,5.0,93.98,3,19,3,14,5.0,0,,0,28.4,1,43.5
+cust-00132,zachary chapman,justinwatson@example.org,us,saas,social,basic,email,2021-11-21,1137,1,25.0,22.25,3,4,2,1,10.0,0,,0,37.9,0,31.0
+cust-00133,jennifer dennis,kevin11@example.org,france,finance,email,free,,2021-06-25,1286,12,5.0,0.0,2,13,1,10,7.0,1,2024-01-06,0,42.9,1,36.83
+cust-00134,joshua sampson,osharp@example.org,germany,finance,paid search,free,,2022-05-08,969,12,1.0,0.0,12,13,0,28,10.0,0,,0,32.3,1,59.5
+cust-00135,veronica mcclure,jamie50@example.net,canada,finance,organic,pro,dedicated,2024-10-08,85,12,5.0,89.14,6,15,2,19,4.0,0,,0,2.8,1,40.5
+cust-00136,andrew mcbride,andrew89@example.org,india,saas,referral,free,email,2022-04-17,990,12,25.0,0.0,8,19,1,6,9.0,0,,0,33.0,1,59.83
+cust-00137,jean pitts,campbellamy@example.com,us,finance,referral,pro,email,2023-01-28,704,12,1.0,89.2,16,16,2,37,7.0,0,,0,23.5,1,64.67
+cust-00138,thomas jacobs,jonescaitlin@example.com,australia,retail,referral,basic,,2023-10-24,435,24,25.0,26.39,15,7,2,3,8.0,0,,0,14.5,1,51.5
+cust-00139,jessica nichols,lisahayes@example.org,us,finance,paid search,basic,priority,2022-06-15,931,1,25.0,44.38,7,3,2,5,4.0,0,,0,31.0,0,24.17
+cust-00140,nancy walker,shawn49@example.com,india,finance,organic,basic,dedicated,2024-11-19,43,1,5.0,35.8,13,2,2,16,8.0,0,,0,1.4,0,40.67
+cust-00141,nicole hughes,rachelarnold@example.com,india,retail,paid search,pro,email,2024-11-06,56,12,1.0,104.41,6,18,1,3,10.0,0,,0,1.9,1,57.0
+cust-00142,mr. marc young,juliekelly@example.com,germany,saas,email,basic,,2022-01-03,1094,12,10.0,30.16,21,11,0,8,5.0,0,,0,36.5,1,61.5
+cust-00143,lauren ballard,kingemily@example.org,canada,saas,referral,pro,email,2022-12-27,736,12,25.0,118.07,8,1,1,15,5.0,0,,0,24.5,1,24.83
+cust-00144,brenda garcia,meverett@example.net,uk,education,paid search,basic,priority,2022-03-16,1022,24,5.0,23.93,0,16,1,12,2.0,0,,0,34.1,1,28.0
+cust-00145,julie jones,cleonard@example.org,germany,other,organic,basic,email,2022-02-20,1046,12,10.0,22.3,6,17,1,2,7.0,0,,0,34.9,1,49.5
+cust-00146,angela wilkins,randymolina@example.com,india,finance,paid search,pro,priority,2021-02-23,1408,24,5.0,104.71,2,16,2,11,7.0,0,,0,46.9,1,41.33
+cust-00147,linda clay,katherinewright@example.org,germany,saas,social,pro,email,2023-06-09,572,12,10.0,86.74,8,10,0,10,9.0,0,,0,19.1,1,46.33
+cust-00148,joann moore,preston50@example.com,uk,healthcare,referral,pro,priority,2023-01-04,728,1,5.0,103.82,1,17,1,9,5.0,0,,0,24.3,0,37.17
+cust-00149,james thompson,jsaunders@example.net,germany,finance,social,pro,email,2021-03-17,1386,12,2.0,62.94,9,3,1,20,8.0,0,,0,46.2,1,35.5
+cust-00150,samantha palmer,vargasjeremiah@example.org,india,education,paid search,pro,,2022-02-11,1055,24,50.0,119.89,13,18,1,2,7.0,0,,0,35.2,1,62.67
+cust-00151,joshua wu,shannon11@example.com,uk,unknown,referral,pro,email,2024-08-19,135,1,25.0,109.08,7,19,0,16,5.0,0,,0,4.5,0,50.17
+cust-00152,james osborne,edwardwhitaker@example.net,us,saas,organic,pro,,2021-12-16,1112,24,2.0,76.49,22,14,1,17,7.0,0,,0,37.1,1,71.67
+cust-00153,richard andrews,leahsmith@example.org,canada,finance,referral,pro,dedicated,2021-07-31,1250,12,5.0,76.82,2,2,0,15,7.0,0,,0,41.7,1,20.33
+cust-00154,tracie young,mike83@example.net,india,retail,paid search,pro,priority,2022-12-16,747,12,10.0,124.08,12,12,1,8,8.0,1,2024-04-27,0,24.9,1,54.0
+cust-00155,james taylor,lindsay82@example.net,us,retail,paid search,pro,priority,2024-12-10,22,12,25.0,87.94,4,11,0,6,2.0,0,,0,0.7,1,27.17
+cust-00156,gabriella oneal,emilymeadows@example.net,us,saas,referral,pro,email,2021-12-20,1108,12,10.0,86.49,6,17,0,6,8.0,0,,0,36.9,1,51.5
+cust-00157,yolanda erickson,velezwalter@example.org,us,healthcare,email,free,,2023-09-09,480,12,5.0,0.0,4,6,2,15,4.0,0,,0,16.0,1,23.67
+cust-00158,elizabeth larsen,barrettlindsay@example.com,uk,education,organic,pro,priority,2024-01-17,350,1,100.0,93.74,3,19,1,8,10.0,0,,0,11.7,0,53.5
+cust-00159,mr. adrian leonard,grantsarah@example.net,germany,other,social,pro,email,2021-12-13,1115,24,25.0,95.58,14,13,1,4,9.0,0,,0,37.2,1,60.83
+cust-00160,roberta banks,becky67@example.net,australia,finance,organic,free,,2023-11-30,398,12,1.0,0.0,9,7,3,11,6.0,1,2024-03-28,0,13.3,1,37.5
+cust-00161,becky singh,cruzteresa@example.net,canada,healthcare,paid search,pro,email,2022-06-21,925,24,10.0,78.01,6,11,4,21,6.0,0,,0,30.8,1,38.5
+cust-00162,gary davies,dakota85@example.org,france,saas,organic,free,,2023-07-13,538,12,5.0,0.0,9,7,1,0,7.0,0,,0,17.9,1,39.5
+cust-00163,david kennedy,belldaniel@example.net,uk,healthcare,paid search,basic,email,2023-07-14,537,12,25.0,23.68,7,13,0,42,8.0,0,,0,17.9,1,47.17
+cust-00164,bryan williamson,gravesmichael@example.org,india,retail,paid search,pro,email,2023-02-22,679,12,1.0,114.1,9,13,1,1,6.0,1,2023-04-19,0,22.6,1,46.5
+cust-00165,rebecca martin,brandi96@example.com,germany,finance,organic,free,,2021-05-12,1330,12,5.0,0.0,12,1,2,8,8.0,0,,0,44.3,1,37.5
+cust-00166,jessica brandt,lindanielle@example.com,brazil,retail,paid search,pro,dedicated,2024-05-04,242,1,5.0,115.22,4,19,0,9,7.0,1,2024-07-26,0,8.1,0,49.17
+cust-00167,john henson,yhall@example.org,canada,retail,email,pro,,2022-04-14,993,24,1.0,99.56,11,19,2,1,3.0,0,,0,33.1,1,52.83
+cust-00168,jason kennedy,ewilliams@example.org,us,saas,organic,basic,,2021-09-30,1189,12,5.0,32.02,9,15,2,29,6.0,0,,0,39.6,1,49.5
+cust-00169,william lindsey,rossdaniel@example.com,canada,retail,social,free,,2021-03-01,1402,24,10.0,0.0,10,14,3,7,7.0,0,,0,46.7,1,51.67
+cust-00170,robert edwards,hvilla@example.com,uk,saas,paid search,basic,priority,2023-05-13,599,24,5.0,23.91,4,3,1,1,8.0,0,,0,20.0,1,27.17
+cust-00171,austin walters,michaelhenry@example.com,canada,saas,referral,pro,email,2023-09-17,472,12,10.0,96.72,12,4,2,14,1.0,0,,0,15.7,1,28.0
+cust-00172,shawna andrews,sandovalsusan@example.net,us,other,organic,enterprise,email,2021-01-25,1437,12,10.0,461.7,1,7,1,13,9.0,0,,0,47.9,1,30.17
+cust-00173,sarah matthews,robertmcdonald@example.net,us,healthcare,organic,pro,,2023-01-18,714,12,10.0,85.59,7,1,1,39,8.0,0,,0,23.8,1,29.17
+cust-00174,brian chandler,stephaniemitchell@example.org,india,healthcare,organic,basic,,2021-11-27,1131,12,5.0,33.64,0,19,1,6,4.0,1,2024-12-14,0,37.7,1,36.5
+cust-00175,austin mccarty,osmith@example.net,us,other,organic,pro,email,2023-07-31,520,12,1.0,96.36,7,3,0,3,7.0,0,,0,17.3,1,30.17
+cust-00176,jenny taylor,richard61@example.net,india,other,organic,basic,priority,2021-09-12,1207,12,2.0,23.23,7,15,2,0,7.0,1,2022-05-17,0,40.2,1,48.17
+cust-00177,abigail robbins,norma04@example.com,us,finance,referral,pro,priority,2023-10-06,453,12,25.0,124.07,11,13,0,15,8.0,0,,0,15.1,1,53.83
+cust-00178,grace thomas,clarkmatthew@example.org,canada,education,social,free,,2022-07-19,897,12,5.0,0.0,5,14,0,11,6.0,0,,0,29.9,1,41.33
+cust-00179,katherine taylor,stephanie28@example.com,canada,unknown,social,pro,email,2024-09-29,94,12,10.0,106.59,6,7,1,43,0.0,1,2024-11-27,0,3.1,1,20.5
+cust-00180,nicolas jones,palmermiguel@example.com,germany,retail,referral,basic,dedicated,2021-07-20,1261,1,10.0,35.63,7,1,1,14,5.0,0,,0,42.0,0,23.17
+cust-00181,robert greer,sotosarah@example.net,uk,healthcare,organic,enterprise,email,2022-05-13,964,1,1.0,444.08,4,13,1,32,7.0,0,,0,32.1,0,40.17
+cust-00182,brenda rojas,brian22@example.com,us,finance,organic,basic,priority,2021-06-15,1296,24,25.0,29.79,13,4,0,57,10.0,0,,0,43.2,1,47.67
+cust-00183,barbara daniels,gary59@example.net,us,finance,paid search,pro,,2024-09-12,111,12,1.0,95.48,8,12,1,6,9.0,0,,0,3.7,1,49.33
+cust-00184,david robles,spearsrebecca@example.net,uk,unknown,organic,enterprise,dedicated,2024-07-04,181,1,100.0,396.12,12,7,2,1,4.0,0,,0,6.0,0,38.5
+cust-00185,joshua anderson,boltonarthur@example.org,canada,saas,paid search,free,priority,2022-01-12,1085,24,5.0,0.0,10,2,0,2,8.0,0,,0,36.2,1,35.67
+cust-00186,kimberly warren,emilysharp@example.org,brazil,unknown,paid search,enterprise,dedicated,2023-08-22,498,1,5.0,703.84,5,17,0,4,10.0,0,,0,16.6,0,53.83
+cust-00187,cory savage,nadams@example.net,india,saas,paid search,pro,priority,2024-04-08,268,12,1.0,108.69,8,1,1,8,0.0,0,,0,8.9,1,14.83
+cust-00188,diana white,xpatterson@example.com,australia,finance,paid search,free,email,2023-03-22,651,1,50.0,0.0,8,14,2,1,7.0,1,2024-05-21,0,21.7,0,48.33
+cust-00189,edward vega,jonesjeffrey@example.org,australia,finance,social,basic,dedicated,2023-02-13,688,24,5.0,37.32,7,1,0,4,7.0,0,,0,22.9,1,27.17
+cust-00190,timothy robinson,qshaw@example.net,canada,unknown,social,pro,email,2021-12-20,1108,24,1.0,101.42,5,3,2,4,7.0,0,,0,36.9,1,26.83
+cust-00191,william howard,nelsonpaul@example.org,us,education,paid search,free,email,2021-05-16,1326,12,2.0,0.0,8,11,1,0,7.0,0,,0,44.2,1,43.83
+cust-00192,jeremy dickerson,daustin@example.org,india,other,email,basic,priority,2024-08-02,152,1,1.0,36.07,6,7,1,5,10.0,0,,0,5.1,0,40.5
+cust-00193,jacqueline hendricks,idavis@example.org,canada,healthcare,email,basic,priority,2024-08-07,147,12,25.0,31.24,3,9,1,1,5.0,0,,0,4.9,1,28.5
+cust-00194,sarah hoffman,pamelarichardson@example.org,france,finance,paid search,pro,dedicated,2023-07-14,537,12,2.0,86.09,8,3,0,6,9.0,0,,0,17.9,1,35.83
+cust-00195,teresa ramos,danielsdaniel@example.com,us,finance,paid search,free,,2022-05-10,967,1,5.0,0.0,9,1,1,2,5.0,0,,0,32.2,0,26.5
+cust-00196,robert perez,tonya51@example.com,uk,unknown,paid search,pro,priority,2022-05-25,952,12,1.0,101.5,5,19,0,20,6.0,0,,0,31.7,1,48.83
+cust-00197,steven fernandez,joneskevin@example.com,germany,saas,email,enterprise,priority,2023-11-26,402,12,10.0,493.62,6,2,1,1,10.0,0,,0,13.4,1,33.0
+cust-00198,deborah morrison,angelapierce@example.net,india,retail,social,enterprise,,2024-08-02,152,1,5.0,413.03,3,5,0,24,8.0,0,,0,5.1,0,28.5
+cust-00199,victoria roth,knightjason@example.org,germany,unknown,organic,pro,email,2024-07-19,166,1,10.0,84.5,7,17,1,10,5.0,0,,0,5.5,0,47.17
+cust-00200,jennifer barnett,sherry26@example.com,uk,finance,paid search,free,email,2024-02-13,323,12,25.0,0.0,9,19,2,7,7.0,1,2024-11-26,0,10.8,1,57.5
+cust-00201,olivia miller,myerschristian@example.org,brazil,education,referral,pro,email,2023-07-27,524,12,1.0,100.54,7,5,1,9,0.0,0,,0,17.5,1,19.17
+cust-00202,oscar salinas,jimenezcarolyn@example.com,us,unknown,paid search,free,dedicated,2021-05-03,1339,24,10.0,0.0,8,14,3,5,5.0,0,,0,44.6,1,44.33
+cust-00203,scott maynard,michele80@example.net,uk,saas,organic,free,email,2021-08-24,1226,1,10.0,0.0,3,10,1,1,8.0,1,2024-03-20,0,40.9,0,36.0
+cust-00204,cindy white,smorales@example.net,us,other,social,basic,priority,2024-08-04,150,12,5.0,31.72,6,7,0,17,7.0,0,,0,5.0,1,34.5
+cust-00205,travis malone,williamsdorothy@example.org,australia,saas,referral,basic,dedicated,2023-06-05,576,12,1.0,29.02,4,8,1,31,7.0,0,,0,19.2,1,32.67
+cust-00206,robert warner,carmen09@example.com,india,healthcare,social,pro,email,2021-01-14,1448,1,25.0,75.29,9,8,3,35,7.0,0,,0,48.3,0,41.0
+cust-00207,angel jackson,bday@example.org,us,finance,social,pro,priority,2021-05-29,1313,12,500.0,117.67,6,7,1,13,6.0,0,,0,43.8,1,32.5
+cust-00208,hannah smith,parkerjuan@example.net,india,healthcare,referral,basic,email,2023-08-27,493,1,100.0,22.0,6,13,0,6,0.0,1,2024-11-19,0,16.4,0,29.5
+cust-00209,amy foster,diana24@example.com,us,saas,paid search,basic,priority,2021-01-08,1454,1,25.0,31.94,14,14,2,7,6.0,0,,0,48.5,0,56.33
+cust-00210,william castro,tylerburton@example.com,india,saas,referral,enterprise,,2021-08-23,1227,12,5.0,576.18,9,19,1,12,9.0,0,,0,40.9,1,61.5
+cust-00211,parker mayer,rweiss@example.net,australia,saas,organic,basic,dedicated,2023-03-13,660,12,2.0,29.41,3,11,1,20,7.0,0,,0,22.0,1,35.5
+cust-00212,samantha peck,ecunningham@example.com,india,finance,referral,basic,,2023-10-08,451,24,1.0,25.36,3,2,0,5,6.0,0,,0,15.0,1,20.0
+cust-00213,john hudson,hughesdeborah@example.org,us,healthcare,organic,free,email,2023-08-10,510,1,5.0,0.0,0,17,0,29,0.0,0,,0,17.0,0,25.5
+cust-00214,keith decker,aprilfrancis@example.net,brazil,retail,referral,pro,priority,2021-11-24,1134,12,1.0,111.5,11,6,2,4,8.0,0,,0,37.8,1,43.33
+cust-00215,anna todd,elizabethoneal@example.com,canada,finance,organic,pro,email,2023-11-06,422,1,5.0,89.98,6,9,1,9,7.0,0,,0,14.1,0,37.5
+cust-00216,brian thomas,mary27@example.org,uk,education,organic,free,email,2021-12-13,1115,1,50.0,0.0,16,19,2,39,5.0,0,,0,37.2,0,65.17
+cust-00217,bobby gutierrez,angelalewis@example.org,india,saas,organic,free,email,2022-04-21,986,24,100.0,0.0,12,5,1,33,7.0,0,,0,32.9,1,41.5
+cust-00218,dave reid,grayrachel@example.com,us,healthcare,organic,pro,priority,2023-12-26,372,12,100.0,76.58,6,9,2,14,10.0,0,,0,12.4,1,43.5
+cust-00219,katie clark,markdudley@example.com,india,finance,referral,pro,,2023-08-07,513,1,1.0,101.05,3,7,1,4,7.0,0,,0,17.1,0,29.5
+cust-00220,michael ward,rjenkins@example.org,us,retail,referral,basic,,2024-05-24,222,12,50.0,35.27,3,4,1,2,6.0,0,,0,7.4,1,23.0
+cust-00221,gavin holmes,rebeccaprince@example.com,canada,retail,paid search,enterprise,email,2023-08-19,501,24,1.0,381.8,5,18,1,1,8.0,0,,0,16.7,1,51.33
+cust-00222,christie holder,mollyferguson@example.org,germany,finance,organic,free,email,2023-04-10,632,1,5.0,0.0,6,18,0,14,7.0,1,2024-05-07,0,21.1,0,51.0
+cust-00223,jeff mcbride,hphillips@example.net,us,other,organic,basic,,2021-05-17,1325,1,10.0,30.63,7,17,2,8,4.0,0,,0,44.2,0,45.17
+cust-00224,leslie prince,dodsonlee@example.org,us,education,organic,enterprise,email,2022-06-21,925,1,5.0,358.66,5,4,1,10,7.0,0,,0,30.8,0,28.33
+cust-00225,daniel howard,bruce81@example.net,us,finance,organic,basic,email,2022-01-23,1074,24,100.0,28.02,6,16,1,7,5.0,0,,0,35.8,1,44.0
+cust-00226,daniel burns,vbell@example.org,germany,finance,social,pro,,2021-12-23,1105,1,2.0,108.04,7,5,1,7,7.0,0,,0,36.8,0,33.17
+cust-00227,stuart miller,emilywagner@example.com,uk,retail,organic,basic,email,2024-11-21,41,1,5.0,28.74,5,9,4,10,7.0,0,,0,1.4,0,35.83
+cust-00228,timothy stanley,vlong@example.com,france,unknown,paid search,basic,priority,2022-07-28,888,12,1.0,31.52,8,2,0,29,9.0,0,,0,29.6,1,34.33
+cust-00229,jamie gonzalez,gonzalezmeredith@example.net,us,healthcare,organic,enterprise,,2024-07-26,159,12,50.0,588.33,8,2,0,0,9.0,0,,0,5.3,1,34.33
+cust-00230,linda heath,smithdeborah@example.com,us,saas,organic,basic,email,2023-07-11,540,12,5.0,23.85,10,4,1,19,0.0,1,2024-10-24,0,18.0,1,22.67
+cust-00231,donna allen,avega@example.net,australia,finance,paid search,pro,priority,2024-03-06,301,12,10.0,99.52,7,17,1,5,8.0,0,,0,10.0,1,53.17
+cust-00232,andrew jones,theresa10@example.com,us,finance,referral,free,email,2023-01-04,728,12,10.0,0.0,8,19,2,16,7.0,0,,0,24.3,1,55.83
+cust-00233,sean potter,lisawilliams@example.com,india,retail,organic,free,priority,2023-04-23,619,24,10.0,0.0,11,3,0,35,7.0,1,2023-10-25,0,20.6,1,36.83
+cust-00234,michael garcia,tyler25@example.com,india,other,organic,free,email,2022-12-21,742,1,5.0,0.0,7,5,1,4,8.0,0,,0,24.7,0,35.17
+cust-00235,elizabeth smith,ryan66@example.org,canada,saas,paid search,pro,email,2021-10-13,1176,1,2.0,111.77,8,10,2,1,4.0,0,,0,39.2,0,36.33
+cust-00236,james jordan,david01@example.org,france,retail,organic,basic,,2023-11-21,407,12,10.0,34.6,4,6,1,3,10.0,0,,0,13.6,1,35.67
+cust-00237,jacob ingram,kevingardner@example.org,india,unknown,organic,pro,priority,2022-02-14,1052,12,100.0,104.07,19,3,0,3,8.0,0,,0,35.1,1,52.17
+cust-00238,joseph weaver,bailey13@example.com,us,education,email,basic,priority,2021-02-05,1426,12,25.0,36.26,4,17,0,16,6.0,0,,0,47.5,1,44.17
+cust-00239,christopher floyd,aolson@example.net,us,finance,referral,enterprise,,2023-08-01,519,1,1.0,413.72,15,10,0,0,7.0,0,,0,17.3,0,54.0
+cust-00240,dawn daniel,pshelton@example.net,us,retail,referral,free,email,2021-09-16,1203,12,1.0,0.0,12,12,1,0,4.0,1,2023-03-05,0,40.1,1,46.0
+cust-00241,kristina pacheco,gravesnathan@example.net,australia,finance,paid search,pro,dedicated,2024-10-05,88,12,5.0,109.29,5,1,2,14,8.0,0,,0,2.9,1,25.83
+cust-00242,candice mccall,kristensmith@example.com,us,retail,paid search,pro,email,2024-10-24,69,24,25.0,66.69,9,18,1,9,0.0,0,,0,2.3,1,42.0
+cust-00243,heather williams,kristenfisher@example.net,france,education,paid search,pro,email,2024-08-28,126,12,5.0,105.7,4,19,4,6,6.0,0,,0,4.2,1,47.17
+cust-00244,dennis hayes,johnsonjoseph@example.org,brazil,healthcare,referral,pro,dedicated,2022-06-25,921,1,10.0,89.42,6,4,0,10,8.0,0,,0,30.7,0,32.0
+cust-00245,zachary castillo,staciebeard@example.com,india,healthcare,referral,pro,priority,2021-01-23,1439,12,100.0,123.8,4,15,2,15,9.0,0,,0,48.0,1,47.17
+cust-00246,john ballard,sherri42@example.net,germany,other,organic,pro,email,2024-09-17,106,1,5.0,108.35,15,9,2,1,5.0,0,,0,3.5,0,48.5
+cust-00247,donald brown,johnprince@example.org,us,retail,paid search,free,priority,2022-09-18,836,24,5.0,0.0,4,6,0,9,7.0,0,,0,27.9,1,29.67
+cust-00248,jasmine matthews,aliciacurtis@example.net,india,saas,paid search,free,priority,2024-11-12,50,12,50.0,0.0,6,12,0,20,7.0,0,,0,1.7,1,42.0
+cust-00249,jennifer graham,tonyacruz@example.net,france,finance,social,enterprise,email,2024-11-07,55,12,5.0,393.76,4,18,3,5,6.0,0,,0,1.8,1,45.67
+cust-00250,james mcdaniel,garnervictoria@example.net,us,other,referral,pro,email,2024-05-30,216,12,5.0,123.35,7,15,0,17,7.0,0,,0,7.2,1,48.17
+cust-00251,helen lopez,areed@example.org,us,retail,paid search,pro,email,2022-03-06,1032,1,5.0,128.87,12,19,0,22,7.0,0,,0,34.4,0,62.5
+cust-00252,jodi nunez,victoriajohnson@example.net,india,saas,organic,basic,dedicated,2022-07-17,899,1,5.0,28.26,5,9,2,20,5.0,0,,0,30.0,0,31.83
+cust-00253,john roberts,jamesward@example.com,canada,retail,referral,free,priority,2024-05-27,219,1,10.0,0.0,3,13,1,12,10.0,0,,0,7.3,0,44.5
+cust-00254,joshua alvarado,jasonvalentine@example.org,india,healthcare,organic,free,,2022-04-08,999,12,5.0,0.0,6,16,0,15,7.0,0,,0,33.3,1,48.0
+cust-00255,anthony thompson,oharvey@example.com,india,unknown,paid search,pro,priority,2021-09-05,1214,12,2.0,87.04,3,13,1,18,9.0,0,,0,40.5,1,42.5
+cust-00256,kelly henderson,zwagner@example.com,france,finance,organic,basic,email,2023-03-24,649,1,25.0,29.35,4,1,1,15,5.0,0,,0,21.6,0,18.17
+cust-00257,sandra frazier,hwright@example.com,germany,other,referral,free,,2024-09-28,95,12,2.0,0.0,7,18,3,7,9.0,0,,0,3.2,1,56.67
+cust-00258,kirk williams,diane92@example.net,uk,healthcare,organic,basic,email,2023-10-14,445,1,2.0,40.96,9,3,0,2,2.0,1,2024-10-28,0,14.8,0,23.5
+cust-00259,joe foley,wilkinsbrittany@example.net,uk,unknown,paid search,free,email,2023-04-13,629,12,10.0,0.0,6,17,1,4,8.0,1,2023-11-24,0,21.0,1,51.5
+cust-00260,brittany woodward,petersonjohn@example.net,uk,healthcare,social,basic,priority,2021-05-22,1320,12,5.0,32.42,2,5,2,2,6.0,1,2024-07-18,0,44.0,1,22.83
+cust-00261,eric hawkins,castroandrea@example.org,australia,saas,organic,basic,,2023-06-17,564,12,2.0,28.43,16,6,3,5,7.0,0,,0,18.8,1,49.67
+cust-00262,joshua sampson,ryanwhite@example.net,france,other,paid search,pro,priority,2024-12-16,16,1,1.0,106.78,7,17,1,8,7.0,1,,0,0.5,0,51.17
+cust-00263,charles rice,myoung@example.com,india,healthcare,paid search,basic,email,2021-07-24,1257,24,10.0,25.71,9,17,0,38,0.0,0,,0,41.9,1,40.5
+cust-00264,michael wong,jbentley@example.net,uk,retail,organic,basic,,2023-01-27,705,1,10.0,28.76,10,1,2,38,8.0,0,,0,23.5,0,34.17
+cust-00265,andrew mccullough,erik80@example.com,france,finance,social,free,dedicated,2024-07-04,181,1,5.0,0.0,3,7,0,17,7.0,0,,0,6.0,0,29.5
+cust-00266,joe house,francismatthew@example.com,canada,healthcare,organic,free,email,2023-12-18,380,12,1.0,0.0,2,16,0,47,8.0,1,2024-05-23,0,12.7,1,43.33
+cust-00267,jaime nash,suarezricardo@example.net,france,finance,paid search,basic,email,2023-10-15,444,24,5.0,33.04,5,5,0,74,7.0,0,,0,14.8,1,29.83
+cust-00268,karla lewis,brownjulie@example.org,canada,saas,referral,basic,email,2023-10-23,436,1,25.0,24.76,6,16,0,25,5.0,0,,0,14.5,0,44.0
+cust-00269,matthew walker,hfreeman@example.org,us,education,referral,pro,priority,2022-06-09,937,12,5.0,82.29,11,4,1,0,9.0,0,,0,31.2,1,42.33
+cust-00270,april white,william19@example.com,germany,other,referral,basic,email,2022-03-05,1033,12,50.0,26.73,11,11,0,6,8.0,0,,0,34.4,1,50.83
+cust-00271,patrick cooper,wwood@example.net,us,finance,organic,pro,,2024-03-27,280,12,10.0,84.87,12,14,0,9,6.0,0,,0,9.3,1,53.0
+cust-00272,april hughes,nicholsonmaria@example.com,uk,other,organic,pro,,2024-03-28,279,12,10.0,90.78,11,13,1,1,8.0,0,,0,9.3,1,53.83
+cust-00273,terry watson,eguerrero@example.org,germany,saas,referral,pro,email,2024-06-19,196,1,100.0,95.79,4,8,0,19,9.0,0,,0,6.5,0,36.67
+cust-00274,mikayla wright,patricia71@example.net,canada,healthcare,paid search,free,priority,2024-08-26,128,1,1.0,0.0,2,15,2,1,9.0,0,,0,4.3,0,43.83
+cust-00275,shari lucas,sarahbuchanan@example.net,brazil,finance,social,basic,email,2023-01-17,715,12,5.0,34.24,12,18,2,5,0.0,0,,0,23.8,1,47.0
+cust-00276,rebecca campbell,brenda56@example.com,france,finance,social,free,,2023-01-03,729,1,1.0,0.0,16,7,1,0,9.0,0,,0,24.3,0,55.17
+cust-00277,linda lynn,cynthia68@example.org,australia,healthcare,social,free,,2024-03-11,296,12,5.0,0.0,11,19,1,8,7.0,0,,0,9.9,1,60.83
+cust-00278,brooke duncan,stephaniewalker@example.org,germany,unknown,paid search,enterprise,email,2023-08-07,513,1,5.0,614.49,6,9,0,10,8.0,0,,0,17.1,0,39.5
+cust-00279,amber johnson,vrice@example.net,canada,saas,paid search,free,dedicated,2023-10-22,437,12,1.0,0.0,6,11,3,15,6.0,0,,0,14.6,1,38.5
+cust-00280,raymond anderson,clinejason@example.net,us,retail,social,basic,email,2024-03-07,300,12,100.0,32.67,6,10,1,4,8.0,0,,0,10.0,1,41.0
+cust-00281,jennifer moody,cristian88@example.com,us,saas,paid search,pro,dedicated,2024-07-23,162,24,10.0,101.99,7,14,0,10,8.0,0,,0,5.4,1,48.67
+cust-00282,rebekah wright,youngchristie@example.org,uk,finance,organic,pro,email,2022-05-09,968,12,50.0,115.41,6,16,2,15,6.0,0,,0,32.3,1,46.0
+cust-00283,aaron rogers,whitegregory@example.net,germany,saas,social,basic,,2022-07-03,913,1,5.0,29.38,13,8,0,17,7.0,1,2023-06-18,0,30.4,0,47.67
+cust-00284,vanessa palmer,morganflores@example.org,us,saas,social,free,priority,2021-05-18,1324,1,5.0,0.0,4,1,1,4,8.0,0,,0,44.1,0,24.17
+cust-00285,karen hall,dustinjones@example.net,us,finance,paid search,basic,email,2023-04-25,617,12,1.0,18.48,10,12,0,0,7.0,0,,0,20.6,1,48.67
+cust-00286,ashley delgado,kimberlysutton@example.org,us,finance,organic,basic,priority,2021-02-22,1409,12,5.0,39.21,3,3,1,0,0.0,1,2022-05-24,0,47.0,1,9.5
+cust-00287,jonathan robertson,snyderseth@example.com,brazil,other,paid search,free,dedicated,2022-11-11,782,12,10.0,0.0,8,2,2,17,0.0,1,2024-01-26,0,26.1,1,16.33
+cust-00288,ivan harris,lindajenkins@example.net,uk,finance,social,basic,,2023-03-04,669,12,1.0,30.99,9,16,2,5,8.0,0,,0,22.3,1,55.0
+cust-00289,thomas davenport,williamsnicholas@example.net,germany,retail,email,free,,2022-02-23,1043,12,25.0,0.0,1,4,3,1,9.0,0,,0,34.8,1,25.67
+cust-00290,denise olsen,johnjones@example.org,us,education,organic,free,priority,2023-05-13,599,24,2.0,0.0,10,2,1,2,9.0,0,,0,20.0,1,37.67
+cust-00291,daniel williams,qking@example.com,france,unknown,organic,basic,email,2021-02-14,1417,1,5.0,28.07,6,12,0,17,5.0,0,,0,47.2,0,38.0
+cust-00292,sandra gibson phd,diana09@example.com,us,saas,social,free,,2021-02-24,1407,12,5.0,0.0,8,17,0,10,7.0,0,,0,46.9,1,52.83
+cust-00293,terry franklin,pgreen@example.com,us,finance,paid search,basic,,2024-04-15,261,1,500.0,40.39,9,10,2,8,5.0,0,,0,8.7,0,40.0
+cust-00294,nicholas carrillo,masonrussell@example.net,germany,other,paid search,pro,,2022-06-10,936,12,1.0,100.75,2,8,0,11,10.0,1,2022-11-03,0,31.2,1,35.33
+cust-00295,brent white,maxwell67@example.net,us,retail,email,pro,priority,2021-07-05,1276,12,10.0,115.07,7,18,2,1,5.0,1,2021-09-18,0,42.5,1,48.67
+cust-00296,michelle wilson,lisa08@example.net,us,retail,organic,free,,2023-02-02,699,12,5.0,0.0,7,18,2,4,6.0,1,2024-10-24,0,23.3,1,50.67
+cust-00297,cassandra vega,kortiz@example.org,us,saas,referral,free,email,2024-01-30,337,1,1.0,0.0,10,18,3,5,8.0,0,,0,11.2,0,59.67
+cust-00298,ryan rivera,cody54@example.com,us,saas,organic,free,email,2021-11-12,1146,12,10.0,0.0,5,2,0,4,9.0,0,,0,38.2,1,29.33
+cust-00299,ashley diaz,ericalove@example.com,us,healthcare,paid search,pro,email,2023-06-29,552,1,2.0,74.49,2,12,0,23,7.0,0,,0,18.4,0,35.33
+cust-00300,linda anderson md,twilliams@example.net,uk,finance,social,pro,,2021-05-05,1337,1,1.0,92.63,11,10,2,10,7.0,0,,0,44.6,0,47.33
+cust-00301,becky frost,nguyenjacqueline@example.net,india,unknown,paid search,free,priority,2021-03-17,1386,1,1.0,0.0,9,8,4,15,7.0,0,,0,46.2,0,41.0
+cust-00302,craig peterson,erikjackson@example.org,france,other,email,enterprise,,2023-02-15,686,12,25.0,420.41,13,19,1,3,7.0,0,,0,22.9,1,64.17
+cust-00303,christine bennett,rking@example.net,germany,education,referral,free,priority,2023-03-01,672,1,1.0,0.0,7,10,1,3,1.0,1,2024-11-16,0,22.4,0,28.67
+cust-00304,david robles,rebeccadorsey@example.net,us,finance,paid search,basic,priority,2023-07-20,531,1,5.0,40.97,10,11,1,3,8.0,0,,0,17.7,0,49.17
+cust-00305,andrew harmon,amy29@example.org,brazil,education,organic,pro,email,2023-11-27,401,1,1.0,111.94,8,14,0,13,7.0,0,,0,13.4,0,48.33
+cust-00306,erica weber,brett49@example.net,uk,saas,paid search,pro,email,2024-11-25,37,1,1.0,73.58,3,15,0,5,7.0,0,,0,1.2,0,41.5
+cust-00307,samantha brown,wangjamie@example.net,us,healthcare,paid search,pro,email,2023-01-24,708,1,2.0,111.3,6,10,2,6,4.0,0,,0,23.6,0,33.0
+cust-00308,courtney williams,wrightanthony@example.net,france,finance,organic,pro,email,2022-04-17,990,1,5.0,111.26,7,4,3,14,4.0,1,2022-07-29,0,33.0,0,25.67
+cust-00309,frances haley,gsmith@example.net,us,education,paid search,basic,priority,2024-03-06,301,12,2.0,31.5,14,7,0,42,9.0,0,,0,10.0,1,51.83
+cust-00310,rachel gibson,amandagarcia@example.org,uk,education,paid search,pro,priority,2022-01-31,1066,12,1.0,117.28,3,11,2,2,8.0,1,2023-09-22,0,35.5,1,37.5
+cust-00311,kristin lozano,wmiller@example.net,germany,retail,referral,free,email,2022-10-03,821,1,25.0,0.0,4,3,2,0,9.0,0,,0,27.4,0,29.17
+cust-00312,stacey golden,lisa97@example.com,india,other,referral,pro,email,2021-04-25,1347,12,5.0,93.66,6,5,1,2,9.0,0,,0,44.9,1,35.5
+cust-00313,scott medina,jessehernandez@example.org,germany,saas,referral,basic,dedicated,2021-02-07,1424,1,1.0,33.14,9,2,0,15,7.0,0,,0,47.5,0,32.0
+cust-00314,charles davis,sfox@example.org,canada,other,organic,pro,dedicated,2024-11-06,56,1,5.0,92.75,12,12,0,2,5.0,0,,0,1.9,0,48.0
+cust-00315,paul mcclain,robert77@example.net,brazil,other,organic,basic,email,2024-05-05,241,12,1.0,18.63,2,5,2,10,5.0,0,,0,8.0,1,20.83
+cust-00316,steven stevens,sarascott@example.com,us,saas,referral,pro,email,2023-10-14,445,12,10.0,121.99,4,7,0,10,10.0,0,,0,14.8,1,37.17
+cust-00317,lance thomas,rebeccahartman@example.org,us,unknown,paid search,basic,email,2022-08-21,864,24,2.0,34.61,10,4,0,4,7.0,0,,0,28.8,1,36.67
+cust-00318,billy avery,hendrixleslie@example.net,uk,saas,organic,pro,dedicated,2021-09-11,1208,1,1.0,86.08,14,11,4,0,2.0,1,2023-07-08,0,40.3,0,43.83
+cust-00319,brad freeman,hharrison@example.net,uk,healthcare,social,free,,2021-08-17,1233,12,1.0,0.0,2,9,0,6,5.0,0,,0,41.1,1,26.83
+cust-00320,randy ferguson,odavis@example.net,uk,healthcare,social,free,email,2022-01-01,1096,12,2.0,0.0,6,4,1,2,9.0,0,,0,36.5,1,34.0
+cust-00321,elizabeth gray,gallagherkristen@example.com,india,finance,paid search,free,email,2023-03-13,660,24,25.0,0.0,6,9,0,2,9.0,0,,0,22.0,1,41.5
+cust-00322,christopher russell,bhawkins@example.org,canada,other,organic,free,email,2023-11-10,418,24,1.0,0.0,9,12,0,8,9.0,0,,0,13.9,1,51.0
+cust-00323,russell taylor,nbrown@example.net,france,finance,social,pro,email,2023-08-22,498,1,1.0,104.12,7,16,2,13,6.0,0,,0,16.6,0,47.67
+cust-00324,leonard peterson,hmoore@example.com,uk,healthcare,referral,free,dedicated,2022-02-13,1053,1,5.0,0.0,6,1,1,0,8.0,0,,0,35.1,0,27.5
+cust-00325,barry martinez,kevin14@example.org,india,education,social,enterprise,,2024-10-26,67,12,10.0,477.37,4,8,2,10,5.0,0,,0,2.2,1,28.67
+cust-00326,ashley stevens,crodriguez@example.net,brazil,other,social,basic,email,2023-12-14,384,1,1.0,29.1,12,1,2,3,4.0,0,,0,12.8,0,29.5
+cust-00327,sheri morales,amy63@example.net,india,saas,social,free,,2023-03-21,652,12,2.0,0.0,8,19,0,13,0.0,1,2023-12-07,0,21.7,1,41.83
+cust-00328,nicole nelson,fosterchristopher@example.net,us,other,paid search,pro,,2023-06-13,568,1,2.0,107.97,12,4,1,19,4.0,0,,0,18.9,0,34.0
+cust-00329,robert gutierrez,amy26@example.org,canada,saas,organic,pro,email,2022-09-05,849,12,1.0,99.74,4,14,2,19,8.0,1,2024-01-13,0,28.3,1,43.67
+cust-00330,curtis boyd,pcohen@example.net,us,education,referral,basic,email,2021-12-28,1100,1,2.0,34.23,6,14,0,5,7.0,0,,0,36.7,0,45.0
+cust-00331,kimberly fleming,aarnold@example.net,us,retail,referral,basic,email,2022-06-04,942,1,1.0,27.32,11,9,1,10,7.0,0,,0,31.4,0,45.83
+cust-00332,angel brown,brad26@example.net,us,unknown,referral,pro,email,2024-01-12,355,24,10.0,134.82,8,9,5,18,10.0,0,,0,11.8,1,46.83
+cust-00333,kara ware,jorge68@example.net,france,healthcare,organic,free,,2021-01-22,1440,1,500.0,0.0,3,17,4,0,6.0,0,,0,48.0,0,42.5
+cust-00334,tiffany miller,melanie89@example.com,canada,finance,organic,enterprise,email,2021-06-19,1292,1,10.0,423.87,7,15,1,11,6.0,0,,0,43.1,0,46.17
+cust-00335,rachel banks,pinedaxavier@example.net,us,retail,social,enterprise,dedicated,2021-03-09,1394,1,5.0,468.25,11,10,1,21,6.0,0,,0,46.5,0,45.33
+cust-00336,jessica thomas,nmcdonald@example.org,uk,saas,referral,pro,dedicated,2021-03-01,1402,24,10.0,115.46,6,17,2,5,6.0,0,,0,46.7,1,47.5
+cust-00337,sarah nielsen,ajones@example.net,germany,unknown,email,free,email,2024-06-02,213,12,10.0,0.0,5,9,1,7,5.0,0,,0,7.1,1,31.83
+cust-00338,harry hardy,patrickjohnson@example.org,uk,other,social,pro,email,2023-10-25,434,12,25.0,91.54,6,4,3,14,8.0,0,,0,14.5,1,32.0
+cust-00339,james rivera,emilywright@example.org,us,retail,referral,free,dedicated,2022-11-24,769,12,10.0,0.0,4,14,0,0,8.0,0,,0,25.6,1,43.67
+cust-00340,matthew everett,lisa62@example.net,uk,saas,referral,free,,2021-05-23,1319,1,10.0,0.0,5,3,1,5,9.0,1,2023-02-02,0,44.0,0,30.83
+cust-00341,eric ramos,gestrada@example.org,australia,healthcare,social,basic,priority,2022-12-19,744,1,2.0,32.05,7,12,0,4,6.0,0,,0,24.8,0,41.67
+cust-00342,nicole rivera,xcastillo@example.org,us,saas,referral,basic,dedicated,2022-11-23,770,1,5.0,21.22,2,1,0,0,8.0,0,,0,25.7,0,20.83
+cust-00343,amy ryan,brian87@example.org,us,education,referral,pro,,2021-09-10,1209,12,2.0,124.61,5,1,1,2,8.0,0,,0,40.3,1,25.83
+cust-00344,garrett frank,logan78@example.com,uk,unknown,organic,pro,,2022-09-26,828,12,1.0,87.44,7,13,3,6,10.0,0,,0,27.6,1,51.17
+cust-00345,samuel owens,travis22@example.org,brazil,finance,paid search,pro,dedicated,2022-08-05,880,1,2.0,79.82,8,14,1,2,6.0,0,,0,29.3,0,46.33
+cust-00346,amanda white,rbradley@example.org,canada,unknown,referral,basic,email,2023-06-19,562,1,5.0,34.19,6,16,0,11,10.0,0,,0,18.7,0,54.0
+cust-00347,monique horton,mccoykimberly@example.org,canada,education,organic,basic,,2023-07-17,534,1,10.0,30.67,20,7,0,7,8.0,1,2024-04-18,0,17.8,0,59.83
+cust-00348,jonathan walker,kochsarah@example.com,uk,finance,organic,basic,email,2021-03-08,1395,1,100.0,36.39,18,10,1,0,7.0,0,,0,46.5,0,59.0
+cust-00349,brian farrell,keithhess@example.org,france,education,paid search,enterprise,email,2022-07-01,915,1,2.0,526.43,10,15,2,3,0.0,0,,0,30.5,0,39.17
+cust-00350,tammy wolfe,michellelittle@example.com,us,finance,organic,free,priority,2023-07-03,548,1,1.0,0.0,12,8,1,0,7.0,0,,0,18.3,0,46.0
+cust-00351,david bell,idurham@example.org,canada,education,organic,pro,priority,2023-01-05,727,1,50.0,117.32,5,11,1,5,7.0,0,,0,24.2,0,38.83
+cust-00352,brandon wolfe,lauraberry@example.com,india,finance,paid search,basic,dedicated,2024-06-04,211,24,100.0,23.65,3,14,2,3,7.0,0,,0,7.0,1,40.0
+cust-00353,jeffrey davies,scottjackson@example.org,france,healthcare,email,basic,email,2023-08-20,500,1,5.0,33.78,13,13,2,13,5.0,0,,0,16.7,0,51.17
+cust-00354,paul barton,jonesthomas@example.org,india,other,paid search,pro,email,2021-08-26,1224,12,1.0,94.0,9,13,3,4,10.0,0,,0,40.8,1,54.5
+cust-00355,linda perkins,hollowaykathryn@example.org,canada,healthcare,organic,basic,email,2021-04-14,1358,12,5.0,28.91,15,9,3,5,6.0,0,,0,45.3,1,50.5
+cust-00356,kristen bishop,rwhitaker@example.com,us,finance,organic,pro,email,2023-07-27,524,12,1.0,75.78,7,17,0,15,4.0,0,,0,17.5,1,45.17
+cust-00357,joseph lang,caleb52@example.com,india,retail,referral,enterprise,,2021-02-08,1423,1,50.0,503.24,3,18,2,7,7.0,0,,0,47.4,0,46.0
+cust-00358,brandon miller,whiteadam@example.org,us,finance,paid search,basic,dedicated,2023-05-06,606,12,10.0,25.43,6,19,1,9,0.0,1,2024-08-13,0,20.2,1,38.5
+cust-00359,guy rojas,ortizshannon@example.net,germany,unknown,social,basic,priority,2024-10-04,89,1,2.0,19.9,8,13,3,22,7.0,0,,0,3.0,0,46.83
+cust-00360,benjamin lewis,fritzjennifer@example.com,us,saas,referral,basic,email,2023-04-21,621,1,50.0,25.47,2,12,1,2,7.0,0,,0,20.7,0,35.33
+cust-00361,jeremiah rodgers,harriskrystal@example.org,us,saas,social,enterprise,email,2022-07-21,895,24,10.0,382.16,3,8,2,54,6.0,0,,0,29.8,1,29.0
+cust-00362,gregg mathews,oday@example.net,uk,finance,organic,free,,2023-07-29,522,12,100.0,0.0,4,11,3,27,8.0,0,,0,17.4,1,39.17
+cust-00363,ronald wilson,lbaird@example.org,us,education,referral,pro,email,2022-11-01,792,1,500.0,100.08,6,7,1,4,3.0,1,2024-01-05,0,26.4,0,26.5
+cust-00364,krista wood,jmann@example.com,germany,healthcare,organic,pro,priority,2023-03-08,665,12,1.0,110.07,8,1,1,26,9.0,0,,0,22.2,1,32.83
+cust-00365,joseph clark,gharris@example.org,france,unknown,email,pro,email,2024-10-06,87,1,1.0,81.85,8,10,4,16,10.0,0,,0,2.9,0,48.33
+cust-00366,john morgan,michealcollins@example.org,us,finance,referral,free,dedicated,2022-07-18,898,12,5.0,0.0,6,15,5,32,0.0,1,2023-05-24,0,29.9,1,32.5
+cust-00367,darrell brown,chloehorn@example.com,us,saas,paid search,pro,email,2024-11-04,58,12,5.0,102.5,14,4,1,14,9.0,0,,0,1.9,1,47.33
+cust-00368,anne perez,xwaller@example.net,france,healthcare,organic,enterprise,email,2024-08-14,140,1,500.0,386.43,4,1,0,13,7.0,0,,0,4.7,0,22.17
+cust-00369,jessica butler,ggarcia@example.net,uk,saas,organic,free,priority,2021-10-13,1176,1,10.0,0.0,6,11,2,0,7.0,0,,0,39.2,0,40.5
+cust-00370,jaime vargas,mturner@example.net,canada,saas,referral,free,,2021-04-12,1360,12,1.0,0.0,15,5,3,7,5.0,0,,0,45.3,1,42.5
+cust-00371,sarah bell,robert17@example.com,canada,saas,organic,enterprise,email,2021-05-28,1314,12,1.0,507.21,1,19,2,2,6.0,0,,0,43.8,1,42.17
+cust-00372,mark oneal,jedwards@example.org,india,retail,referral,free,email,2021-01-27,1435,12,25.0,0.0,3,19,3,4,7.0,0,,0,47.8,1,47.5
+cust-00373,ronald cannon,kaustin@example.com,canada,saas,organic,pro,email,2021-05-18,1324,12,10.0,85.57,4,4,1,46,4.0,1,2023-07-09,0,44.1,1,20.67
+cust-00374,lauren boyd,brett69@example.org,uk,retail,referral,basic,priority,2023-09-25,464,12,5.0,30.01,5,2,1,1,4.0,0,,0,15.5,1,19.33
+cust-00375,allison wilson,vkelly@example.org,canada,healthcare,social,free,email,2021-04-14,1358,1,5.0,0.0,7,7,1,15,5.0,1,2023-09-11,0,45.3,0,32.17
+cust-00376,barbara martin,karen09@example.net,us,healthcare,social,pro,priority,2022-04-11,996,24,10.0,86.09,14,13,0,2,7.0,0,,0,33.2,1,56.83
+cust-00377,chad robinson,lindsay96@example.org,uk,retail,social,basic,email,2024-05-18,228,1,50.0,23.63,6,12,2,0,10.0,0,,0,7.6,0,48.0
+cust-00378,michael pitts,andrea37@example.com,australia,education,organic,basic,email,2021-02-03,1428,12,2.0,29.41,5,2,1,8,7.0,0,,0,47.6,1,25.33
+cust-00379,andres cruz,alisha54@example.com,uk,saas,organic,basic,priority,2024-04-04,272,24,2.0,26.6,4,9,2,2,7.0,0,,0,9.1,1,34.17
+cust-00380,cynthia ryan,scott60@example.org,australia,healthcare,referral,basic,,2022-02-16,1050,12,10.0,41.7,3,16,0,40,7.0,0,,0,35.0,1,43.0
+cust-00381,joseph adams,qdean@example.net,india,saas,paid search,free,,2021-06-22,1289,12,50.0,0.0,11,8,2,2,6.0,1,2023-11-02,0,43.0,1,42.33
+cust-00382,kevin foley,kimberly49@example.com,india,saas,paid search,basic,email,2023-10-15,444,1,2.0,21.98,9,18,2,2,0.0,1,2024-07-26,0,14.8,0,42.0
+cust-00383,ashley bennett,rebeccabell@example.net,india,unknown,organic,enterprise,email,2023-07-08,543,12,2.0,583.9,14,4,1,0,7.0,0,,0,18.1,1,43.33
+cust-00384,joshua hernandez,ericawebster@example.net,uk,finance,organic,basic,,2024-07-05,180,1,2.0,31.6,7,11,1,4,3.0,0,,0,6.0,0,34.17
+cust-00385,sheryl galvan,catherinephillips@example.com,uk,other,organic,pro,email,2023-12-10,388,12,2.0,111.34,10,17,3,0,9.0,0,,0,12.9,1,60.17
+cust-00386,megan marshall,johnsonalyssa@example.com,france,unknown,social,basic,email,2024-03-19,288,1,1.0,26.05,3,8,1,8,7.0,0,,0,9.6,0,31.0
+cust-00387,wendy haynes,matthew71@example.net,uk,other,organic,pro,email,2022-02-16,1050,1,10.0,107.28,21,19,2,8,9.0,0,,0,35.0,0,81.5
+cust-00388,michael graham,lisa75@example.com,france,unknown,referral,free,dedicated,2021-09-17,1202,1,2.0,0.0,7,8,0,0,10.0,0,,0,40.1,0,43.67
+cust-00389,samantha hughes,samanthagallagher@example.org,canada,saas,organic,enterprise,email,2024-01-01,366,1,10.0,464.14,6,6,3,3,10.0,0,,0,12.2,0,39.0
+cust-00390,tracy payne,alexandra31@example.org,canada,saas,referral,basic,priority,2024-03-23,284,24,1.0,26.82,4,2,3,21,7.0,0,,0,9.5,1,23.67
+cust-00391,gary edwards,hardycolleen@example.org,uk,unknown,paid search,free,,2024-12-17,15,24,1.0,0.0,9,15,0,7,10.0,0,,0,0.5,1,57.5
+cust-00392,mark johnson,durankelly@example.org,us,unknown,social,free,email,2022-08-26,859,12,5.0,0.0,5,1,2,6,9.0,0,,0,28.6,1,27.83
+cust-00393,daniel johnson,jamesbarrera@example.org,uk,finance,social,free,priority,2022-06-28,918,1,5.0,0.0,5,6,0,14,7.0,0,,0,30.6,0,31.33
+cust-00394,john taylor,pellis@example.org,us,saas,paid search,basic,email,2024-02-08,328,1,2.0,25.58,9,19,1,15,2.0,1,2024-09-23,0,10.9,0,47.5
+cust-00395,anthony campos,wrightveronica@example.net,india,other,email,basic,priority,2022-05-13,964,12,25.0,27.63,6,4,2,17,4.0,0,,0,32.1,1,24.0
+cust-00396,brandy thompson,cynthia83@example.org,uk,education,email,pro,email,2024-09-20,103,1,5.0,121.47,7,13,0,21,10.0,0,,0,3.4,0,51.17
+cust-00397,matthew pacheco,shelbymorris@example.org,us,retail,social,basic,,2024-06-07,208,12,5.0,29.75,8,15,2,3,4.0,0,,0,6.9,1,43.83
+cust-00398,brenda white,deborahdominguez@example.org,us,saas,social,free,email,2022-09-19,835,1,10.0,0.0,9,9,0,0,3.0,1,2023-06-25,0,27.8,0,34.5
+cust-00399,robin chavez,gcox@example.net,canada,saas,organic,pro,email,2024-01-02,365,12,50.0,103.53,3,3,1,5,6.0,0,,0,12.2,1,21.5
+cust-00400,christopher hernandez,browndiane@example.org,canada,saas,referral,pro,priority,2024-01-07,360,12,5.0,90.79,9,2,2,23,10.0,0,,0,12.0,1,38.0
+cust-00401,kelly smith,baileyamy@example.net,uk,saas,organic,free,,2021-05-31,1311,12,5.0,0.0,10,16,0,0,7.0,1,2023-01-22,0,43.7,1,54.67
+cust-00402,janet miller,ypaul@example.com,us,healthcare,organic,free,dedicated,2024-08-10,144,12,10.0,0.0,3,18,1,10,7.0,0,,0,4.8,1,46.0
+cust-00403,tim morris,gjackson@example.net,uk,retail,email,free,dedicated,2023-01-08,724,12,2.0,0.0,7,18,1,14,6.0,1,2024-05-16,0,24.1,1,50.67
+cust-00404,terri juarez,rowlandcatherine@example.net,uk,retail,paid search,pro,,2024-04-21,255,12,5.0,81.79,3,6,2,7,4.0,0,,0,8.5,1,22.0
+cust-00405,stephanie blair,bbrown@example.com,canada,other,referral,pro,email,2022-04-13,994,12,2.0,115.35,5,18,1,3,7.0,0,,0,33.1,1,49.33
+cust-00406,christina lopez,vgriffin@example.com,france,finance,social,basic,priority,2024-07-31,154,1,25.0,32.64,4,11,3,4,8.0,0,,0,5.1,0,39.17
+cust-00407,pamela benson,amy35@example.net,uk,other,social,pro,dedicated,2022-07-23,893,24,2.0,99.66,6,7,0,0,6.0,0,,0,29.8,1,32.5
+cust-00408,jeanette gordon,david87@example.net,us,saas,email,pro,email,2021-01-16,1446,12,500.0,113.34,7,14,0,4,6.0,1,2024-01-19,0,48.2,1,44.67
+cust-00409,karen andrews,pdougherty@example.com,brazil,retail,organic,basic,email,2024-08-14,140,12,2.0,26.13,6,18,1,0,4.0,1,2024-10-30,0,4.7,1,45.0
+cust-00410,carrie robertson,hollandcarlos@example.org,germany,finance,organic,pro,email,2021-05-14,1328,12,50.0,98.31,3,7,0,15,5.0,0,,0,44.3,1,25.5
+cust-00411,brooke moore,riveramelissa@example.net,canada,saas,paid search,free,priority,2022-04-12,995,1,5.0,0.0,0,10,0,27,8.0,1,2023-04-29,0,33.2,0,31.0
+cust-00412,kimberly hayes,heathkristi@example.org,us,saas,organic,free,email,2024-10-19,74,24,2.0,0.0,4,8,1,12,7.0,0,,0,2.5,1,32.67
+cust-00413,shelley johnson,jennifer86@example.net,germany,finance,organic,basic,priority,2024-10-19,74,1,2.0,33.54,8,14,0,12,1.0,0,,0,2.5,0,36.33
+cust-00414,christy bridges,jallen@example.net,us,finance,paid search,free,,2023-04-18,624,24,50.0,0.0,13,18,1,7,3.0,1,2024-07-16,0,20.8,1,54.67
+cust-00415,george brown,williamturner@example.com,germany,healthcare,social,basic,,2023-07-12,539,1,2.0,28.38,8,5,0,2,6.0,0,,0,18.0,0,32.83
+cust-00416,marilyn campbell,vgibson@example.com,brazil,healthcare,referral,enterprise,email,2022-10-17,807,1,2.0,286.85,15,14,3,0,10.0,0,,0,26.9,0,66.0
+cust-00417,todd scott,qking@example.com,uk,healthcare,paid search,free,email,2022-03-05,1033,12,1.0,0.0,3,10,2,5,6.0,0,,0,34.4,1,32.0
+cust-00418,tonya andrews,susan07@example.net,us,saas,referral,free,email,2022-04-25,982,24,100.0,0.0,13,15,2,16,7.0,0,,0,32.7,1,58.17
+cust-00419,krista mora,parksjulie@example.net,us,retail,organic,basic,email,2023-09-09,480,24,2.0,40.38,4,6,3,38,6.0,0,,0,16.0,1,27.67
+cust-00420,christopher kim,amandatran@example.org,uk,saas,organic,enterprise,email,2024-01-04,363,12,2.0,558.29,5,9,1,6,7.0,0,,0,12.1,1,35.83
+cust-00421,shannon forbes,tfisher@example.net,us,saas,social,basic,,2024-03-01,306,1,100.0,31.59,0,10,0,5,7.0,0,,0,10.2,0,29.0
+cust-00422,christine clements,williamsonadam@example.org,us,other,referral,basic,email,2024-02-27,309,1,50.0,26.35,15,17,0,7,7.0,0,,0,10.3,0,64.5
+cust-00423,kayla cain,john01@example.net,australia,finance,social,free,dedicated,2021-05-14,1328,12,2.0,0.0,8,1,2,6,8.0,1,2022-03-28,0,44.3,1,30.83
+cust-00424,jordan hardin,karenwhite@example.org,germany,finance,organic,free,email,2022-12-23,740,12,50.0,0.0,5,14,1,11,7.0,0,,0,24.7,1,43.33
+cust-00425,shannon harris,sarah40@example.com,us,retail,social,enterprise,email,2021-03-26,1377,12,2.0,592.42,9,4,1,15,4.0,0,,0,45.9,1,29.0
+cust-00426,sarah gallagher,zmyers@example.org,india,retail,referral,enterprise,email,2023-03-14,659,12,1.0,437.0,7,2,2,18,3.0,0,,0,22.0,1,20.67
+cust-00427,catherine williams,rebecca02@example.com,us,retail,referral,free,dedicated,2022-10-07,817,12,25.0,0.0,6,3,0,12,7.0,0,,0,27.2,1,28.5
+cust-00428,tami mosley,sabrina33@example.com,brazil,saas,referral,enterprise,,2024-07-20,165,12,25.0,466.75,16,7,2,6,7.0,0,,0,5.5,1,51.17
+cust-00429,chelsea williams,donaldharrell@example.com,uk,saas,social,pro,priority,2022-05-28,949,12,2.0,101.15,7,14,2,35,10.0,0,,0,31.6,1,52.67
+cust-00430,amanda pugh,michealsmall@example.com,india,education,referral,pro,priority,2021-06-20,1291,24,1.0,112.07,3,12,0,14,6.0,0,,0,43.0,1,35.0
+cust-00431,angela ford,randysmith@example.com,france,finance,referral,basic,email,2021-07-28,1253,12,2.0,28.54,13,19,3,6,8.0,0,,0,41.8,1,66.17
+cust-00432,diane johnson,awilliams@example.com,india,healthcare,email,basic,,2024-01-17,350,12,5.0,29.08,4,18,1,7,2.0,0,,0,11.7,1,37.67
+cust-00433,gabriella martinez,lawrenceamanda@example.net,brazil,healthcare,social,basic,priority,2023-06-22,559,12,100.0,32.97,3,15,2,20,9.0,0,,0,18.6,1,45.5
+cust-00434,theresa russell,ucampbell@example.org,us,other,paid search,pro,,2021-05-28,1314,1,2.0,89.82,5,1,1,6,7.0,0,,0,43.8,0,23.83
+cust-00435,robert savage,townsendjohn@example.org,brazil,saas,referral,free,email,2021-05-03,1339,1,25.0,0.0,2,3,0,8,7.0,0,,0,44.6,0,21.83
+cust-00436,julie andrews,christopher47@example.net,uk,retail,paid search,free,priority,2023-10-21,438,1,2.0,0.0,5,15,4,4,3.0,1,2023-11-23,0,14.6,0,36.83
+cust-00437,steven holland,charlesingram@example.com,uk,retail,organic,basic,,2021-04-17,1355,1,10.0,25.17,1,4,2,21,0.0,1,2023-01-31,0,45.2,0,7.67
+cust-00438,gloria green phd,jessicamendez@example.com,uk,education,referral,pro,priority,2024-04-14,262,1,5.0,105.58,3,15,2,8,8.0,0,,0,8.7,0,43.5
+cust-00439,edward dennis,kevin42@example.com,germany,other,email,free,,2023-10-29,430,24,10.0,0.0,2,10,1,9,2.0,1,2024-02-05,0,14.3,1,22.33
+cust-00440,michael solomon,samantha75@example.com,us,retail,email,pro,priority,2021-04-29,1343,12,2.0,100.99,2,6,0,25,3.0,0,,0,44.8,1,18.33
+cust-00441,andrea stokes,rileylaura@example.org,france,other,paid search,enterprise,email,2021-05-04,1338,1,5.0,485.53,5,13,2,30,4.0,0,,0,44.6,0,35.83
+cust-00442,andrew mason,vasquezkaren@example.com,germany,education,paid search,free,,2024-12-11,21,12,2.0,0.0,3,7,0,20,7.0,0,,0,0.7,1,29.5
+cust-00443,paul wagner,yfox@example.net,australia,retail,organic,pro,,2022-07-01,915,12,5.0,104.06,14,1,1,0,8.0,0,,0,30.5,1,40.83
+cust-00444,caitlin cochran,cannoncynthia@example.org,india,retail,email,basic,dedicated,2022-06-26,920,1,25.0,38.01,0,11,1,7,6.0,0,,0,30.7,0,28.5
+cust-00445,kristen west,nancymartinez@example.org,uk,healthcare,email,pro,,2024-04-01,275,1,5.0,96.64,13,14,2,5,5.0,0,,0,9.2,0,52.67
+cust-00446,juan cain,maymonica@example.com,uk,other,referral,free,,2024-10-14,79,24,5.0,0.0,7,6,1,2,6.0,0,,0,2.6,1,32.67
+cust-00447,jessica oneal,dgardner@example.org,us,saas,social,pro,email,2024-12-10,22,12,5.0,122.87,13,5,0,28,9.0,0,,0,0.7,1,47.17
+cust-00448,kimberly payne,lopezdustin@example.org,us,education,referral,pro,email,2024-01-05,362,12,25.0,112.15,6,19,1,26,7.0,0,,0,12.1,1,52.5
+cust-00449,marie allen,john77@example.net,us,unknown,referral,enterprise,email,2022-07-04,912,12,5.0,524.16,8,19,3,7,7.0,0,,0,30.4,1,55.83
+cust-00450,sharon mcneil,lconley@example.com,uk,finance,organic,pro,,2021-05-02,1340,1,1.0,94.42,3,13,0,1,7.0,0,,0,44.7,0,38.5
+cust-00451,kim anderson,ywilliams@example.org,us,unknown,paid search,basic,email,2024-02-09,327,12,5.0,28.0,6,7,1,0,5.0,0,,0,10.9,1,30.5
+cust-00452,catherine coffey,danielnielsen@example.com,brazil,finance,referral,pro,,2023-03-27,646,12,100.0,128.29,7,8,1,6,7.0,0,,0,21.5,1,37.67
+cust-00453,donna lee,manuel68@example.org,france,education,referral,pro,,2022-09-12,842,12,1.0,98.08,11,14,0,0,7.0,1,2023-08-15,0,28.1,1,53.33
+cust-00454,caroline price,awilliams@example.net,uk,education,paid search,basic,email,2024-08-16,138,1,5.0,19.22,6,19,2,11,7.0,0,,0,4.6,0,52.5
+cust-00455,susan carter,jsmith@example.com,france,education,email,free,priority,2021-06-12,1299,12,10.0,0.0,7,19,1,11,5.0,1,2022-07-16,0,43.3,1,50.17
+cust-00456,stephanie martin,malonescott@example.net,us,saas,organic,enterprise,,2022-12-21,742,1,1.0,668.73,2,12,1,27,7.0,0,,0,24.7,0,35.33
+cust-00457,jason banks,christopher55@example.com,uk,finance,paid search,pro,email,2021-01-17,1445,12,2.0,98.65,11,9,0,2,10.0,0,,0,48.2,1,51.83
+cust-00458,kristen baldwin,farrellelizabeth@example.net,france,saas,referral,pro,email,2022-11-16,777,12,100.0,118.18,10,14,0,5,9.0,0,,0,25.9,1,55.67
+cust-00459,christopher horton,powellrobert@example.net,germany,healthcare,referral,free,dedicated,2021-03-24,1379,12,1.0,0.0,1,6,2,23,8.0,0,,0,46.0,1,26.67
+cust-00460,benjamin lane,jillaguirre@example.org,uk,healthcare,referral,pro,dedicated,2021-06-23,1288,12,25.0,82.85,8,15,1,7,5.0,0,,0,42.9,1,45.83
+cust-00461,steven elliott,careyjeffrey@example.org,brazil,healthcare,organic,basic,priority,2021-06-21,1290,1,5.0,31.78,20,13,0,0,5.0,0,,0,43.0,0,62.83
+cust-00462,keith patrick,jenniferaguilar@example.net,india,healthcare,organic,pro,,2023-08-06,514,12,2.0,113.36,4,7,1,1,9.0,0,,0,17.1,1,35.17
+cust-00463,deborah wright,chamberstaylor@example.com,france,other,referral,free,,2023-12-26,372,1,2.0,0.0,4,11,1,20,4.0,0,,0,12.4,0,31.17
+cust-00464,susan moore,martincharles@example.net,france,saas,referral,pro,email,2023-05-02,610,1,50.0,96.76,6,10,0,16,8.0,0,,0,20.3,0,41.0
+cust-00465,michael mcdonald,jerryclark@example.net,france,unknown,organic,enterprise,email,2024-11-05,57,1,25.0,535.01,1,1,3,25,6.0,0,,0,1.9,0,15.17
+cust-00466,tracy green dvm,klinemichelle@example.net,us,retail,referral,free,email,2022-07-02,914,12,1.0,0.0,3,7,2,1,7.0,0,,0,30.5,1,29.5
+cust-00467,donna daniels,hannahburns@example.net,uk,saas,paid search,enterprise,priority,2022-02-22,1044,1,2.0,641.04,5,18,1,17,7.0,0,,0,34.8,0,49.33
+cust-00468,stephanie bennett,robertsonstacy@example.org,us,saas,referral,basic,priority,2024-06-22,193,1,10.0,33.63,5,3,1,12,9.0,0,,0,6.4,0,30.83
+cust-00469,jessica davis,marienguyen@example.net,germany,other,social,pro,priority,2021-11-23,1135,12,5.0,90.72,3,9,0,3,2.0,0,,0,37.8,1,22.5
+cust-00470,jason smith,april64@example.org,germany,other,organic,pro,email,2024-11-07,55,24,5.0,82.54,9,5,0,43,7.0,0,,0,1.8,1,36.5
+cust-00471,john smith,jacobszachary@example.com,us,other,organic,basic,priority,2021-01-18,1444,12,100.0,29.75,9,13,1,10,9.0,0,,0,48.1,1,52.5
+cust-00472,joseph howard,villegasangela@example.net,brazil,unknown,social,pro,email,2024-11-17,45,24,5.0,127.01,7,16,2,28,10.0,0,,0,1.5,1,55.67
+cust-00473,gina smith,charlenemay@example.org,india,saas,referral,pro,,2021-03-05,1398,12,50.0,81.57,16,16,1,23,7.0,0,,0,46.6,1,64.67
+cust-00474,trevor walters,lancelittle@example.com,canada,retail,referral,basic,priority,2024-07-25,160,12,5.0,33.14,12,12,2,4,7.0,0,,0,5.3,1,52.0
+cust-00475,dr. debra simmons,mikayla48@example.org,germany,finance,social,basic,,2023-02-10,691,12,1.0,34.8,10,18,0,9,7.0,0,,0,23.0,1,57.67
+cust-00476,sarah thornton,christopherrhodes@example.org,india,healthcare,social,pro,email,2024-12-20,12,1,25.0,100.94,9,11,0,6,7.0,0,,0,0.4,0,45.5
+cust-00477,angela aguilar,kellyallen@example.com,us,healthcare,email,pro,email,2021-04-18,1354,1,5.0,98.05,5,17,0,14,7.0,0,,0,45.1,0,47.83
+cust-00478,john roberts,brittanydeleon@example.org,australia,retail,paid search,pro,priority,2023-03-20,653,1,2.0,89.1,9,7,2,10,6.0,0,,0,21.8,0,37.5
+cust-00479,michelle miles,bryantjustin@example.com,us,finance,paid search,pro,priority,2024-11-16,46,1,2.0,113.76,6,15,2,18,0.0,0,,0,1.5,0,32.5
+cust-00480,taylor stevens,golson@example.org,australia,finance,paid search,basic,email,2023-02-03,698,12,10.0,23.61,13,6,0,0,6.0,0,,0,23.3,1,42.67
+cust-00481,michael george,patrickmitchell@example.org,us,saas,organic,pro,priority,2023-07-08,543,12,10.0,91.85,8,6,0,13,8.0,0,,0,18.1,1,38.33
+cust-00482,charlotte mccarthy,robertsonpamela@example.org,india,healthcare,referral,free,email,2023-10-13,446,1,100.0,0.0,17,18,2,4,8.0,1,2024-09-30,0,14.9,0,71.33
+cust-00483,jason perkins,dennisfuller@example.org,brazil,finance,organic,basic,email,2022-10-26,798,24,50.0,30.8,3,19,0,3,0.0,0,,0,26.6,1,33.5
+cust-00484,joshua price,dmartinez@example.com,us,finance,email,free,priority,2023-07-06,545,12,2.0,0.0,2,19,2,19,9.0,1,2024-01-22,0,18.2,1,49.83
+cust-00485,anna brown,tara76@example.net,germany,saas,referral,basic,priority,2023-05-04,608,12,5.0,30.45,5,2,0,1,7.0,0,,0,20.3,1,25.33
+cust-00486,hannah walsh,robert34@example.com,brazil,finance,referral,basic,dedicated,2024-08-08,146,24,1.0,26.46,4,3,2,3,7.0,0,,0,4.9,1,25.17
+cust-00487,brian lopez,ghiggins@example.org,germany,saas,paid search,basic,,2021-03-08,1395,1,1.0,26.43,11,14,1,2,7.0,0,,0,46.5,0,53.33
+cust-00488,melissa willis,melanietapia@example.net,india,retail,organic,pro,priority,2022-02-15,1051,12,1.0,119.55,9,4,1,6,7.0,0,,0,35.0,1,35.0
+cust-00489,vincent jenkins,lynnsandra@example.org,france,education,organic,basic,email,2024-10-19,74,1,10.0,37.92,8,17,1,4,8.0,0,,0,2.5,0,54.83
+cust-00490,thomas campbell,thomasjonathan@example.com,uk,finance,paid search,basic,dedicated,2024-07-23,162,12,1.0,29.07,9,6,0,15,7.0,0,,0,5.4,1,38.0
+cust-00491,tina tyler,qhowell@example.net,us,retail,organic,free,,2022-10-28,796,24,5.0,0.0,4,19,1,14,8.0,0,,0,26.5,1,51.17
+cust-00492,nicholas sampson,obrienheidi@example.net,us,finance,referral,basic,priority,2023-06-25,556,12,2.0,24.36,5,9,1,4,7.0,0,,0,18.5,1,35.83
+cust-00493,ashley gonzalez,kennethsmith@example.org,australia,finance,social,free,email,2022-02-09,1057,1,2.0,0.0,5,4,1,6,7.0,0,,0,35.2,0,28.33
+cust-00494,jeremy mata,cindy29@example.net,uk,education,social,free,email,2021-10-02,1187,1,100.0,0.0,11,7,1,2,7.0,0,,0,39.6,0,42.83
+cust-00495,joanne melendez,westsavannah@example.com,germany,finance,referral,pro,email,2022-11-08,785,1,500.0,77.61,18,4,2,13,6.0,0,,0,26.2,0,48.0
+cust-00496,christopher johnson,victoriabishop@example.com,germany,finance,organic,pro,email,2022-05-31,946,12,10.0,104.91,10,11,2,6,4.0,1,2024-02-06,0,31.5,1,41.17
+cust-00497,john christian,dianaroth@example.com,france,healthcare,social,pro,email,2023-05-03,609,1,10.0,111.44,11,2,2,1,7.0,0,,0,20.3,0,35.33
+cust-00498,madison sanchez phd,timothystewart@example.org,india,saas,social,basic,priority,2021-04-24,1348,1,10.0,33.79,22,10,1,1,7.0,0,,0,44.9,0,65.67
+cust-00499,marcus bryant,choitara@example.com,brazil,unknown,organic,basic,email,2024-11-23,39,12,25.0,38.04,12,6,1,4,9.0,0,,0,1.3,1,47.0
+cust-00500,george hamilton,salashannah@example.net,uk,healthcare,referral,pro,email,2024-12-10,22,1,25.0,93.55,3,8,1,16,7.0,0,,0,0.7,0,31.0
+cust-00501,megan chavez,ortiztim@example.com,india,finance,organic,basic,email,2023-10-17,442,12,1.0,23.72,5,15,1,0,7.0,0,,0,14.7,1,44.83
+cust-00502,carl quinn,ashleyfisher@example.net,australia,healthcare,social,basic,,2023-02-22,679,1,2.0,27.72,4,13,1,3,10.0,0,,0,22.6,0,46.17
+cust-00503,nicole hicks,trujillokimberly@example.org,france,retail,email,free,,2022-03-28,1010,1,5.0,0.0,10,2,1,2,10.0,0,,0,33.7,0,39.67
+cust-00504,courtney gonzales,piercejohn@example.com,brazil,saas,organic,basic,email,2024-04-03,273,1,5.0,39.34,3,1,0,37,5.0,0,,0,9.1,0,16.5
+cust-00505,michael wong,owensbecky@example.org,us,healthcare,social,basic,email,2023-09-27,462,24,2.0,22.01,3,15,2,14,9.0,0,,0,15.4,1,45.5
+cust-00506,latoya carpenter,usandoval@example.org,us,retail,referral,basic,,2021-08-26,1224,12,25.0,35.01,13,7,0,3,6.0,0,,0,40.8,1,44.17
+cust-00507,andrea johnson,falexander@example.net,india,finance,email,basic,email,2024-08-22,132,1,5.0,29.9,0,18,0,2,1.0,0,,0,4.4,0,29.0
+cust-00508,brian arias,griffinanthony@example.com,uk,saas,paid search,basic,email,2024-04-15,261,12,1.0,33.19,7,10,2,23,7.0,0,,0,8.7,1,40.67
+cust-00509,jennifer paul,julierobinson@example.com,india,finance,social,pro,email,2024-10-18,75,12,2.0,95.75,5,15,1,2,10.0,0,,0,2.5,1,50.83
+cust-00510,stephanie owens,melissa74@example.net,india,other,organic,pro,email,2023-11-26,402,1,10.0,84.91,6,5,0,69,7.0,0,,0,13.4,0,31.5
+cust-00511,angela lane dvm,kshields@example.net,us,saas,paid search,pro,,2023-06-15,566,12,1.0,118.99,7,11,3,3,3.0,0,,0,18.9,1,34.17
+cust-00512,jennifer valentine,sarah15@example.com,india,healthcare,organic,pro,dedicated,2022-09-03,851,1,5.0,112.93,10,8,1,1,8.0,0,,0,28.4,0,44.67
+cust-00513,elizabeth powers,gfrench@example.org,uk,saas,email,enterprise,priority,2024-09-23,100,1,25.0,554.92,11,8,1,14,9.0,0,,0,3.3,0,48.33
+cust-00514,robert hebert,meredith33@example.net,germany,finance,social,free,priority,2024-06-18,197,12,5.0,0.0,7,6,3,11,6.0,1,2024-11-07,0,6.6,1,32.67
+cust-00515,randy johnson md,bmay@example.net,france,finance,social,free,,2021-03-08,1395,1,50.0,0.0,3,15,1,103,7.0,0,,0,46.5,0,41.5
+cust-00516,nicholas taylor,tmedina@example.org,brazil,healthcare,email,free,priority,2021-02-08,1423,24,25.0,0.0,13,15,2,19,7.0,1,2022-12-05,0,47.4,1,58.17
+cust-00517,deanna wong,lcox@example.com,us,healthcare,organic,pro,priority,2022-07-04,912,1,50.0,73.59,8,5,2,6,4.0,1,2022-10-13,0,30.4,0,28.83
+cust-00518,anthony palmer,eric48@example.net,germany,unknown,paid search,pro,priority,2024-03-29,278,12,1.0,114.1,7,13,3,13,8.0,0,,0,9.3,1,47.17
+cust-00519,cynthia rice,dixonmindy@example.org,canada,saas,organic,free,,2024-12-12,20,1,1.0,0.0,3,14,0,20,7.0,0,,0,0.7,0,40.0
+cust-00520,michelle herring,gberry@example.com,canada,saas,organic,enterprise,email,2021-08-08,1242,12,2.0,440.04,8,11,1,8,6.0,0,,0,41.4,1,41.83
+cust-00521,ryan camacho,karen17@example.com,canada,education,organic,free,priority,2023-05-18,594,1,5.0,0.0,3,12,2,3,7.0,1,2024-07-16,0,19.8,0,37.0
+cust-00522,mark parks,georgesarah@example.org,us,finance,paid search,enterprise,email,2022-07-11,905,24,5.0,576.34,5,1,1,2,8.0,0,,0,30.2,1,25.83
+cust-00523,mr. blake webster,martinezmegan@example.org,us,other,organic,basic,email,2024-11-17,45,1,25.0,24.91,7,3,0,4,7.0,0,,0,1.5,0,30.17
+cust-00524,james manning,carrolldeanna@example.org,uk,finance,organic,free,email,2024-05-14,232,12,100.0,0.0,2,8,0,22,6.0,0,,0,7.7,1,27.33
+cust-00525,nicolas peterson,ryan16@example.org,india,education,organic,basic,email,2024-05-08,238,12,50.0,26.94,9,12,5,5,7.0,0,,0,7.9,1,47.0
+cust-00526,kathryn calderon,theresaescobar@example.org,us,healthcare,organic,basic,,2022-11-16,777,12,5.0,25.31,7,15,2,4,3.0,1,2023-02-10,0,25.9,1,40.17
+cust-00527,james morales,noblebenjamin@example.com,us,unknown,email,basic,email,2022-08-29,856,1,10.0,20.86,8,3,1,19,9.0,0,,0,28.5,0,35.83
+cust-00528,nicole carter,justinturner@example.net,brazil,other,social,basic,,2022-02-04,1062,12,2.0,39.11,5,8,3,0,7.0,0,,0,35.4,1,34.33
+cust-00529,cindy strong,ybarnes@example.com,us,finance,email,pro,email,2021-03-24,1379,1,5.0,120.25,8,19,0,10,6.0,0,,0,46.0,0,53.83
+cust-00530,brooke green,kmercado@example.org,brazil,saas,paid search,basic,email,2024-06-16,199,12,50.0,25.1,14,6,1,24,7.0,0,,0,6.6,1,46.33
+cust-00531,mary williams,erikalong@example.com,canada,retail,organic,basic,email,2024-04-01,275,12,1.0,30.36,6,18,1,6,3.0,0,,0,9.2,1,43.0
+cust-00532,jennifer smith,elaine90@example.com,india,saas,social,pro,,2024-12-30,2,24,5.0,103.62,4,11,1,3,10.0,0,,0,0.1,1,43.17
+cust-00533,valerie harris,aliciagray@example.com,us,retail,paid search,pro,priority,2024-12-26,6,12,50.0,89.99,18,12,0,8,7.0,0,,0,0.2,1,62.0
+cust-00534,anthony jackson,stevenwalker@example.com,us,retail,organic,basic,priority,2023-03-22,651,1,1.0,24.91,12,2,1,15,8.0,0,,0,21.7,0,39.0
+cust-00535,norma walker,curtis61@example.net,australia,finance,organic,basic,,2024-01-28,339,12,500.0,34.46,4,5,1,8,2.0,0,,0,11.3,1,18.17
+cust-00536,malik cisneros,sstephens@example.net,india,finance,organic,free,,2024-10-11,82,1,1.0,0.0,4,4,2,0,8.0,0,,0,2.7,0,28.67
+cust-00537,eric stark,ufox@example.net,australia,healthcare,organic,free,,2024-05-25,221,1,50.0,0.0,7,9,3,0,10.0,0,,0,7.4,0,45.17
+cust-00538,haley rivera,carpenterlinda@example.org,us,finance,paid search,pro,priority,2021-12-28,1100,1,5.0,106.41,15,13,3,15,5.0,0,,0,36.7,0,54.5
+cust-00539,nancy haynes,adamsanders@example.net,australia,saas,referral,free,email,2022-10-20,804,24,1.0,0.0,6,13,3,6,7.0,0,,0,26.8,1,43.5
+cust-00540,leslie salinas,sschneider@example.org,australia,saas,organic,basic,email,2021-07-08,1273,12,1.0,41.94,11,15,0,18,10.0,0,,0,42.4,1,60.83
+cust-00541,benjamin page,lucas16@example.net,canada,saas,organic,pro,,2024-10-24,69,1,10.0,97.62,2,2,0,12,8.0,1,2024-11-26,0,2.3,0,22.33
+cust-00542,lisa petersen,melissaroberts@example.org,australia,healthcare,social,free,email,2023-06-05,576,12,50.0,0.0,5,13,1,10,1.0,1,2023-10-20,0,19.2,1,29.83
+cust-00543,thomas jensen,mariaramirez@example.net,india,saas,organic,basic,priority,2021-11-30,1128,1,10.0,26.95,7,7,0,27,7.0,0,,0,37.6,0,36.17
+cust-00544,joel morris,clarkeleah@example.com,france,retail,paid search,basic,priority,2023-09-08,481,1,50.0,32.92,7,17,0,0,2.0,0,,0,16.0,0,41.17
+cust-00545,amy beard,joann25@example.com,us,healthcare,social,enterprise,email,2023-06-22,559,1,25.0,414.62,10,8,1,2,9.0,0,,0,18.6,0,46.67
+cust-00546,renee peterson,peggy06@example.com,germany,education,organic,basic,,2022-06-07,939,12,1.0,22.69,3,18,3,11,8.0,0,,0,31.3,1,48.0
+cust-00547,mark robbins,tburton@example.org,us,saas,organic,pro,,2021-06-15,1296,24,10.0,80.86,3,15,1,0,10.0,0,,0,43.2,1,47.5
+cust-00548,luke dean,wigginsjonathan@example.net,uk,finance,paid search,basic,,2023-09-08,481,1,2.0,29.39,5,15,0,12,0.0,0,,0,16.0,0,30.83
+cust-00549,justin smith,david21@example.org,uk,finance,paid search,free,email,2023-01-30,702,1,5.0,0.0,11,5,2,49,6.0,1,2023-09-05,0,23.4,0,37.83
+cust-00550,anthony fuller,johnsondiana@example.net,us,education,referral,pro,,2024-02-02,334,1,1.0,101.79,6,2,0,25,7.0,0,,0,11.1,0,27.0
+cust-00551,noah allen,acortez@example.net,uk,other,social,enterprise,email,2023-01-30,702,24,2.0,656.35,4,16,2,10,6.0,0,,0,23.4,1,42.67
+cust-00552,kristen taylor,stevenhood@example.com,us,saas,organic,pro,email,2024-05-29,217,1,10.0,114.28,7,5,2,26,3.0,0,,0,7.2,0,25.17
+cust-00553,casey massey,bmclaughlin@example.com,india,saas,referral,pro,dedicated,2023-03-17,656,12,2.0,90.09,12,6,0,1,5.0,0,,0,21.9,1,39.0
+cust-00554,jose lamb,christopher76@example.com,brazil,other,paid search,pro,email,2023-03-30,643,24,10.0,89.76,2,12,0,7,9.0,0,,0,21.4,1,39.33
+cust-00555,jessica harris,nicholasrobbins@example.org,us,healthcare,organic,free,priority,2024-07-03,182,1,50.0,0.0,5,5,1,6,3.0,1,2024-12-08,0,6.1,0,21.83
+cust-00556,johnny johnson,nashpamela@example.org,brazil,finance,referral,free,priority,2022-08-13,872,12,1.0,0.0,12,8,2,4,7.0,0,,0,29.1,1,46.0
+cust-00557,james white,melissa35@example.org,germany,finance,organic,pro,,2021-07-15,1266,1,25.0,120.73,9,11,0,0,10.0,0,,0,42.2,0,51.5
+cust-00558,brian robinson,qmorris@example.com,us,finance,paid search,basic,priority,2021-02-12,1419,12,5.0,33.55,5,14,1,26,10.0,0,,0,47.3,1,49.33
+cust-00559,carrie hebert,duranjerry@example.net,us,other,organic,pro,email,2024-01-08,359,1,1.0,95.38,14,17,2,18,5.0,0,,0,12.0,0,58.83
+cust-00560,christopher booth,pamelabrandt@example.org,germany,other,paid search,enterprise,email,2023-06-25,556,24,25.0,447.66,8,10,1,12,10.0,0,,0,18.5,1,48.33
+cust-00561,tracey montgomery,zhoward@example.net,australia,finance,paid search,basic,email,2023-10-25,434,24,2.0,21.52,10,2,1,1,5.0,0,,0,14.5,1,29.67
+cust-00562,cassie garcia,ortizjeffery@example.net,canada,retail,social,free,dedicated,2021-11-07,1151,12,2.0,0.0,3,3,2,5,6.0,0,,0,38.4,1,21.5
+cust-00563,travis fuentes,haley89@example.org,us,other,organic,pro,email,2021-07-19,1262,12,1.0,81.14,10,13,1,30,7.0,0,,0,42.1,1,50.17
+cust-00564,jon walker,martinjoshua@example.com,us,saas,paid search,basic,email,2021-01-22,1440,12,5.0,28.15,6,17,1,11,9.0,0,,0,48.0,1,53.5
+cust-00565,david bartlett,jerryyoung@example.net,uk,retail,paid search,pro,dedicated,2022-05-27,950,1,5.0,85.06,8,3,2,11,9.0,0,,0,31.7,0,35.83
+cust-00566,alyssa williams,adam09@example.com,us,other,referral,basic,,2023-05-12,600,1,2.0,32.79,3,10,1,29,9.0,0,,0,20.0,0,38.0
+cust-00567,noah olson,steeleian@example.com,us,retail,referral,pro,priority,2022-07-27,889,1,5.0,93.8,6,8,2,9,5.0,0,,0,29.6,0,32.0
+cust-00568,sara henderson,amy47@example.org,us,retail,referral,free,priority,2022-10-01,823,12,25.0,0.0,5,4,1,10,7.0,0,,0,27.4,1,28.33
+cust-00569,jesse stephenson,sean38@example.net,india,saas,social,pro,priority,2024-08-13,141,12,50.0,95.68,7,13,2,5,6.0,0,,0,4.7,1,43.17
+cust-00570,eugene hanson,wellslaura@example.com,brazil,unknown,social,basic,dedicated,2022-05-24,953,24,5.0,27.44,6,7,1,5,7.0,0,,0,31.8,1,34.5
+cust-00571,christina robinson,sarah41@example.org,uk,healthcare,paid search,basic,dedicated,2023-01-21,711,12,2.0,33.29,3,7,2,13,7.0,0,,0,23.7,1,29.5
+cust-00572,elizabeth miller,amy75@example.net,india,finance,paid search,free,,2024-02-19,317,12,1.0,0.0,4,16,2,4,5.0,0,,0,10.6,1,40.67
+cust-00573,william mccormick,xconner@example.net,uk,retail,social,pro,priority,2022-08-02,883,24,50.0,69.79,6,5,1,9,9.0,0,,0,29.4,1,35.5
+cust-00574,erika mccann,jarviskyle@example.net,germany,education,email,pro,email,2023-06-28,553,24,1.0,113.68,11,17,3,3,7.0,0,,0,18.4,1,57.83
+cust-00575,rachel rodriguez,rmoon@example.org,us,education,social,free,email,2024-06-13,202,12,5.0,0.0,12,10,0,2,8.0,1,2024-11-06,0,6.7,1,51.0
+cust-00576,joshua estes,qorr@example.org,canada,retail,paid search,free,,2024-10-18,75,1,5.0,0.0,17,4,0,7,7.0,0,,0,2.5,0,48.33
+cust-00577,christopher brown md,browntracy@example.org,brazil,unknown,organic,free,priority,2021-08-03,1247,12,25.0,0.0,10,14,1,2,8.0,1,2022-12-17,0,41.6,1,53.67
+cust-00578,david matthews,csingleton@example.net,france,saas,paid search,pro,dedicated,2024-09-14,109,12,5.0,99.43,10,5,1,27,8.0,0,,0,3.6,1,40.17
+cust-00579,krista carr,kennethmarquez@example.org,uk,other,referral,pro,dedicated,2022-12-20,743,12,1.0,96.22,2,2,3,4,7.0,0,,0,24.8,1,20.33
+cust-00580,krista clark,antonio79@example.org,canada,finance,paid search,basic,email,2022-01-13,1084,24,5.0,35.17,5,14,1,10,4.0,1,2024-12-09,0,36.1,1,37.33
+cust-00581,dr. melissa wallace,loriramirez@example.com,us,other,paid search,free,,2022-11-02,791,24,10.0,0.0,6,18,0,3,6.0,0,,0,26.4,1,49.0
+cust-00582,michelle king phd,jeffersonnichole@example.org,india,retail,social,basic,email,2024-12-01,31,1,10.0,29.94,6,11,2,3,10.0,0,,0,1.0,0,46.5
+cust-00583,gina randolph,thomas82@example.net,germany,education,paid search,basic,priority,2022-12-21,742,1,5.0,25.72,9,16,0,5,10.0,0,,0,24.7,0,59.0
+cust-00584,karen zimmerman,williamharrell@example.net,uk,education,social,basic,priority,2022-04-25,982,1,25.0,27.7,7,18,0,29,7.0,0,,0,32.7,0,52.67
+cust-00585,steven kirk,jennifer68@example.org,france,finance,paid search,enterprise,email,2023-07-14,537,1,5.0,424.74,4,16,2,5,3.0,0,,0,17.9,0,36.67
+cust-00586,william jones,liubriana@example.net,france,other,paid search,free,,2021-12-17,1111,1,5.0,0.0,10,4,2,20,9.0,0,,0,37.0,0,40.67
+cust-00587,richard marsh,alee@example.org,us,retail,paid search,pro,email,2021-04-21,1351,24,5.0,113.36,5,1,1,2,7.0,0,,0,45.0,1,23.83
+cust-00588,nancy ramirez,alicia32@example.org,canada,saas,social,basic,email,2021-07-08,1273,12,5.0,31.7,5,14,1,0,8.0,0,,0,42.4,1,45.33
+cust-00589,shawn hayden,drakealexis@example.org,us,finance,organic,basic,dedicated,2021-07-06,1275,12,2.0,30.12,2,12,1,18,7.0,0,,0,42.5,1,35.33
+cust-00590,cynthia tran,traceyreese@example.org,canada,finance,organic,pro,email,2021-08-10,1240,1,1.0,98.88,13,10,0,9,4.0,0,,0,41.3,0,44.67
+cust-00591,michelle haynes,adampierce@example.org,india,finance,email,pro,email,2021-07-22,1259,12,5.0,93.18,12,19,1,8,0.0,0,,0,42.0,1,48.5
+cust-00592,melissa white,david00@example.org,india,saas,organic,enterprise,email,2023-07-25,526,24,5.0,518.6,8,4,2,3,7.0,0,,0,17.5,1,33.33
+cust-00593,ashley brown,sandraavery@example.org,france,healthcare,referral,free,,2021-09-23,1196,12,25.0,0.0,3,3,1,0,3.0,1,2022-08-03,0,39.9,1,15.5
+cust-00594,jeffrey hernandez,aaronprice@example.net,germany,retail,referral,free,dedicated,2022-05-20,957,1,1.0,0.0,3,4,2,7,4.0,0,,0,31.9,0,19.0
+cust-00595,megan jones,neilrogers@example.net,us,unknown,paid search,pro,email,2024-08-02,152,24,50.0,91.25,5,15,0,24,7.0,0,,0,5.1,1,44.83
+cust-00596,elizabeth diaz,laurabrown@example.org,australia,finance,referral,basic,email,2022-11-23,770,1,2.0,30.09,9,11,1,1,6.0,0,,0,25.7,0,43.5
+cust-00597,sarah carpenter md,gonzalezcaleb@example.net,us,finance,organic,basic,email,2023-09-02,487,12,5.0,31.38,11,16,1,31,5.0,0,,0,16.2,1,52.33
+cust-00598,elijah zhang,youngjohn@example.com,germany,retail,referral,free,priority,2021-09-09,1210,1,1.0,0.0,9,4,3,3,3.0,0,,0,40.3,0,27.0
+cust-00599,heather owens,cameron64@example.org,us,healthcare,paid search,free,priority,2021-10-08,1181,12,10.0,0.0,14,6,0,9,10.0,0,,0,39.4,1,52.33
+cust-00600,shari torres,robertsalyssa@example.net,us,retail,referral,pro,priority,2021-03-01,1402,1,10.0,78.63,2,8,0,0,3.0,0,,0,46.7,0,21.33
+cust-00601,john smith,maymary@example.org,france,saas,organic,free,email,2021-09-04,1215,12,50.0,0.0,8,13,3,6,6.0,0,,0,40.5,1,44.83
+cust-00602,jonathan tran,browningtammy@example.com,us,education,referral,basic,email,2022-02-11,1055,12,2.0,34.97,6,4,0,1,7.0,0,,0,35.2,1,30.0
+cust-00603,tracey turner,barryking@example.net,australia,unknown,organic,free,,2021-09-16,1203,1,2.0,0.0,7,5,0,0,7.0,0,,0,40.1,0,33.17
+cust-00604,david jones,njones@example.net,uk,retail,organic,basic,priority,2021-05-10,1332,24,10.0,26.51,9,10,0,40,6.0,0,,0,44.4,1,42.0
+cust-00605,kenneth vaughn md,hardingtravis@example.org,us,education,organic,free,,2021-06-26,1285,1,10.0,0.0,3,5,3,15,7.0,0,,0,42.8,0,26.5
+cust-00606,darren williams,powerskatherine@example.com,germany,other,organic,basic,email,2022-11-04,789,24,100.0,24.99,4,12,1,15,0.0,0,,0,26.3,1,24.67
+cust-00607,kimberly owen,timothy99@example.org,us,education,social,free,priority,2021-10-29,1160,1,2.0,0.0,4,1,2,1,7.0,0,,0,38.7,0,22.17
+cust-00608,robert jackson,wolferobert@example.com,us,saas,organic,pro,priority,2022-06-16,930,12,10.0,98.32,6,10,2,31,7.0,0,,0,31.0,1,39.0
+cust-00609,jacob miles,warrendavid@example.com,canada,other,email,free,email,2023-01-05,727,12,1.0,0.0,5,5,0,7,6.0,0,,0,24.2,1,27.83
+cust-00610,sara long,michelle07@example.net,us,retail,email,basic,email,2023-10-05,454,1,5.0,31.14,11,19,1,22,3.0,0,,0,15.1,0,52.83
+cust-00611,dale diaz,brandystrong@example.net,india,unknown,referral,pro,,2021-02-27,1404,1,1.0,96.85,0,19,0,0,6.0,0,,0,46.8,0,40.5
+cust-00612,christopher griffin,wcampbell@example.org,us,saas,organic,pro,priority,2024-03-13,294,12,10.0,96.52,6,12,1,4,7.0,0,,0,9.8,1,42.0
+cust-00613,scott burgess,sandralopez@example.com,us,healthcare,paid search,basic,priority,2023-07-06,545,12,10.0,27.35,4,16,3,66,8.0,0,,0,18.2,1,46.67
+cust-00614,phyllis williamson,tabithamckenzie@example.com,australia,saas,social,basic,,2021-04-30,1342,24,1.0,37.37,8,5,2,6,1.0,0,,0,44.7,1,22.83
+cust-00615,janice nunez,stoutstephen@example.com,uk,retail,paid search,basic,email,2024-06-29,186,1,2.0,27.63,6,17,1,26,7.0,0,,0,6.2,0,49.5
+cust-00616,belinda washington,ccraig@example.net,us,retail,organic,pro,priority,2024-09-06,117,1,5.0,118.09,17,14,4,4,5.0,0,,0,3.9,0,59.33
+cust-00617,cody moon,jenniferperez@example.com,uk,education,referral,enterprise,priority,2021-03-31,1372,12,2.0,426.96,5,12,2,8,8.0,0,,0,45.7,1,42.33
+cust-00618,patricia short,robertgarcia@example.org,us,other,social,pro,,2022-02-09,1057,12,1.0,88.19,15,13,0,23,8.0,0,,0,35.2,1,60.5
+cust-00619,beth williams,staceyhester@example.net,india,retail,social,basic,email,2024-03-23,284,24,2.0,32.07,6,14,1,11,10.0,0,,0,9.5,1,51.0
+cust-00620,kimberly morgan,andrewmccullough@example.com,uk,education,organic,pro,,2023-12-29,369,1,25.0,83.43,3,5,0,15,6.0,0,,0,12.3,0,24.5
+cust-00621,patricia hughes,carlos00@example.net,australia,education,referral,basic,,2021-09-27,1192,12,5.0,29.84,11,5,1,3,7.0,0,,0,39.7,1,39.83
+cust-00622,mary kerr,karen10@example.net,india,education,organic,free,dedicated,2021-11-02,1156,12,5.0,0.0,8,18,2,2,5.0,0,,0,38.5,1,50.33
+cust-00623,kimberly gill,fernandezphilip@example.org,uk,unknown,organic,basic,priority,2022-06-25,921,1,100.0,26.3,7,14,0,3,5.0,0,,0,30.7,0,42.67
+cust-00624,jasmine king,patricia54@example.org,india,finance,social,enterprise,priority,2022-12-09,754,12,1.0,568.13,12,18,1,8,0.0,0,,0,25.1,1,47.0
+cust-00625,jacob bauer,garrett08@example.net,uk,other,organic,free,,2023-06-22,559,1,25.0,0.0,7,1,0,19,5.0,1,2024-06-08,0,18.6,0,23.17
+cust-00626,roy mccormick,briggsomar@example.org,brazil,finance,organic,pro,priority,2022-06-23,923,12,5.0,75.83,7,7,2,5,7.0,0,,0,30.8,1,36.17
+cust-00627,robyn salas,ksalazar@example.org,us,retail,organic,free,email,2022-11-07,786,12,100.0,0.0,5,17,1,9,7.0,1,2024-09-07,0,26.2,1,47.83
+cust-00628,donald cox,edward31@example.org,canada,healthcare,social,basic,email,2023-12-28,370,1,5.0,27.63,1,3,1,19,7.0,0,,0,12.3,0,20.17
+cust-00629,rebecca gonzalez,dwayne73@example.net,germany,unknown,social,free,email,2021-02-23,1408,1,10.0,0.0,16,10,2,3,4.0,0,,0,46.9,0,49.67
+cust-00630,debra williams,vwatts@example.com,uk,healthcare,referral,basic,,2022-01-04,1093,24,1.0,29.57,6,7,1,25,7.0,0,,0,36.4,1,34.5
+cust-00631,angela roberts,andrewlee@example.com,canada,saas,social,pro,priority,2023-11-08,420,24,50.0,91.31,7,12,1,36,7.0,1,2024-10-15,0,14.0,1,43.67
+cust-00632,david roy,jennifer83@example.org,canada,retail,organic,basic,email,2024-07-31,154,24,2.0,24.36,12,15,1,0,7.0,0,,0,5.1,1,56.5
+cust-00633,vincent mccall,ylindsey@example.net,us,education,paid search,pro,,2023-01-18,714,24,5.0,119.85,12,16,0,0,5.0,0,,0,23.8,1,54.0
+cust-00634,nathan chavez,norrisjames@example.org,us,education,paid search,pro,,2023-02-16,685,1,1.0,125.81,11,8,2,1,7.0,0,,0,22.8,0,44.33
+cust-00635,anthony rodgers,dgonzales@example.com,canada,saas,organic,enterprise,,2021-06-06,1305,1,100.0,637.24,12,6,1,17,7.0,0,,0,43.5,0,43.0
+cust-00636,michelle wood,janechang@example.org,canada,other,paid search,free,,2022-10-16,808,1,10.0,0.0,10,4,1,2,7.0,1,2023-01-24,0,26.9,0,36.67
+cust-00637,ryan nash md,cookjasmine@example.org,brazil,retail,email,basic,email,2023-02-17,684,24,1.0,26.56,4,11,1,15,7.0,0,,0,22.8,1,37.17
+cust-00638,sarah wagner,andrewcaldwell@example.org,australia,finance,organic,free,priority,2021-12-21,1107,12,1.0,0.0,3,17,1,6,9.0,0,,0,36.9,1,48.5
+cust-00639,jessica miller,mclark@example.com,brazil,education,organic,enterprise,,2022-01-29,1068,12,5.0,515.71,3,2,3,21,0.0,1,2024-02-21,0,35.6,1,8.0
+cust-00640,mary long,lopezjennifer@example.net,canada,unknown,organic,enterprise,,2022-07-05,911,24,2.0,503.66,15,6,3,19,4.0,0,,0,30.4,1,42.0
+cust-00641,derek williams,eric27@example.net,us,other,organic,basic,email,2021-01-30,1432,12,2.0,23.52,5,4,2,38,7.0,1,2022-02-25,0,47.7,1,28.33
+cust-00642,kevin anderson,john38@example.com,us,retail,email,pro,priority,2022-04-16,991,1,500.0,118.12,5,3,2,3,8.0,1,2023-04-22,0,33.0,0,28.83
+cust-00643,justin lopez,donaldhamilton@example.org,australia,education,paid search,basic,email,2021-11-05,1153,1,10.0,31.16,5,7,1,3,7.0,0,,0,38.4,0,32.83
+cust-00644,kimberly suarez,mannpatricia@example.net,canada,saas,paid search,pro,email,2022-04-24,983,1,50.0,115.48,4,7,1,0,3.0,0,,0,32.8,0,23.17
+cust-00645,maria morris,kristenbauer@example.org,us,finance,social,free,email,2021-06-24,1287,1,5.0,0.0,13,16,0,6,10.0,0,,0,42.9,0,65.67
+cust-00646,joseph rangel,bruce38@example.org,uk,finance,organic,pro,email,2024-07-24,161,1,10.0,99.97,5,2,0,7,5.0,0,,0,5.4,0,21.33
+cust-00647,jacob miller,caroline61@example.org,brazil,finance,paid search,free,,2023-05-17,595,12,5.0,0.0,4,8,2,40,9.0,0,,0,19.8,1,36.67
+cust-00648,jill ramos,eddiegrant@example.org,germany,retail,paid search,pro,priority,2023-09-19,470,1,2.0,100.08,9,15,1,21,9.0,0,,0,15.7,0,55.5
+cust-00649,elizabeth bray,buckleylori@example.com,uk,other,referral,pro,email,2024-02-27,309,12,5.0,129.87,3,16,3,2,6.0,0,,0,10.3,1,41.0
+cust-00650,nicole hansen,allendaniel@example.net,germany,saas,email,pro,email,2022-12-29,734,12,5.0,77.42,7,1,1,19,9.0,0,,0,24.5,1,31.17
+cust-00651,thomas kennedy,mcleanandrea@example.org,us,saas,social,free,priority,2021-05-07,1335,24,500.0,0.0,4,10,0,2,8.0,0,,0,44.5,1,37.67
+cust-00652,amy snyder,williamsjill@example.org,uk,unknown,paid search,basic,priority,2023-02-24,677,12,5.0,37.42,12,7,2,0,9.0,0,,0,22.6,1,48.5
+cust-00653,lisa mann,marcus34@example.com,uk,unknown,social,basic,,2023-05-07,605,24,25.0,33.21,9,16,1,21,5.0,0,,0,20.2,1,49.0
+cust-00654,david king,calvarez@example.com,us,education,organic,basic,email,2023-12-25,373,1,10.0,29.12,11,10,0,44,10.0,0,,0,12.4,0,53.33
+cust-00655,hannah sparks,donald44@example.org,australia,retail,organic,free,,2022-09-23,831,1,5.0,0.0,5,12,1,1,1.0,1,2023-11-18,0,27.7,0,28.33
+cust-00656,derek nelson,nschmidt@example.org,uk,saas,organic,enterprise,,2021-07-06,1275,12,5.0,524.15,5,17,2,20,9.0,0,,0,42.5,1,51.83
+cust-00657,cindy kelley,marieblanchard@example.com,india,education,paid search,basic,priority,2022-02-19,1047,1,2.0,22.35,15,13,2,23,6.0,0,,0,34.9,0,56.5
+cust-00658,sarah montgomery,christinaliu@example.org,india,unknown,paid search,basic,priority,2022-06-15,931,12,1.0,18.11,2,12,2,1,4.0,1,2024-06-26,0,31.0,1,29.33
+cust-00659,christina hayes,jaimeherman@example.org,us,saas,referral,basic,dedicated,2023-08-02,518,1,25.0,25.5,1,15,1,3,1.0,1,2023-11-21,0,17.3,0,26.17
+cust-00660,charles sanchez,robertford@example.com,canada,finance,email,basic,email,2023-04-14,628,12,50.0,29.81,9,14,0,15,6.0,0,,0,20.9,1,48.0
+cust-00661,christian wood,oholmes@example.net,germany,healthcare,paid search,pro,,2022-06-04,942,24,2.0,75.15,10,19,1,19,6.0,0,,0,31.4,1,57.17
+cust-00662,william nelson,brittanydodson@example.org,india,finance,paid search,basic,,2024-12-11,21,1,50.0,29.75,6,19,2,5,4.0,0,,0,0.7,0,46.5
+cust-00663,rachel knox,david67@example.net,us,healthcare,organic,enterprise,priority,2023-06-04,577,24,2.0,502.53,17,14,3,2,4.0,0,,0,19.2,1,57.33
+cust-00664,anna nelson,darlenepatrick@example.org,canada,education,organic,basic,email,2021-12-13,1115,1,5.0,33.02,9,18,0,12,6.0,0,,0,37.2,0,54.0
+cust-00665,amanda wood,kellerronald@example.net,france,education,referral,enterprise,email,2021-05-29,1313,1,2.0,610.09,8,5,2,14,6.0,0,,0,43.8,0,32.83
+cust-00666,kayla reyes,schneidervincent@example.org,us,finance,paid search,pro,priority,2021-08-12,1238,12,1.0,79.72,2,6,1,8,7.0,0,,0,41.3,1,26.33
+cust-00667,brittany ochoa,annewatson@example.com,us,saas,social,free,priority,2021-12-26,1102,12,1.0,0.0,5,18,1,1,9.0,0,,0,36.7,1,53.33
+cust-00668,brian kaufman,jane04@example.net,canada,education,organic,enterprise,priority,2021-08-23,1227,12,5.0,608.24,13,14,0,22,7.0,0,,0,40.9,1,56.67
+cust-00669,angela santos,leah60@example.net,australia,finance,organic,free,,2021-09-30,1189,12,1.0,0.0,15,4,0,12,0.0,1,2022-03-04,0,39.6,1,31.0
+cust-00670,john johnson,vholt@example.org,uk,unknown,paid search,pro,priority,2022-02-21,1045,1,1.0,86.79,6,1,0,24,7.0,0,,0,34.8,0,25.5
+cust-00671,charles wells,beverlyjones@example.com,canada,retail,organic,basic,priority,2021-09-11,1208,1,1.0,31.67,8,13,1,32,8.0,0,,0,40.3,0,48.83
+cust-00672,edgar davis,bcompton@example.net,uk,other,organic,pro,email,2024-08-02,152,1,1.0,106.56,9,11,2,19,1.0,0,,0,5.1,0,33.5
+cust-00673,matthew castro,colleen81@example.com,canada,finance,referral,pro,email,2021-04-28,1344,1,1.0,106.82,4,3,2,38,6.0,0,,0,44.8,0,23.17
+cust-00674,juan harris,robert93@example.net,us,saas,organic,pro,email,2023-02-05,696,24,10.0,119.05,17,17,0,37,7.0,0,,0,23.2,1,67.83
+cust-00675,gregory perez,ihicks@example.com,india,healthcare,referral,pro,dedicated,2022-08-23,862,24,25.0,97.77,16,18,0,11,10.0,0,,0,28.7,1,73.67
+cust-00676,megan simon,jasminnelson@example.com,us,other,organic,basic,,2024-12-05,27,1,1.0,34.75,7,10,0,15,7.0,0,,0,0.9,0,40.67
+cust-00677,mark arnold,wilsonvalerie@example.net,uk,saas,organic,free,email,2021-06-13,1298,12,1.0,0.0,7,16,3,14,7.0,1,2022-01-23,0,43.3,1,49.67
+cust-00678,shawn velez,jacob38@example.net,us,other,paid search,basic,,2022-08-04,881,12,10.0,34.59,3,13,0,11,5.0,0,,0,29.4,1,34.5
+cust-00679,jacob sexton,daniel18@example.org,us,finance,social,free,priority,2024-11-16,46,1,1.0,0.0,2,12,1,0,8.0,0,,0,1.5,0,37.33
+cust-00680,robert jones,berrymary@example.com,germany,finance,paid search,pro,,2024-06-17,198,1,25.0,97.53,3,4,0,5,5.0,0,,0,6.6,0,21.0
+cust-00681,jonathan pollard,kingerica@example.net,us,retail,social,basic,,2024-04-07,269,12,1.0,25.18,14,8,1,1,6.0,0,,0,9.0,1,47.33
+cust-00682,thomas jones,weberbrittany@example.net,india,retail,organic,enterprise,email,2022-01-12,1085,12,2.0,531.0,14,12,1,4,7.0,0,,0,36.2,1,55.33
+cust-00683,christy torres,michellerogers@example.com,us,other,social,pro,dedicated,2021-09-07,1212,1,1.0,104.47,1,19,1,0,10.0,0,,0,40.4,0,50.17
+cust-00684,pamela dominguez,thomasjones@example.com,uk,retail,organic,pro,,2023-09-04,485,24,5.0,88.8,11,15,1,30,1.0,0,,0,16.2,1,42.83
+cust-00685,john mcdowell,gerald23@example.net,uk,education,referral,free,,2024-09-18,105,12,25.0,0.0,3,16,1,7,4.0,1,2024-11-03,0,3.5,1,37.0
+cust-00686,misty rodriguez,donnawagner@example.net,us,retail,referral,pro,priority,2023-03-24,649,1,1.0,121.14,2,12,5,2,8.0,1,2023-05-29,0,21.6,0,37.33
+cust-00687,clinton edwards,lauren71@example.org,us,saas,email,enterprise,email,2023-04-15,627,1,500.0,497.41,4,18,0,10,7.0,0,,0,20.9,0,47.67
+cust-00688,mallory brown,irangel@example.com,uk,saas,paid search,basic,dedicated,2022-02-13,1053,12,2.0,23.1,7,12,3,2,5.0,0,,0,35.1,1,39.67
+cust-00689,dominique hudson,lmartinez@example.net,germany,healthcare,organic,pro,,2024-01-29,338,12,50.0,81.94,8,16,1,19,7.0,0,,0,11.3,1,51.33
+cust-00690,ashley gonzales,zfitzgerald@example.com,uk,other,organic,pro,email,2021-10-01,1188,12,1.0,86.67,4,11,3,4,6.0,0,,0,39.6,1,35.17
+cust-00691,donna brown,heatheranderson@example.com,germany,retail,social,free,,2022-04-18,989,1,1.0,0.0,8,14,2,4,7.0,0,,0,33.0,0,48.33
+cust-00692,michael jackson,markmyers@example.net,france,retail,paid search,basic,,2022-09-14,840,1,10.0,28.54,6,2,3,24,9.0,0,,0,28.0,0,31.0
+cust-00693,jennifer taylor,perryjimmy@example.net,us,retail,social,basic,priority,2023-01-12,720,1,1.0,28.11,4,13,2,9,0.0,0,,0,24.0,0,26.17
+cust-00694,sarah coleman,mark38@example.com,germany,healthcare,organic,free,email,2021-12-20,1108,1,25.0,0.0,3,14,2,26,9.0,0,,0,36.9,0,44.0
+cust-00695,ann newton,michellevalencia@example.com,brazil,healthcare,paid search,basic,priority,2021-06-17,1294,12,5.0,33.82,12,6,0,6,6.0,0,,0,43.1,1,41.0
+cust-00696,melissa bowers,cameron04@example.com,germany,other,organic,free,email,2023-06-11,570,1,10.0,0.0,7,12,1,5,5.0,0,,0,19.0,0,39.67
+cust-00697,ashley alexander,holderkristina@example.org,canada,healthcare,email,free,email,2022-02-26,1040,1,1.0,0.0,3,7,2,8,7.0,1,2024-10-18,0,34.7,0,29.5
+cust-00698,jacob hampton,jsnyder@example.net,uk,unknown,referral,free,email,2023-04-29,613,1,10.0,0.0,4,4,0,0,8.0,0,,0,20.4,0,28.67
+cust-00699,stacey webster,ruth10@example.com,australia,saas,email,enterprise,dedicated,2021-08-14,1236,12,10.0,502.18,4,7,1,2,0.0,0,,0,41.2,1,17.17
+cust-00700,robin love,stephanie02@example.org,australia,other,organic,basic,email,2022-12-04,759,12,25.0,25.91,7,13,0,2,8.0,0,,0,25.3,1,47.17
+cust-00701,rachel gordon,howardalex@example.org,germany,retail,referral,enterprise,email,2023-02-17,684,12,2.0,535.9,6,11,2,20,8.0,0,,0,22.8,1,42.5
+cust-00702,robert moore,tylerbennett@example.org,brazil,saas,referral,basic,email,2021-03-17,1386,12,5.0,27.27,3,8,2,15,3.0,0,,0,46.2,1,23.0
+cust-00703,taylor beck,sharpjoseph@example.com,us,finance,paid search,basic,email,2022-05-07,970,12,100.0,32.44,5,19,2,2,3.0,0,,0,32.3,1,42.83
+cust-00704,taylor moses,michael65@example.org,us,finance,social,basic,email,2021-07-16,1265,1,50.0,25.94,6,2,0,3,4.0,0,,0,42.2,0,21.0
+cust-00705,paul moore,kimberly66@example.net,australia,healthcare,email,basic,dedicated,2021-04-03,1369,12,5.0,28.71,4,18,0,34,7.0,0,,0,45.6,1,47.67
+cust-00706,heather russo,michael72@example.com,india,healthcare,social,free,email,2024-12-16,16,1,5.0,0.0,7,10,0,1,5.0,0,,0,0.5,0,36.67
+cust-00707,krista buchanan,dudleyjohn@example.com,us,education,referral,pro,priority,2022-04-16,991,12,1.0,106.58,5,6,0,9,9.0,0,,0,33.0,1,35.33
+cust-00708,edwin sanchez,sarah80@example.org,us,saas,organic,free,,2024-03-28,279,12,100.0,0.0,5,4,1,8,7.0,1,2024-07-15,0,9.3,1,28.33
+cust-00709,brandy alexander,gloverpeter@example.com,us,education,organic,pro,priority,2022-01-07,1090,12,100.0,70.5,6,19,3,15,8.0,0,,0,36.3,1,54.5
+cust-00710,donald jackson,samuel95@example.org,us,unknown,email,pro,dedicated,2023-09-22,467,1,1.0,97.08,13,14,1,3,7.0,0,,0,15.6,0,56.67
+cust-00711,kristina young,sbrown@example.com,australia,unknown,organic,free,,2024-01-15,352,24,5.0,0.0,4,14,0,32,6.0,0,,0,11.7,1,39.67
+cust-00712,carol rivers,mclaughlincorey@example.net,germany,healthcare,referral,free,dedicated,2023-05-20,592,12,50.0,0.0,9,18,0,6,10.0,1,2023-09-26,0,19.7,1,62.0
+cust-00713,timothy brown,hernandezevan@example.org,uk,retail,referral,pro,email,2022-11-20,773,12,1.0,110.76,19,17,3,4,8.0,0,,0,25.8,1,73.17
+cust-00714,donna simmons,williamhanson@example.net,uk,education,referral,basic,dedicated,2022-08-25,860,1,1.0,27.89,4,18,1,4,7.0,0,,0,28.7,0,47.67
+cust-00715,mark morris,vcole@example.com,us,healthcare,email,free,priority,2022-05-25,952,1,100.0,0.0,13,18,1,5,8.0,0,,0,31.7,0,64.67
+cust-00716,christopher haas,mjohnson@example.org,us,retail,paid search,enterprise,email,2024-09-19,104,1,5.0,460.29,6,5,0,2,8.0,0,,0,3.5,0,33.5
+cust-00717,kenneth chambers,alee@example.com,canada,finance,paid search,free,,2024-04-27,249,1,50.0,0.0,3,9,0,31,6.0,0,,0,8.3,0,30.5
+cust-00718,alan johnson,morrissamantha@example.net,brazil,other,organic,pro,email,2024-11-09,53,12,1.0,104.04,11,1,2,2,6.0,0,,0,1.8,1,31.83
+cust-00719,rachel kirk,melindablack@example.org,india,healthcare,paid search,enterprise,,2021-07-01,1280,24,2.0,462.36,4,4,2,25,7.0,0,,0,42.7,1,26.67
+cust-00720,sarah rich,scott62@example.org,us,other,organic,free,,2023-12-04,394,1,10.0,0.0,2,7,0,6,10.0,0,,0,13.1,0,33.83
+cust-00721,daniel nguyen,kimjustin@example.com,india,retail,paid search,free,,2024-10-01,92,12,5.0,0.0,6,11,1,3,7.0,1,2024-12-09,0,3.1,1,40.5
+cust-00722,john jensen,hleonard@example.net,australia,saas,social,free,email,2021-09-22,1197,1,2.0,0.0,15,14,0,2,7.0,1,2024-04-27,0,39.9,0,60.0
+cust-00723,maria simmons,boydjillian@example.org,australia,saas,email,basic,priority,2021-04-08,1364,1,50.0,33.88,4,10,1,8,7.0,0,,0,45.5,0,35.67
+cust-00724,kayla holland,tannerellis@example.net,germany,unknown,organic,free,,2023-12-19,379,24,50.0,0.0,5,19,1,13,0.0,0,,0,12.6,1,36.83
+cust-00725,melissa colon,timothy10@example.net,uk,saas,paid search,pro,,2023-04-19,623,12,2.0,81.27,6,8,4,27,5.0,0,,0,20.8,1,32.0
+cust-00726,rhonda henderson,hgregory@example.com,uk,saas,email,free,email,2024-05-14,232,12,1.0,0.0,8,3,3,12,6.0,0,,0,7.7,1,29.83
+cust-00727,jessica gonzales,janiceflores@example.net,us,other,organic,basic,,2021-07-24,1257,1,1.0,23.82,6,8,0,7,7.0,0,,0,41.9,0,36.0
+cust-00728,michelle edwards,garypearson@example.net,us,education,organic,enterprise,,2024-03-07,300,1,5.0,391.16,11,18,5,0,7.0,0,,0,10.0,0,59.33
+cust-00729,andrew harris,michaelferguson@example.net,us,finance,organic,pro,,2021-10-22,1167,1,5.0,93.29,8,5,1,29,10.0,0,,0,38.9,0,40.83
+cust-00730,jeffrey collier,garciajuan@example.net,germany,saas,referral,pro,dedicated,2021-08-27,1223,1,5.0,79.96,4,11,2,27,7.0,0,,0,40.8,0,37.17
+cust-00731,deborah cross,ashleychase@example.org,australia,saas,organic,basic,priority,2021-08-28,1222,1,5.0,34.45,11,9,2,5,7.0,0,,0,40.7,0,45.83
+cust-00732,mia hernandez,qcruz@example.org,germany,saas,email,pro,email,2024-04-04,272,12,50.0,107.99,10,19,0,0,7.0,0,,0,9.1,1,59.17
+cust-00733,christopher clark,lstone@example.org,us,finance,paid search,basic,priority,2023-08-30,490,1,2.0,19.16,7,12,1,15,5.0,0,,0,16.3,0,39.67
+cust-00734,james martin,sethfleming@example.com,brazil,other,paid search,basic,email,2023-02-03,698,1,10.0,28.89,9,5,1,18,8.0,0,,0,23.3,0,38.5
+cust-00735,lori simmons,james78@example.net,brazil,healthcare,organic,free,priority,2022-06-08,938,12,25.0,0.0,1,16,1,9,9.0,1,2024-05-21,0,31.3,1,43.67
+cust-00736,cynthia lopez,haynesbrian@example.net,australia,saas,paid search,pro,priority,2024-07-04,181,24,10.0,91.76,8,13,0,6,8.0,0,,0,6.0,1,48.83
+cust-00737,ashley obrien,qdaniel@example.com,brazil,healthcare,referral,basic,email,2022-07-27,889,24,100.0,27.37,8,6,0,22,5.0,0,,0,29.6,1,32.33
+cust-00738,carlos ramos,igordon@example.net,germany,unknown,social,free,email,2024-04-07,269,12,10.0,0.0,7,16,5,2,10.0,1,2024-10-25,0,9.0,1,55.67
+cust-00739,darren garcia,tuckerpamela@example.net,brazil,retail,social,basic,,2022-10-04,820,1,50.0,36.58,1,18,1,6,9.0,0,,0,27.3,0,46.67
+cust-00740,phillip valenzuela,christopher90@example.com,us,finance,referral,basic,email,2022-07-05,911,1,5.0,30.91,10,17,0,0,8.0,0,,0,30.4,0,58.17
+cust-00741,dawn johnson,madeline24@example.com,uk,finance,email,pro,priority,2022-11-07,786,24,5.0,100.94,9,12,1,2,6.0,0,,0,26.2,1,45.0
+cust-00742,jay mays,harrissydney@example.com,us,saas,social,pro,email,2022-03-17,1021,24,5.0,63.29,5,1,2,33,9.0,0,,0,34.0,1,27.83
+cust-00743,joyce williams,orichard@example.com,us,saas,social,pro,priority,2023-12-28,370,12,5.0,71.55,11,7,0,10,5.0,1,2024-02-13,0,12.3,1,38.83
+cust-00744,robert gross,reevesdenise@example.net,us,other,organic,free,dedicated,2023-01-04,728,1,2.0,0.0,9,14,2,19,5.0,1,2024-08-01,0,24.3,0,46.0
+cust-00745,laura rivas,wilsonjames@example.net,france,retail,organic,basic,,2021-12-06,1122,1,1.0,28.08,3,18,1,7,7.0,0,,0,37.4,0,46.0
+cust-00746,larry thompson,mwong@example.org,australia,saas,organic,basic,priority,2024-08-06,148,24,10.0,28.9,9,1,1,21,7.0,0,,0,4.9,1,30.5
+cust-00747,eric gonzalez,richard61@example.net,france,saas,referral,free,priority,2022-07-15,901,1,2.0,0.0,1,10,0,9,9.0,1,2023-10-25,0,30.0,0,34.67
+cust-00748,paul foster,samanthamartinez@example.com,us,saas,paid search,basic,dedicated,2023-03-05,668,12,10.0,34.49,10,15,0,0,8.0,0,,0,22.3,1,55.17
+cust-00749,anthony smith,rdavis@example.org,india,retail,paid search,pro,dedicated,2024-08-16,138,24,100.0,109.4,6,11,1,27,7.0,0,,0,4.6,1,40.5
+cust-00750,wesley lopez,jessica65@example.com,canada,education,social,free,priority,2023-07-01,550,12,100.0,0.0,1,4,1,1,5.0,1,2024-07-02,0,18.3,1,17.67
+cust-00751,john andrews,edavis@example.net,uk,retail,social,basic,,2021-06-20,1291,1,2.0,29.41,7,15,2,7,9.0,0,,0,43.0,0,52.17
+cust-00752,thomas williams,savannahwilliams@example.org,canada,healthcare,email,free,priority,2024-10-04,89,1,1.0,0.0,4,16,1,7,7.0,0,,0,3.0,0,44.67
+cust-00753,penny berry,yknapp@example.net,us,finance,paid search,free,,2023-07-06,545,1,10.0,0.0,13,15,0,0,9.0,0,,0,18.2,0,62.17
+cust-00754,kathryn rivas,carla15@example.net,uk,healthcare,referral,free,priority,2022-05-04,973,12,10.0,0.0,4,17,1,0,7.0,0,,0,32.4,1,46.17
+cust-00755,samantha hernandez,cheyenne27@example.org,india,education,organic,enterprise,dedicated,2021-07-23,1258,12,10.0,597.31,5,11,2,17,8.0,0,,0,41.9,1,40.83
+cust-00756,samantha cole,michaelrobinson@example.net,us,education,organic,pro,email,2024-03-05,302,1,25.0,77.9,5,18,2,4,9.0,0,,0,10.1,0,53.33
+cust-00757,ellen miller,nwilliamson@example.com,germany,saas,organic,enterprise,email,2023-06-25,556,1,5.0,519.05,6,16,1,6,6.0,0,,0,18.5,0,46.0
+cust-00758,jaime fisher,bmartin@example.net,india,education,paid search,basic,email,2023-02-18,683,1,1.0,27.08,11,15,1,9,0.0,0,,0,22.8,0,40.83
+cust-00759,madison whitaker,rushroberta@example.org,canada,healthcare,paid search,free,email,2024-07-29,156,24,25.0,0.0,5,11,1,5,5.0,0,,0,5.2,1,34.83
+cust-00760,melanie reed,zperez@example.net,us,other,social,basic,email,2024-02-26,310,12,1.0,34.11,3,13,1,17,10.0,0,,0,10.3,1,44.5
+cust-00761,melinda lopez,kreid@example.com,us,healthcare,organic,basic,priority,2021-08-10,1240,1,1.0,27.11,12,18,2,25,8.0,0,,0,41.3,0,63.0
+cust-00762,benjamin mendez,dmontes@example.net,us,other,referral,pro,dedicated,2022-04-01,1006,24,25.0,108.95,7,8,1,0,8.0,0,,0,33.5,1,39.67
+cust-00763,jared williams,smithcatherine@example.com,canada,education,paid search,free,dedicated,2021-12-29,1099,12,5.0,0.0,5,9,1,12,5.0,0,,0,36.6,1,31.83
+cust-00764,lauren lopez,amy58@example.org,uk,retail,organic,basic,,2023-12-23,375,12,10.0,22.62,4,11,3,4,7.0,0,,0,12.5,1,37.17
+cust-00765,isaac stone,xgray@example.net,us,healthcare,paid search,free,priority,2021-02-18,1413,12,5.0,0.0,10,17,0,10,8.0,0,,0,47.1,1,58.17
+cust-00766,james james dds,ishannon@example.com,brazil,other,organic,basic,priority,2023-04-13,629,12,1.0,25.74,2,1,2,7,4.0,1,2024-12-05,0,21.0,1,12.83
+cust-00767,nicole ross,joshuajones@example.net,germany,education,referral,pro,email,2024-01-19,348,1,5.0,98.0,5,11,1,4,10.0,0,,0,11.6,0,44.83
+cust-00768,james matthews,masonbrent@example.com,us,saas,paid search,basic,,2024-07-04,181,12,5.0,37.0,8,7,0,1,6.0,0,,0,6.0,1,35.83
+cust-00769,kari haynes,travis38@example.org,germany,finance,organic,basic,email,2022-05-15,962,12,5.0,32.52,4,8,0,9,5.0,0,,0,32.1,1,28.67
+cust-00770,christopher lee,jacksonbrandon@example.net,canada,retail,organic,basic,dedicated,2024-04-14,262,1,10.0,31.67,12,19,4,1,6.0,0,,0,8.7,0,60.5
+cust-00771,sierra ellis,andersonjacqueline@example.com,us,saas,paid search,basic,email,2021-06-11,1300,1,25.0,29.83,7,4,1,2,7.0,0,,0,43.3,0,31.67
+cust-00772,corey mccarthy,dsimpson@example.com,us,healthcare,email,pro,priority,2024-05-20,226,1,5.0,78.45,15,4,3,48,8.0,1,2024-11-24,0,7.5,0,47.0
+cust-00773,jared alexander,adkinsjeffrey@example.com,india,retail,paid search,pro,email,2021-07-06,1275,1,50.0,114.98,3,19,0,4,5.0,0,,0,42.5,0,43.5
+cust-00774,cameron martin,amybrown@example.com,germany,education,referral,enterprise,priority,2022-08-04,881,1,50.0,319.65,6,9,2,10,9.0,0,,0,29.4,0,41.5
+cust-00775,amanda miller,singletondylan@example.org,germany,unknown,referral,pro,,2024-03-10,297,12,50.0,118.03,9,17,0,3,6.0,0,,0,9.9,1,52.5
+cust-00776,ashley ramirez,bruce97@example.org,uk,education,email,basic,email,2021-08-07,1243,1,10.0,16.34,11,18,2,24,7.0,0,,0,41.4,0,59.33
+cust-00777,christine taylor,nathan99@example.org,us,saas,social,pro,email,2021-12-01,1127,1,2.0,80.65,7,1,0,3,7.0,0,,0,37.6,0,27.17
+cust-00778,kendra weber,hwatkins@example.com,us,retail,referral,basic,,2023-11-21,407,24,5.0,28.29,13,14,1,5,7.0,0,,0,13.6,1,56.67
+cust-00779,rita harris,robertsjessica@example.com,uk,retail,referral,basic,priority,2023-11-18,410,12,10.0,29.68,3,4,3,11,5.0,0,,0,13.7,1,21.0
+cust-00780,robert butler,rebecca98@example.org,us,unknown,social,pro,,2023-07-26,525,1,2.0,112.23,17,10,2,24,10.0,0,,0,17.5,0,63.33
+cust-00781,ian moore,miranda44@example.net,us,saas,paid search,free,priority,2023-10-11,448,1,25.0,0.0,7,14,0,20,8.0,0,,0,14.9,0,48.67
+cust-00782,chad blair,isaiah23@example.com,india,unknown,paid search,enterprise,email,2023-03-04,669,12,5.0,461.82,11,7,0,3,0.0,0,,0,22.3,1,28.83
+cust-00783,stephen burton,tayloranita@example.com,brazil,finance,organic,basic,email,2022-01-03,1094,12,1.0,34.98,0,12,2,21,6.0,0,,0,36.5,1,30.0
+cust-00784,shirley sandoval,meadowsrita@example.com,australia,retail,social,pro,,2022-05-20,957,1,10.0,88.44,4,16,1,14,6.0,0,,0,31.9,0,42.67
+cust-00785,michelle white,dennis38@example.net,india,healthcare,social,pro,,2021-09-23,1196,24,1.0,124.39,6,5,1,55,9.0,0,,0,39.9,1,35.5
+cust-00786,steven frey,jonathanvalencia@example.com,us,retail,organic,pro,dedicated,2024-08-19,135,12,1.0,101.16,8,11,2,32,7.0,0,,0,4.5,1,43.83
+cust-00787,bryan walker,gtucker@example.com,brazil,other,referral,pro,email,2023-05-02,610,24,50.0,58.45,9,4,1,9,6.0,0,,0,20.3,1,33.0
+cust-00788,john white,staffordpaula@example.org,us,other,paid search,pro,priority,2022-08-09,876,1,5.0,104.09,6,13,3,16,1.0,0,,0,29.2,0,31.5
+cust-00789,melissa adams,austin25@example.org,brazil,healthcare,organic,free,dedicated,2022-11-06,787,1,5.0,0.0,4,8,1,10,5.0,0,,0,26.2,0,28.67
+cust-00790,mark norman,harrisonroberto@example.org,brazil,unknown,email,basic,,2024-10-15,78,1,2.0,25.69,15,7,3,10,8.0,0,,0,2.6,0,51.5
+cust-00791,stacey harris,vclay@example.net,canada,saas,organic,free,email,2021-08-12,1238,1,5.0,0.0,10,11,0,1,8.0,1,2024-06-04,0,41.3,0,49.17
+cust-00792,sharon hayes,jtaylor@example.org,brazil,other,organic,pro,priority,2023-05-06,606,1,1.0,111.11,16,11,1,0,2.0,1,2023-09-17,0,20.2,0,47.17
+cust-00793,amanda washington,josborne@example.net,france,saas,referral,basic,dedicated,2023-01-09,723,1,25.0,24.72,13,17,0,0,2.0,0,,0,24.1,0,51.17
+cust-00794,jason melton,kirkmartha@example.net,us,retail,referral,pro,dedicated,2023-06-12,569,12,25.0,103.25,7,14,2,40,6.0,0,,0,19.0,1,44.67
+cust-00795,preston smith,michaelsandoval@example.org,uk,retail,organic,free,email,2021-01-27,1435,1,50.0,0.0,4,2,1,1,7.0,0,,0,47.8,0,23.67
+cust-00796,mary walsh,patricia20@example.com,france,retail,referral,free,priority,2024-06-27,188,1,1.0,0.0,13,8,0,0,9.0,0,,0,6.3,0,51.67
+cust-00797,jeffery simpson,mckaykristopher@example.org,us,unknown,paid search,pro,,2024-09-22,101,24,10.0,99.29,12,2,0,4,0.0,1,2024-11-24,0,3.4,1,23.0
+cust-00798,paul young,adrianromero@example.org,france,education,organic,free,dedicated,2023-04-06,636,1,25.0,0.0,9,15,3,10,5.0,0,,0,21.2,0,47.5
+cust-00799,laura anderson,montoyashawn@example.net,brazil,saas,organic,free,dedicated,2023-10-15,444,12,1.0,0.0,2,5,2,35,6.0,1,2024-12-11,0,14.8,1,22.83
+cust-00800,marcus miller,evansjoseph@example.org,us,finance,referral,free,,2024-09-08,115,12,1.0,0.0,13,6,2,14,10.0,0,,0,3.8,1,50.67
+cust-00801,jacqueline abbott,simskathleen@example.net,australia,saas,organic,enterprise,email,2023-10-30,429,24,5.0,506.04,4,17,2,3,7.0,0,,0,14.3,1,46.17
+cust-00802,steven davis,nrobbins@example.com,india,saas,email,pro,,2021-08-11,1239,24,25.0,117.83,3,8,1,33,5.0,0,,0,41.3,1,27.0
+cust-00803,barbara ellis,nathanobrien@example.org,brazil,other,social,basic,email,2023-04-22,620,12,5.0,28.2,4,19,2,0,6.0,0,,0,20.7,1,47.17
+cust-00804,traci thompson,melanieyoung@example.net,brazil,saas,email,basic,priority,2023-06-05,576,24,1.0,41.5,7,5,0,46,6.0,0,,0,19.2,1,31.17
+cust-00805,sara perez,shannoncolon@example.org,germany,education,organic,basic,email,2022-09-12,842,12,5.0,23.72,12,19,2,0,8.0,0,,0,28.1,1,64.5
+cust-00806,madison gordon,scotthartman@example.com,brazil,healthcare,email,pro,,2023-12-12,386,12,5.0,109.44,5,14,0,16,0.0,0,,0,12.9,1,29.33
+cust-00807,jesse lambert,griffinjoshua@example.org,australia,saas,paid search,pro,email,2024-09-26,97,1,5.0,91.25,9,10,1,0,7.0,0,,0,3.2,0,44.0
+cust-00808,terri aguilar,wolferyan@example.com,us,other,paid search,free,dedicated,2024-09-13,110,12,5.0,0.0,6,13,0,32,8.0,0,,0,3.7,1,45.5
+cust-00809,kathryn pearson,rhondadrake@example.org,germany,retail,organic,free,email,2022-10-21,803,12,10.0,0.0,12,5,2,1,5.0,1,2024-02-13,0,26.8,1,37.5
+cust-00810,curtis green,danielledavis@example.org,canada,education,organic,free,email,2021-06-15,1296,12,10.0,0.0,3,7,0,0,7.0,0,,0,43.2,1,29.5
+cust-00811,sherry finley,ernestsuarez@example.com,us,saas,referral,pro,,2024-12-08,24,12,25.0,72.74,8,10,1,26,6.0,0,,0,0.8,1,40.33
+cust-00812,michael mckee,zjones@example.com,canada,education,paid search,pro,dedicated,2024-05-09,237,1,5.0,96.34,11,11,1,1,8.0,0,,0,7.9,0,50.83
+cust-00813,bryan anderson,angelahall@example.net,canada,saas,organic,basic,priority,2021-07-02,1279,1,1.0,27.17,4,3,0,19,1.0,0,,0,42.6,0,13.17
+cust-00814,mary hamilton,ztaylor@example.org,us,healthcare,referral,free,email,2024-09-06,117,12,5.0,0.0,10,13,2,16,10.0,0,,0,3.9,1,56.17
+cust-00815,donald monroe,yallen@example.net,france,education,organic,free,,2024-06-24,191,1,1.0,0.0,4,2,1,10,4.0,1,2024-08-09,0,6.4,0,17.67
+cust-00816,elizabeth long,carolyn05@example.net,australia,other,referral,enterprise,,2023-01-28,704,1,5.0,420.54,5,4,2,5,7.0,0,,0,23.5,0,28.33
+cust-00817,mrs. ashley ward,boylescott@example.net,germany,other,paid search,basic,,2023-05-14,598,12,100.0,26.54,1,3,1,29,9.0,0,,0,19.9,1,24.17
+cust-00818,jose george,danielweber@example.net,us,education,social,pro,email,2022-08-06,879,24,10.0,107.73,6,15,1,24,7.0,0,,0,29.3,1,46.5
+cust-00819,robert escobar,johnfoster@example.com,us,other,social,pro,dedicated,2021-03-21,1382,1,1.0,98.76,10,4,0,6,2.0,0,,0,46.1,0,26.67
+cust-00820,seth patterson,glin@example.net,uk,saas,paid search,basic,email,2022-05-05,972,12,2.0,31.03,17,4,0,3,9.0,0,,0,32.4,1,52.33
+cust-00821,barbara swanson,robertguerrero@example.net,brazil,unknown,paid search,free,priority,2024-03-18,289,1,1.0,0.0,5,15,0,3,5.0,0,,0,9.6,0,40.83
+cust-00822,walter ibarra,omoody@example.net,us,unknown,paid search,free,email,2021-01-07,1455,1,1.0,0.0,4,6,1,2,8.0,0,,0,48.5,0,31.67
+cust-00823,albert clark,elizabethdean@example.org,canada,retail,social,pro,priority,2022-05-02,975,1,5.0,94.79,4,5,1,9,7.0,0,,0,32.5,0,28.17
+cust-00824,jennifer colon,krogers@example.com,us,retail,paid search,pro,priority,2022-08-05,880,12,2.0,77.96,14,12,1,24,6.0,0,,0,29.3,1,53.33
+cust-00825,thomas shelton,jgomez@example.org,uk,healthcare,organic,pro,,2023-02-24,677,12,2.0,97.38,13,7,1,17,7.0,0,,0,22.6,1,46.17
+cust-00826,elizabeth garcia,vjohnson@example.org,india,saas,organic,basic,email,2024-09-04,119,1,1.0,34.24,10,3,0,19,7.0,0,,0,4.0,0,35.17
+cust-00827,christopher benitez,njackson@example.com,canada,finance,paid search,free,email,2022-05-21,956,12,10.0,0.0,1,7,2,7,7.0,0,,0,31.9,1,26.17
+cust-00828,kim garcia,summersjerry@example.org,us,saas,paid search,enterprise,,2022-05-22,955,12,10.0,481.91,8,12,0,4,7.0,0,,0,31.8,1,45.33
+cust-00829,kevin flowers,kgarcia@example.net,uk,retail,social,pro,email,2023-12-13,385,1,25.0,94.46,4,15,0,16,10.0,0,,0,12.8,0,49.17
+cust-00830,robert byrd,karenmcbride@example.net,us,healthcare,organic,basic,email,2022-10-23,801,12,1.0,28.87,10,19,0,18,7.0,0,,0,26.7,1,59.17
+cust-00831,bianca jordan,matthew60@example.com,germany,education,paid search,enterprise,dedicated,2021-11-24,1134,1,25.0,576.8,6,6,1,14,7.0,0,,0,37.8,0,33.0
+cust-00832,rick potter,hayesjocelyn@example.com,canada,finance,social,pro,email,2022-10-23,801,1,10.0,121.07,9,8,0,0,8.0,0,,0,26.7,0,43.0
+cust-00833,ashley braun,bryan45@example.net,us,finance,social,basic,priority,2021-07-25,1256,12,2.0,29.16,8,6,1,10,1.0,0,,0,41.9,1,24.33
+cust-00834,timothy johnson,xolson@example.net,us,saas,paid search,pro,email,2021-09-15,1204,12,5.0,109.61,12,3,1,5,7.0,0,,0,40.1,1,38.5
+cust-00835,james johnson,mcastaneda@example.net,uk,healthcare,paid search,pro,priority,2022-12-29,734,12,5.0,121.13,11,5,1,2,7.0,0,,0,24.5,1,39.83
+cust-00836,ray johnson,joshua49@example.org,india,saas,paid search,pro,email,2022-09-04,850,1,5.0,96.1,9,9,2,14,5.0,0,,0,28.3,0,38.5
+cust-00837,terry delacruz,burtonkristen@example.com,brazil,retail,email,free,priority,2024-08-28,126,1,1.0,0.0,11,16,0,3,10.0,0,,0,4.2,0,62.33
+cust-00838,angela nguyen,kathleen25@example.net,us,healthcare,organic,basic,email,2022-06-14,932,12,25.0,24.01,6,16,1,29,5.0,0,,0,31.1,1,44.0
+cust-00839,john morales,xhensley@example.net,australia,saas,email,enterprise,email,2023-04-28,614,1,1.0,412.14,15,9,1,4,5.0,0,,0,20.5,0,48.5
+cust-00840,kimberly jackson,edward91@example.org,uk,retail,referral,free,email,2023-07-13,538,12,5.0,0.0,7,18,3,9,5.0,0,,0,17.9,1,48.67
+cust-00841,wayne king,roachjames@example.net,uk,other,paid search,basic,email,2021-01-20,1442,12,5.0,27.28,10,13,3,21,7.0,0,,0,48.1,1,50.17
+cust-00842,corey fields jr.,tara71@example.org,australia,other,organic,basic,,2023-08-27,493,12,5.0,27.13,2,11,2,6,6.0,0,,0,16.4,1,31.83
+cust-00843,emily wheeler,channathan@example.com,india,retail,paid search,basic,,2021-09-17,1202,1,50.0,24.1,7,10,3,21,7.0,0,,0,40.1,0,40.67
+cust-00844,molly roberts,dianapierce@example.com,brazil,saas,paid search,pro,,2024-11-04,58,24,5.0,116.34,13,10,4,15,8.0,0,,0,1.9,1,52.67
+cust-00845,charles everett,jennybrown@example.com,france,saas,organic,enterprise,priority,2021-08-06,1244,12,1.0,326.77,10,6,0,30,9.0,0,,0,41.5,1,43.67
+cust-00846,tina mccarthy,leeamber@example.org,uk,retail,referral,free,,2022-08-29,856,12,5.0,0.0,8,16,1,4,4.0,0,,0,28.5,1,45.33
+cust-00847,christina mercado,frankmichelle@example.org,australia,other,email,free,,2021-05-05,1337,12,25.0,0.0,12,12,1,1,0.0,0,,0,44.6,1,38.0
+cust-00848,mitchell aguilar,cjames@example.net,us,saas,referral,free,priority,2024-12-26,6,1,2.0,0.0,12,4,0,6,10.0,0,,0,0.2,0,46.0
+cust-00849,george richardson,murphyelijah@example.net,france,unknown,referral,pro,email,2023-01-04,728,1,10.0,94.68,8,5,1,18,0.0,0,,0,24.3,0,20.83
+cust-00850,steven green,zimmermanhenry@example.com,uk,saas,organic,pro,email,2023-05-20,592,24,500.0,102.68,9,2,0,7,7.0,0,,0,19.7,1,32.0
+cust-00851,jennifer maynard,eclark@example.org,canada,other,paid search,basic,,2021-04-08,1364,1,10.0,37.22,11,19,0,3,9.0,0,,0,45.5,0,64.83
+cust-00852,vanessa osborne,gracerodriguez@example.com,us,retail,organic,pro,dedicated,2023-12-31,367,12,1.0,75.85,3,1,2,0,10.0,0,,0,12.2,1,26.5
+cust-00853,elaine collins,hannahmoody@example.org,us,education,referral,pro,priority,2021-11-03,1155,12,25.0,122.91,6,4,0,4,6.0,0,,0,38.5,1,28.0
+cust-00854,robert kent,johnny48@example.net,india,retail,email,pro,priority,2024-08-04,150,1,100.0,100.55,12,12,1,14,4.0,0,,0,5.0,0,46.0
+cust-00855,gregory hardy,jeffrey27@example.org,us,finance,referral,enterprise,email,2021-10-27,1162,12,10.0,415.86,7,2,2,1,8.0,0,,0,38.7,1,30.67
+cust-00856,michelle rocha,debbiemyers@example.com,germany,saas,organic,basic,priority,2021-10-06,1183,24,5.0,15.3,9,12,1,5,8.0,0,,0,39.4,1,49.0
+cust-00857,wendy gonzalez,ericjohnson@example.org,us,saas,paid search,pro,,2021-02-23,1408,1,100.0,85.8,0,16,2,0,3.0,0,,0,46.9,0,30.0
+cust-00858,jennifer brown,bryan93@example.net,us,other,referral,basic,,2022-11-21,772,12,100.0,36.7,10,2,1,15,9.0,0,,0,25.7,1,37.67
+cust-00859,gordon moran jr.,hbarton@example.org,us,other,paid search,pro,,2023-04-05,637,12,100.0,95.76,6,17,1,25,4.0,0,,0,21.2,1,43.5
+cust-00860,michelle kim,emmathomas@example.net,us,other,social,pro,email,2021-04-06,1366,12,5.0,81.33,7,2,2,10,7.0,0,,0,45.5,1,28.67
+cust-00861,scott diaz,christopherhayden@example.com,india,finance,social,pro,email,2024-02-07,329,1,5.0,121.05,5,4,0,0,9.0,0,,0,11.0,0,32.33
+cust-00862,molly nguyen,patrickmoore@example.net,us,education,referral,pro,email,2022-10-24,800,12,10.0,89.67,5,6,1,2,4.0,0,,0,26.7,1,25.33
+cust-00863,lance sanchez,greennicole@example.com,brazil,saas,paid search,free,,2023-02-05,696,24,1.0,0.0,6,7,0,6,5.0,0,,0,23.2,1,30.5
+cust-00864,thomas owens,susan88@example.net,france,unknown,organic,basic,email,2022-10-06,818,1,5.0,20.29,16,15,0,10,1.0,0,,0,27.3,0,51.17
+cust-00865,tyler smith,znash@example.net,uk,retail,organic,enterprise,priority,2022-08-09,876,12,25.0,373.16,7,12,3,8,3.0,0,,0,29.2,1,35.67
+cust-00866,joe spencer,karenmiller@example.com,france,finance,paid search,enterprise,email,2023-03-29,644,24,50.0,414.8,7,5,1,29,3.0,0,,0,21.5,1,25.17
+cust-00867,eric davis,bradleydiana@example.org,germany,retail,paid search,free,priority,2021-08-15,1235,12,50.0,0.0,10,14,0,33,4.0,0,,0,41.2,1,45.67
+cust-00868,jennifer martin,kevinbrown@example.org,australia,saas,referral,free,,2021-09-23,1196,12,1.0,0.0,8,16,3,1,5.0,0,,0,39.9,1,47.33
+cust-00869,sarah hawkins,djones@example.org,us,unknown,referral,free,priority,2024-06-12,203,24,5.0,0.0,6,11,2,1,9.0,0,,0,6.8,1,44.5
+cust-00870,william jacobson,markdorsey@example.net,uk,education,organic,pro,email,2024-10-13,80,1,5.0,99.88,4,12,0,5,10.0,0,,0,2.7,0,44.67
+cust-00871,jocelyn miller,jessicasalazar@example.com,india,retail,paid search,pro,,2022-06-30,916,12,5.0,112.69,6,19,1,6,7.0,0,,0,30.5,1,52.5
+cust-00872,cindy johnson,dixonjason@example.org,brazil,saas,organic,free,,2022-01-31,1066,12,1.0,0.0,2,17,1,10,7.0,0,,0,35.5,1,42.83
+cust-00873,james swanson,michael96@example.net,india,saas,organic,basic,email,2023-07-30,521,1,25.0,31.09,16,7,2,17,7.0,0,,0,17.4,0,51.17
+cust-00874,eric fritz,nguyenvalerie@example.com,uk,retail,social,pro,priority,2022-08-20,865,12,10.0,73.48,9,9,0,1,8.0,0,,0,28.8,1,44.5
+cust-00875,anna wilcox,steven50@example.com,australia,retail,organic,pro,email,2021-02-07,1424,1,50.0,86.85,1,14,1,19,8.0,0,,0,47.5,0,38.67
+cust-00876,cynthia phillips,charlespage@example.org,germany,finance,paid search,basic,email,2021-08-16,1234,1,5.0,27.11,2,12,2,11,7.0,0,,0,41.1,0,35.33
+cust-00877,donna burns,cooperchristopher@example.com,germany,finance,organic,basic,priority,2023-11-12,416,1,5.0,33.49,23,15,2,47,0.0,0,,0,13.9,0,60.83
+cust-00878,tammy ruiz,xscott@example.org,us,finance,social,basic,priority,2023-08-21,499,1,100.0,29.19,16,12,2,12,8.0,1,2024-08-28,0,16.6,0,60.67
+cust-00879,steven whitney,sandrawilson@example.com,france,retail,referral,basic,email,2021-02-09,1422,1,5.0,32.3,6,13,2,15,7.0,0,,0,47.4,0,43.5
+cust-00880,stacy meyer,gonzalezamanda@example.net,us,education,organic,basic,email,2021-11-21,1137,12,1.0,37.83,14,9,2,2,9.0,0,,0,37.9,1,54.83
+cust-00881,priscilla mason,alyssa99@example.org,uk,saas,paid search,pro,,2021-12-04,1124,1,1.0,80.61,8,7,0,17,7.0,0,,0,37.5,0,37.83
+cust-00882,katie malone,mzavala@example.org,india,healthcare,referral,pro,email,2023-09-08,481,12,25.0,131.95,13,1,1,0,7.0,0,,0,16.0,1,37.17
+cust-00883,keith white,colemanmichael@example.org,us,education,email,pro,email,2021-01-29,1433,12,2.0,110.51,7,10,2,12,8.0,0,,0,47.8,1,42.67
+cust-00884,bradley thompson,destinydavila@example.com,us,saas,organic,pro,dedicated,2021-06-01,1310,1,10.0,98.97,12,6,0,0,9.0,0,,0,43.7,0,47.0
+cust-00885,jessica walker,rodney91@example.com,us,saas,social,free,email,2024-03-13,294,24,10.0,0.0,3,15,1,1,5.0,0,,0,9.8,1,37.5
+cust-00886,kenneth jones,brandon22@example.org,brazil,other,email,basic,email,2021-09-18,1201,24,5.0,27.37,6,15,0,1,2.0,0,,0,40.0,1,36.5
+cust-00887,kevin garza,ejones@example.org,germany,retail,email,free,email,2023-08-12,508,1,5.0,0.0,12,9,3,0,6.0,0,,0,16.9,0,45.5
+cust-00888,timothy anderson dvm,uortega@example.net,uk,finance,referral,free,dedicated,2021-12-14,1114,24,25.0,0.0,5,13,2,4,4.0,0,,0,37.1,1,35.83
+cust-00889,jesse stevens,kimberly29@example.net,india,saas,referral,pro,priority,2021-05-26,1316,12,5.0,63.32,2,1,1,62,6.0,0,,0,43.9,1,16.83
+cust-00890,lisa lynch,fredgonzalez@example.net,india,finance,paid search,enterprise,email,2021-12-22,1106,1,5.0,458.63,3,9,0,5,10.0,0,,0,36.9,0,38.5
+cust-00891,joel richard,andersonangela@example.com,uk,retail,social,free,priority,2023-11-21,407,12,1.0,0.0,7,3,1,17,7.0,0,,0,13.6,1,30.17
+cust-00892,greg gaines,dochoa@example.net,canada,saas,paid search,basic,email,2024-06-03,212,12,25.0,31.38,12,9,1,1,8.0,0,,0,7.1,1,49.5
+cust-00893,oscar flores,brandicherry@example.net,australia,unknown,referral,pro,email,2024-04-27,249,12,25.0,89.18,8,15,2,7,7.0,0,,0,8.3,1,49.83
+cust-00894,justin smith,russellaaron@example.net,canada,retail,paid search,free,,2022-08-03,882,12,2.0,0.0,4,7,1,2,9.0,0,,0,29.4,1,35.17
+cust-00895,lisa holmes,turnerkimberly@example.org,us,retail,referral,basic,email,2023-09-03,486,1,2.0,30.64,12,4,0,2,10.0,0,,0,16.2,0,46.0
+cust-00896,mrs. brenda hayden dds,david72@example.net,india,saas,social,pro,,2021-10-27,1162,24,10.0,120.83,3,17,1,1,7.0,0,,0,38.7,1,44.5
+cust-00897,daniel rosario,ryangreer@example.com,germany,saas,organic,pro,dedicated,2022-03-04,1034,24,25.0,90.13,7,4,0,6,7.0,0,,0,34.5,1,31.67
+cust-00898,kelsey kaufman,qscott@example.net,us,retail,social,free,email,2024-08-01,153,12,5.0,0.0,8,19,0,0,5.0,0,,0,5.1,1,51.83
+cust-00899,vincent reyes,mfisher@example.net,uk,saas,paid search,basic,dedicated,2021-01-19,1443,1,500.0,25.3,8,5,1,28,6.0,0,,0,48.1,0,32.83
+cust-00900,alyssa barker,sullivanjack@example.com,us,other,social,pro,email,2021-05-05,1337,12,5.0,105.86,6,16,1,7,6.0,0,,0,44.6,1,46.0
+cust-00901,sabrina simmons,dedwards@example.com,us,saas,paid search,basic,email,2021-10-31,1158,12,5.0,29.76,4,3,3,21,5.0,0,,0,38.6,1,21.17
+cust-00902,stephen garcia,syoung@example.net,australia,healthcare,paid search,free,email,2021-02-08,1423,24,2.0,0.0,8,11,3,46,8.0,0,,0,47.4,1,45.83
+cust-00903,jennifer combs,ymiller@example.net,us,saas,email,pro,,2021-09-22,1197,24,10.0,87.59,9,15,2,13,7.0,0,,0,39.9,1,51.5
+cust-00904,jessica hardy,hannah48@example.org,uk,retail,organic,free,email,2023-05-02,610,24,25.0,0.0,4,19,2,27,4.0,0,,0,20.3,1,43.17
+cust-00905,james sullivan,lynn93@example.org,germany,other,social,pro,,2022-09-08,846,12,5.0,104.74,20,14,2,1,7.0,0,,0,28.2,1,68.33
+cust-00906,christine simmons,david70@example.net,us,saas,paid search,free,email,2024-07-27,158,24,25.0,0.0,5,16,0,21,7.0,0,,0,5.3,1,46.33
+cust-00907,tyler edwards,amberfrancis@example.org,brazil,other,paid search,enterprise,email,2024-04-08,268,1,1.0,613.85,5,6,3,3,7.0,0,,0,8.9,0,31.33
+cust-00908,eric peterson,alanpearson@example.org,us,saas,paid search,basic,priority,2022-05-15,962,1,5.0,30.16,0,5,0,7,8.0,0,,0,32.1,0,23.5
+cust-00909,noah robinson,samuelalvarado@example.com,uk,finance,referral,basic,,2022-01-14,1083,1,25.0,32.93,9,17,1,12,8.0,0,,0,36.1,0,56.5
+cust-00910,tyler todd,ojackson@example.org,uk,unknown,paid search,free,,2022-07-09,907,24,5.0,0.0,13,16,1,28,5.0,0,,0,30.2,1,55.67
+cust-00911,andrea hill,devin11@example.net,us,other,organic,basic,email,2023-05-12,600,24,5.0,14.83,2,2,0,29,9.0,0,,0,20.0,1,24.33
+cust-00912,danny armstrong,fernandezray@example.net,us,finance,organic,pro,dedicated,2022-01-27,1070,1,1.0,88.96,5,11,1,1,2.0,0,,0,35.7,0,28.83
+cust-00913,pamela smith,james54@example.net,canada,healthcare,organic,enterprise,priority,2023-07-01,550,1,25.0,574.62,12,4,1,5,7.0,0,,0,18.3,0,40.0
+cust-00914,kimberly grant,walkeralex@example.com,brazil,saas,email,basic,email,2022-08-21,864,24,25.0,20.29,7,6,1,18,7.0,0,,0,28.8,1,34.67
+cust-00915,miranda munoz,christopherhanson@example.com,us,saas,email,basic,email,2023-03-17,656,12,10.0,25.96,4,7,2,14,8.0,0,,0,21.9,1,33.17
+cust-00916,steven gates,owensmichael@example.net,canada,other,paid search,pro,,2022-09-29,825,12,1.0,84.95,0,17,0,0,4.0,0,,0,27.5,1,33.5
+cust-00917,crystal brown,dorisrogers@example.net,australia,retail,referral,pro,dedicated,2022-03-06,1032,12,2.0,115.59,7,8,2,7,8.0,0,,0,34.4,1,39.67
+cust-00918,christopher munoz,wlawson@example.org,india,retail,paid search,basic,priority,2024-10-16,77,12,5.0,33.69,9,1,0,21,4.0,0,,0,2.6,1,24.5
+cust-00919,elizabeth wilson,maxwelljustin@example.com,uk,education,referral,basic,email,2024-01-20,347,24,2.0,28.12,9,15,2,16,9.0,0,,0,11.6,1,55.5
+cust-00920,angela osborne,jasonhill@example.org,uk,retail,social,basic,email,2021-07-24,1257,1,5.0,29.41,7,12,0,6,9.0,0,,0,41.9,0,47.67
+cust-00921,christine ochoa,jjimenez@example.net,uk,other,email,pro,,2024-06-21,194,1,2.0,87.76,6,15,0,15,7.0,0,,0,6.5,0,46.5
+cust-00922,isaac crawford,jesse32@example.org,canada,finance,paid search,free,dedicated,2022-12-13,750,1,2.0,0.0,5,15,0,9,7.0,0,,0,25.0,0,44.83
+cust-00923,michelle strickland,fgarcia@example.net,india,finance,social,pro,,2024-07-30,155,1,10.0,90.82,7,9,0,29,8.0,1,2024-09-03,0,5.2,0,41.17
+cust-00924,amanda moore,patrick24@example.net,us,other,organic,basic,email,2024-03-13,294,12,50.0,24.97,5,16,1,10,2.0,0,,0,9.8,1,36.33
+cust-00925,emily fletcher,nicole42@example.com,uk,saas,email,pro,,2022-09-13,841,24,5.0,79.96,5,2,2,6,2.0,0,,0,28.0,1,15.33
+cust-00926,douglas macdonald,idaniel@example.com,india,retail,organic,free,priority,2021-02-02,1429,12,10.0,0.0,6,15,3,23,3.0,0,,0,47.6,1,38.5
+cust-00927,james bell,lindabrown@example.com,india,healthcare,referral,basic,priority,2022-01-28,1069,24,1.0,35.89,14,15,0,0,7.0,0,,0,35.6,1,59.83
+cust-00928,joshua bowen,xhanson@example.com,brazil,retail,referral,basic,priority,2023-03-02,671,24,5.0,25.64,2,7,0,27,3.0,0,,0,22.4,1,19.83
+cust-00929,anthony wood,nguyenanna@example.com,australia,finance,referral,pro,email,2023-07-14,537,12,50.0,111.5,11,13,0,14,5.0,0,,0,17.9,1,47.83
+cust-00930,ariel collins,ualexander@example.com,uk,other,organic,free,priority,2022-01-12,1085,12,1.0,0.0,4,17,2,33,8.0,0,,0,36.2,1,48.17
+cust-00931,terri contreras,flong@example.org,france,healthcare,email,basic,,2021-07-23,1258,12,2.0,29.04,4,11,2,3,0.0,0,,0,41.9,1,23.17
+cust-00932,jacob bridges,ashley92@example.org,canada,retail,organic,basic,email,2024-05-03,243,1,1.0,21.61,4,10,0,14,4.0,1,2024-11-07,0,8.1,0,29.67
+cust-00933,andrea romero,loriparrish@example.net,us,other,referral,basic,,2024-12-08,24,12,5.0,26.56,7,1,0,19,10.0,0,,0,0.8,1,33.17
+cust-00934,jorge strickland,cmcneil@example.com,germany,healthcare,organic,pro,dedicated,2023-02-07,694,12,10.0,85.14,17,14,1,14,8.0,0,,0,23.1,1,65.33
+cust-00935,robert stone,ann18@example.org,canada,healthcare,paid search,pro,email,2021-09-08,1211,12,1.0,80.2,14,5,3,2,5.0,0,,0,40.4,1,40.83
+cust-00936,christina lloyd,hernandezsara@example.com,us,unknown,paid search,pro,priority,2022-02-02,1064,12,1.0,95.78,12,8,0,3,0.0,0,,0,35.5,1,32.0
+cust-00937,jackson pace,celliott@example.net,australia,other,paid search,basic,priority,2021-01-27,1435,1,50.0,20.35,12,1,1,10,7.0,0,,0,47.8,0,35.5
+cust-00938,brandon garcia,gallagherstephanie@example.net,france,finance,organic,pro,,2024-08-27,127,12,5.0,109.54,7,7,1,7,7.0,0,,0,4.2,1,36.17
+cust-00939,tina wheeler,harringtonamy@example.org,brazil,education,organic,basic,,2021-06-21,1290,1,5.0,41.49,15,2,1,15,10.0,0,,0,43.0,0,48.0
+cust-00940,stephanie horton,mhawkins@example.net,us,education,paid search,free,email,2023-04-22,620,1,100.0,0.0,7,7,3,5,8.0,0,,0,20.7,0,38.17
+cust-00941,christopher hernandez,tarastuart@example.org,us,retail,social,free,email,2022-02-05,1061,12,2.0,0.0,4,7,1,23,10.0,0,,0,35.4,1,37.17
+cust-00942,kelly garza,melissavasquez@example.com,france,healthcare,social,basic,,2023-03-21,652,1,50.0,43.12,9,9,3,6,9.0,0,,0,21.7,0,46.5
+cust-00943,jeffrey harris,gmiller@example.net,us,education,organic,pro,,2023-08-10,510,24,100.0,113.04,12,4,5,0,7.0,0,,0,17.0,1,40.0
+cust-00944,cynthia wolf,pamela65@example.org,canada,retail,paid search,pro,priority,2024-04-26,250,1,2.0,110.65,4,7,0,0,8.0,0,,0,8.3,0,33.17
+cust-00945,tammy ramirez,nelsonrobert@example.org,australia,education,organic,pro,dedicated,2021-10-29,1160,12,5.0,99.46,1,18,1,12,9.0,0,,0,38.7,1,46.67
+cust-00946,douglas morris,rreyes@example.org,us,other,organic,basic,email,2021-01-17,1445,12,5.0,35.73,11,13,3,9,7.0,0,,0,48.2,1,51.83
+cust-00947,ricky lee,thomas00@example.org,germany,finance,referral,basic,email,2021-07-19,1262,1,50.0,30.8,2,11,1,9,1.0,1,2024-08-05,0,42.1,0,21.83
+cust-00948,taylor foster,shepherdpatrick@example.org,germany,finance,referral,free,,2024-08-07,147,12,2.0,0.0,8,9,0,18,7.0,0,,0,4.9,1,40.83
+cust-00949,andrea rivas,ovaughan@example.org,uk,education,organic,basic,priority,2024-06-29,186,12,25.0,24.24,12,14,1,5,3.0,0,,0,6.2,1,47.0
+cust-00950,victoria george,tyler31@example.net,brazil,education,organic,basic,priority,2023-05-23,589,1,100.0,27.29,5,8,0,64,8.0,0,,0,19.6,0,36.33
+cust-00951,craig shields,wromero@example.org,india,retail,organic,free,,2023-05-27,585,1,25.0,0.0,8,14,1,34,8.0,0,,0,19.5,0,50.33
+cust-00952,emily hughes,mirandamiller@example.org,canada,saas,social,free,,2023-08-29,491,12,50.0,0.0,13,17,0,0,10.0,0,,0,16.4,1,67.17
+cust-00953,timothy watkins,diana47@example.com,canada,healthcare,email,basic,priority,2021-09-14,1205,1,10.0,26.18,7,14,0,27,8.0,0,,0,40.2,0,48.67
+cust-00954,christopher matthews,joshua13@example.net,germany,finance,organic,pro,email,2024-08-28,126,12,50.0,101.15,3,5,1,13,9.0,0,,0,4.2,1,30.5
+cust-00955,mary sanders,rebeccapatterson@example.com,brazil,healthcare,organic,enterprise,,2022-09-04,850,12,1.0,459.01,1,10,1,8,5.0,0,,0,28.3,1,26.67
+cust-00956,anthony garcia,iwalker@example.com,canada,finance,social,enterprise,email,2022-07-14,902,1,5.0,542.44,10,6,4,10,6.0,0,,0,30.1,0,37.67
+cust-00957,benjamin mcguire,robertlewis@example.org,canada,retail,email,pro,email,2023-01-28,704,12,25.0,72.67,8,10,3,22,10.0,0,,0,23.5,1,48.33
+cust-00958,daniel sullivan,jessicawoods@example.org,india,finance,paid search,basic,email,2021-03-10,1393,12,5.0,28.16,9,11,2,36,8.0,1,2022-11-09,0,46.4,1,47.5
+cust-00959,lori flowers,smithjohn@example.net,us,saas,organic,pro,priority,2021-08-31,1219,12,1.0,106.1,5,6,4,9,8.0,0,,0,40.6,1,33.33
+cust-00960,samuel collier,oliviahall@example.net,india,finance,organic,pro,priority,2023-12-14,384,1,10.0,88.46,18,10,1,2,5.0,0,,0,12.8,0,55.0
+cust-00961,amber griffith,lucaskelli@example.net,us,healthcare,referral,free,email,2021-05-01,1341,12,1.0,0.0,6,14,0,12,8.0,1,2022-11-24,0,44.7,1,47.0
+cust-00962,corey mcgrath,laura73@example.com,uk,saas,paid search,basic,dedicated,2023-05-31,581,1,5.0,23.76,2,3,1,0,9.0,0,,0,19.4,0,25.83
+cust-00963,jessica lee,jessica27@example.org,uk,retail,organic,pro,email,2021-12-25,1103,1,5.0,106.81,3,7,0,12,5.0,0,,0,36.8,0,25.5
+cust-00964,pamela richmond,madeline74@example.com,brazil,finance,referral,basic,priority,2022-07-23,893,12,500.0,31.62,4,2,0,19,8.0,0,,0,29.8,1,25.67
+cust-00965,mr. robert white,michaelgarcia@example.org,india,healthcare,organic,basic,email,2022-02-26,1040,1,5.0,27.0,4,7,0,5,7.0,0,,0,34.7,0,31.17
+cust-00966,paul jackson,fosterjorge@example.net,canada,saas,social,basic,priority,2022-06-04,942,1,25.0,25.27,7,17,1,0,2.0,0,,0,31.4,0,41.17
+cust-00967,catherine mcdowell,rodriguezjerome@example.com,canada,other,paid search,free,dedicated,2023-11-16,412,1,5.0,0.0,7,13,0,14,7.0,0,,0,13.7,0,45.17
+cust-00968,erin brown,sheila52@example.net,france,finance,organic,basic,,2022-03-10,1028,1,5.0,32.06,15,9,1,4,3.0,0,,0,34.3,0,44.5
+cust-00969,alexa stewart,obrientimothy@example.org,brazil,other,referral,basic,dedicated,2023-04-07,635,1,5.0,28.87,7,13,1,3,5.0,0,,0,21.2,0,41.17
+cust-00970,joseph fernandez,carlos80@example.org,germany,healthcare,paid search,free,priority,2022-11-27,766,1,10.0,0.0,12,15,3,14,9.0,0,,0,25.5,0,60.5
+cust-00971,daniel cook,courtneymanning@example.com,uk,unknown,email,free,priority,2023-08-27,493,1,25.0,0.0,14,13,0,41,8.0,0,,0,16.4,0,58.83
+cust-00972,joseph johnson,michael92@example.net,us,other,paid search,pro,,2024-09-29,94,12,25.0,78.0,8,17,1,16,7.0,0,,0,3.1,1,52.83
+cust-00973,terri rivera,bridgessuzanne@example.net,australia,healthcare,organic,basic,priority,2023-12-06,392,1,25.0,27.28,5,8,1,8,10.0,0,,0,13.1,0,40.33
+cust-00974,tracy hernandez,sean45@example.org,australia,finance,referral,basic,priority,2021-11-10,1148,12,5.0,18.57,17,9,3,11,4.0,0,,0,38.3,1,49.83
+cust-00975,kevin martin,randallcamacho@example.net,uk,retail,organic,basic,email,2021-02-15,1416,1,10.0,33.87,8,9,3,1,7.0,0,,0,47.2,0,40.83
+cust-00976,brian cook,kmathis@example.com,us,healthcare,email,enterprise,dedicated,2022-01-18,1079,12,5.0,495.18,5,8,1,20,8.0,0,,0,36.0,1,36.33
+cust-00977,brenda todd,tcarney@example.com,india,saas,paid search,basic,,2023-05-19,593,1,1.0,25.13,7,16,1,11,6.0,0,,0,19.8,0,47.67
+cust-00978,clayton higgins,martinmichael@example.com,us,saas,paid search,basic,,2021-03-17,1386,24,50.0,38.49,11,7,3,40,3.0,0,,0,46.2,1,34.83
+cust-00979,keith simmons,jared18@example.org,canada,saas,organic,pro,email,2022-12-26,737,12,50.0,115.09,14,17,0,46,5.0,0,,0,24.6,1,58.83
+cust-00980,joshua tucker,kimberly44@example.org,brazil,saas,paid search,pro,email,2023-05-22,590,1,2.0,120.43,3,7,3,5,4.0,0,,0,19.7,0,23.5
+cust-00981,bruce lane,cherylhansen@example.org,uk,other,social,free,email,2022-05-03,974,1,50.0,0.0,7,6,1,53,8.0,1,2023-03-16,0,32.5,0,36.67
+cust-00982,patrick johnson,morenohannah@example.org,us,retail,social,pro,,2024-01-31,336,12,25.0,103.27,11,5,1,37,6.0,0,,0,11.2,1,37.83
+cust-00983,jenny washington,linda92@example.org,canada,unknown,organic,basic,dedicated,2021-06-05,1306,24,5.0,30.97,13,17,2,12,5.0,0,,0,43.5,1,57.17
+cust-00984,benjamin james md,deanna06@example.net,india,education,organic,basic,,2021-04-20,1352,12,2.0,26.87,12,8,1,4,7.0,0,,0,45.1,1,46.0
+cust-00985,mr. robert cortez,vincentmayer@example.org,germany,finance,social,free,,2023-11-30,398,12,5.0,0.0,1,1,0,16,5.0,0,,0,13.3,1,13.17
+cust-00986,eric brown,kristin44@example.com,brazil,saas,email,free,,2022-12-25,738,1,10.0,0.0,10,16,2,3,7.0,0,,0,24.6,0,54.67
+cust-00987,charles figueroa,jamesrodriguez@example.org,us,finance,organic,pro,email,2023-10-03,456,1,5.0,125.17,7,17,1,11,7.0,0,,0,15.2,0,51.17
+cust-00988,kevin roberts,lancesnyder@example.org,germany,finance,paid search,basic,dedicated,2022-09-27,827,1,10.0,19.48,6,3,0,0,8.0,0,,0,27.6,0,30.5
+cust-00989,amanda miller,rbarrett@example.net,canada,finance,paid search,basic,priority,2021-12-26,1102,1,5.0,26.83,4,13,1,11,8.0,0,,0,36.7,0,42.17
+cust-00990,judith garcia,vincent51@example.org,india,education,social,pro,priority,2024-04-10,266,1,5.0,115.3,6,8,1,36,7.0,0,,0,8.9,0,36.0
+cust-00991,benjamin martinez,cassandra23@example.net,us,other,organic,pro,,2024-03-13,294,1,10.0,104.0,10,16,1,3,7.0,0,,0,9.8,0,54.67
+cust-00992,cynthia lyons,cherylrogers@example.org,india,finance,organic,free,email,2023-10-12,447,12,5.0,0.0,7,7,0,18,7.0,0,,0,14.9,1,36.17
+cust-00993,victor mcdowell iii,makayla34@example.com,france,unknown,social,pro,email,2022-02-02,1064,12,5.0,91.51,15,15,1,4,3.0,0,,0,35.5,1,53.5
+cust-00994,kimberly williams,nathan89@example.net,uk,finance,organic,free,email,2023-05-12,600,1,50.0,0.0,5,2,0,14,4.0,1,2024-10-22,0,20.0,0,19.33
+cust-00995,julie jones,brian75@example.com,us,saas,paid search,pro,,2022-06-12,934,24,500.0,86.89,17,2,2,14,2.0,0,,0,31.1,1,35.33
+cust-00996,luis robinson,michele86@example.com,india,unknown,paid search,pro,priority,2021-05-14,1328,1,5.0,95.65,3,10,1,2,7.0,0,,0,44.3,0,34.0
+cust-00997,connie silva,vmoore@example.org,us,saas,paid search,enterprise,email,2024-09-01,122,1,50.0,528.81,11,5,1,10,7.0,0,,0,4.1,0,39.83
+cust-00998,amy lee,yporter@example.com,uk,retail,paid search,free,priority,2021-07-19,1262,12,50.0,0.0,3,4,2,23,9.0,0,,0,42.1,1,29.0
+cust-00999,james smith,melissajones@example.com,us,education,paid search,free,email,2024-10-19,74,12,2.0,0.0,8,15,3,5,6.0,0,,0,2.5,1,47.83
+cust-01000,laurie anderson,tstout@example.org,india,finance,organic,basic,,2022-10-14,810,24,100.0,29.22,3,13,1,14,7.0,0,,0,27.0,1,38.5
